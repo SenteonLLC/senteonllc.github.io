@@ -3,9 +3,9 @@
 
 On this page you can find instructions for installing and logging into the beta build of Senteon Fortify
 Instructions for utilizing available features can be found here:
-  - [Setting up Controls]()
-  - [Resetting Systems]()
-  - [Generating Reports]()
+  - [Setting up Controls](controls.md)
+  - [Resetting Systems](resetting.md)
+  - [Generating Reports](reports.md)
 
 ## Installation
 Senteon Beta Command Center installer is distributed directly by Senteon. 

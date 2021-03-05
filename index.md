@@ -1,6 +1,2 @@
-A complete repository of all of Senteon's usage documentation can be found here. Listed below are some quick start locations. 
-
-## [Getting Started](QuickStart.md)
-## [Senteon Full Documentation](version/latest/CoreDocumentation.md)
-## [Installation](installation.md)
+Currently under development. You may be looking for Senteon's beta documentation, which can be found [here](/beta/main.md) 
 
