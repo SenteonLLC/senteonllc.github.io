@@ -53,6 +53,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 - `Account ID` - ID/Name of Managed Account you wish to register the agent/endpoint to
 
 - `Account Password` - Password for Managed Account
+
 **Steps**
 
 1) Load up `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
