@@ -40,7 +40,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 To install you will need:
 - Account ID - ID of managed account you wish to register the endpoint to
-- Account Password - Password for managed account
+- Account Password - Password for Managed Account
 
 **Steps**
 1. Load up `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
