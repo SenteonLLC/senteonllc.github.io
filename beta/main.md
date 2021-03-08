@@ -34,11 +34,11 @@ For the purposes of the beta, Senteon has provided you with:
 
 2. Accept the Senteon End-User License Agreement and select `Next`.
 
-<img src="images/eula.png" width="750">
+<img src="images/eula.png" width="550">
 
 3. Accept the UAC prompt that appears in the taskbar.
 
-<img src="images/uac.png" width="750">
+<img src="images/uac.png" width="250">
 
 
 Once the install finishes, the Command Center console can now be accessed from this machine. 
@@ -61,16 +61,16 @@ To install you will need:
 
 2. Accept the Senteon End-User License Agreement and select `Next`.
 
-<img src="images/eulaAgent.png" width="750">
+<img src="images/eulaAgent.png" width="550">
 
 3. Choose the folder where you want to install (`C:\Program Files\Senteon\SenteonAgent` by default)
 4. Enter the credentials for your managed account registered in Command Center
 
-<img src="images/acctIDPass.png" width="750">
+<img src="images/acctIDPass.png" width="550">
 
 5. Accept the UAC prompt that appears in the taskbar.
 
-<img src="images/uac.png" width="750">
+<img src="images/uac.png" width="250">
 
 ## Logging in
 Once Command Center installation has completed, the command console can be accessed from the local machine that it was installed on. 
