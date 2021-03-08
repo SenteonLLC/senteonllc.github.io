@@ -3,7 +3,7 @@
 Once Command Center and the Senteon Agents are installed on their corresponding systems, controls can be applied through the Senteon Command Center dashboard. 
 
 ## Verify and Apply Control Set
-1. Log into Command Center with your provided account details
+1. Log into Command Center with your provided administrator credentials
 
 ![Login](images/login.PNG)
 
