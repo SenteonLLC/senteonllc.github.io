@@ -4,8 +4,9 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 ## Verify and Apply Control Set
 1. Log into Command Center with your provided account details
-2.  Navigate to the `Account Manager` tab.
-3.  Select the relevant subaccount from the list provided and choose `Manage Account`.
+![Login](images/login.png)
+3.  Navigate to the `Account Manager` tab.
+4.  Select the relevant subaccount from the list provided and choose `Manage Account`.
 
     > **Note**: This will bring up a list of all the controls that will be applied to systems running a Senteon Agent with that subaccount ID.
 4.  After verifying all of the controls, click the `Accept` button to apply them to the registered endpoints.
