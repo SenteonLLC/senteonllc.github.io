@@ -5,7 +5,7 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 ## Verify and Apply Control Set
 1. Log into Command Center with your provided administrator credentials
 
-![Login](images/login.PNG){:height="50%" width="50%"}
+<img src="images/login.PNG" width="100" height="100">
 
 3.  Navigate to the `Account Manager` tab.
 
