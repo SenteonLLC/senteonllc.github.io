@@ -13,7 +13,7 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 3.  Select the relevant managed account from the list provided and choose `Manage Account`.
 
-    > **Note**: This will bring up a list of all the controls that will be applied to systems running a Senteon Agent with that Managed Account ID.
+    > **Note**: This will bring up a list of all the controls that will be applied to systems running a Senteon Agent with that Managed Account ID (Name).
  
 <img src="images/SetControls.png" width="750">
 
@@ -21,12 +21,12 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 <img src="images/AcceptControls.png" width="750">
 
-## Manage Control Set
+## Manage Your Endpoints
 
-Once controls have been approved, the Managed Account dashboard can be accessed through the `Account Manager` tab by selecting a managed account and clicking the `Manage Account` button.
+Once controls have been approved, a Managed Account's dashboard can be accessed through the `Account Manager` tab by selecting the name and clicking the `Manage Account` button.
 
 <img src="images/SetControls.png" width="750">
 
-The Managed Account dashboard will allow you to view endpoints registered under that managed account as well as reset controls for those endpoints. More information on resetting can be found [here](resetting.md).
+This dashboard will allow you to view endpoints registered under that Managed Account as well as reset controls for those endpoints. More information on resetting can be found [here](resetting.md).
 
 <img src="images/managedAccount.png" width="750">
