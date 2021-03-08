@@ -9,13 +9,11 @@ Instructions for utilizing available features can be found here:
   - [Generating Reports](reports.md)
 
 ### Terminology
-
-`Senteon Commmand Center`: The central administrator console
-
-`Senteon Agent`: A small program installed on each endpoint that performs actions and communicates back to Command Center
-
-`Managed Account`: An account that agents/endpoints are registered to and managed from.
-
+|            Term             |       Description      |
+| :-------------------------: | ---------------------- |
+|   Senteon Command Center    | The central administrator console |
+|   Senteon Agent             | A small program installed on each endpoint that performs actions <br> and communicates back to Command Center |
+|   Managed Account           | An account that agents/endpoints are registered to and managed from |
 
 ## Installation
 
