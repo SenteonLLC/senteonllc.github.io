@@ -11,7 +11,7 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 ![AcctMger](images/AccountManager.png)
 
-5.  Select the relevant subaccount from the list provided and choose `Manage Account`.
+5.  Select the relevant managed account from the list provided and choose `Manage Account`.
 
     > **Note**: This will bring up a list of all the controls that will be applied to systems running a Senteon Agent with that subaccount ID.
  
