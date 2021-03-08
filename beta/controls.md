@@ -17,7 +17,7 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
  
 ![SetCtrl](images/SetControls.png)
 
-4.  After verifying all of the controls, click the `Accept` button to apply them to the registered endpoints.
+4.  After verifying all of the controls, click the `Approve` button to apply them to the registered endpoints.
 
 ![AcptCtrl](images/AcceptControls.png)
 
