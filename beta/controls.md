@@ -23,6 +23,6 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 ## Manage Control Set
 
-Once controls have been verified, the `Managed Account` dashboard can be accessed through the `Account Manager` tab by selecting a managed account and clicking the `Manage Account` button. 
+Once controls have been verified, the Managed Account dashboard can be accessed through the `Account Manager` tab by selecting a managed account and clicking the `Manage Account` button. 
 
 The `Managed Account` dashboard will allow you to view endpoints registered under that managed account as well as reset controls for those endpoints. More information on resetting can be found [here](). (THIS IS BLANK)
