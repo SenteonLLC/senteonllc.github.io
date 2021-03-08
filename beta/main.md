@@ -2,6 +2,7 @@
 ## Beta Build
 
 On this page you can find instructions for installing and logging into the beta build of Senteon Fortify
+
 Instructions for utilizing available features can be found here:
   - [Setting up Controls](controls.md)
   - [Resetting Systems](resetting.md)
