@@ -54,6 +54,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 | Account Password | Password for Managed Account                                     |
 
 **Steps**
+
 1) Load up `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
 
 <img src="images/senteonAgent.png" width="750">
