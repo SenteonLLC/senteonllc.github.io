@@ -7,11 +7,11 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 <img src="images/login.PNG" width="750">
 
-3.  Navigate to the `Account Manager` tab.
+2.  Navigate to the `Account Manager` tab.
 
 <img src="images/AccountManager.png" width="750">
 
-5.  Select the relevant managed account from the list provided and choose `Manage Account`.
+3.  Select the relevant managed account from the list provided and choose `Manage Account`.
 
     > **Note**: This will bring up a list of all the controls that will be applied to systems running a Senteon Agent with that Managed Account ID.
  
