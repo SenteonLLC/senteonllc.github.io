@@ -2,24 +2,76 @@
 ## Beta Build
 
 On this page you can find instructions for installing and logging into the beta build of Senteon Fortify
+
 Instructions for utilizing available features can be found here:
   - [Setting up Controls](controls.md)
   - [Resetting Systems](resetting.md)
   - [Generating Reports](reports.md)
 
+### Terminology
+
+`Senteon Commmand Center`: The central administrator console
+
+`Senteon Agent`: A small program installed on each endpoint that performs actions and communicates back to Command Center
+
+`Managed Account`: An account that agents/endpoints are registered to and managed from.
+
+
 ## Installation
-Senteon Beta Command Center installer is distributed directly by Senteon. 
 
-Simply load up the msi onto the machine that is intended to be used as the command console and execute. 
-Accept the Senteon End User License Agreement and select an install location. (Senteon recommends leaving it in the default `C:\Program Files\` directory)
-Once the install finishes, the command console can now be accessed from this machine. 
+For the purposes of the beta, Senteon has provided you with:
+- Installer for Senteon Command Center
+- Credentials for Senteon Command Center
+- Credentials for Managed Account
 
-Inside the command center install directory (`C:\Program Files\Senteon\CommandCenter\` by default), there will be an additional .msi installer for the Senteon core agent called SenteonCoreInstaller. This installer should be distributed and installed onto all systems that you intend to keep secured by Senteon controls. 
+> **Note**: In full release, you will be able to create new Managed Accounts through Command Center. 
 
-This installer requires the entry of an accountID and password for successful installation. This accountID and password refer to the specific client that the agent is intended to be serving. For the cases of the beta, this accountID and password will be provided to you. 
-In proper release, new accounts can be created from the command center. 
+### Command Center
 
+1. Load up `SenteonCommandCenter.msi` onto the machine that is intended to be used as the central console and execute (double-click). 
+
+<img src="images/startInstall.png" width="750">
+
+2. Accept the Senteon End-User License Agreement and select `Next`.
+
+<img src="images/eula.png" width="550">
+
+3. Accept the UAC prompt that appears in the taskbar.
+
+<img src="images/uac.png" width="250">
+
+
+Once the install finishes, the Command Center console can now be accessed from this machine. 
+
+### Senteon Agent
+
+Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCenter\` by default), there will be an additional .msi installer for the Senteon Agent called `SenteonAgent.msi`. This installer should be distributed and installed onto all systems that you intend to manage. 
+
+<img src="images/agentlocation.png" width="750">
+
+
+To install you will need:
+- Account ID - ID of Managed Account you wish to register the agent/endpoint to
+- Account Password - Password for Managed Account
+
+**Steps**
+1. Load up `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
+
+<img src="images/senteonAgent.png" width="750">
+
+2. Accept the Senteon End-User License Agreement and select `Next`.
+
+<img src="images/eulaAgent.png" width="550">
+
+3. Choose the folder where you want to install (`C:\Program Files\Senteon\SenteonAgent` by default)
+4. Enter the credentials for your managed account registered in Command Center
+
+<img src="images/acctIDPass.png" width="550">
+
+5. Accept the UAC prompt that appears in the taskbar.
+
+<img src="images/uac.png" width="250">
 
 ## Logging in
-Once Command Center installation has completed, the command console can be accessed from the local machine that it was installed on. 
-The username and password will be provided to the client and is different from the one used to install core agents on client systems. This username and password combination provide full privileged access into the CommandCenter admin console from which all client accounts can be accessed and managed through. 
+
+After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`.
