@@ -51,7 +51,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 
 To install you will need:
-- Account ID - ID of managed account you wish to register the endpoint to
+- Account ID - ID of Managed Account you wish to register the agent/endpoint to
 - Account Password - Password for Managed Account
 
 **Steps**
