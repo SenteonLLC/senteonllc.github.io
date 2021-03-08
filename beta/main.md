@@ -8,11 +8,25 @@ Instructions for utilizing available features can be found here:
   - [Resetting Systems](resetting.md)
   - [Generating Reports](reports.md)
 
+### Terminology
+
+`Senteon Commmand Center`: The central administrator console
+
+`Senteon Agent`: A small program installed on each endpoint that performs actions and communicates back to Command Center
+
+`Managed Account`: An account that agents/endpoints are registered to and managed from.
+
+
 ## Installation
 
-### Command Center
+For the purposes of the beta, Senteon has provided you with:
+- Installer for Senteon Command Center
+- Credentials for Senteon Command Center admin account
+- Credentials for Managed Account
 
-For the purposes of the beta, the Senteon Command Center installer is distributed to participants directly by Senteon.
+> **Note**: In full release, you will be able to create new Managed Accounts through Command Center. 
+
+### Command Center
 
 1. Load up `SenteonCommandCenter.msi` onto the machine that is intended to be used as the central console and execute (double-click). 
 2. Accept the Senteon End-User License Agreement and select `Next`.
@@ -34,11 +48,6 @@ To install you will need:
 3. Choose the folder where you want to install (`C:\Program Files\Senteon\SenteonAgent` by default)
 4. Enter the credentials for your managed account registered in Command Center
 5. Accept the UAC prompt that appears in the taskbar.
-
-This installer requires the entry of an accountID and password for successful installation. This accountID and password refer to the specific client that the agent is intended to be serving. For the cases of the beta, this accountID and password will be provided to you. 
-
-In full release, you will be able to create new managed accounts through Command Center. 
-
 
 ## Logging in
 Once Command Center installation has completed, the command console can be accessed from the local machine that it was installed on. 
