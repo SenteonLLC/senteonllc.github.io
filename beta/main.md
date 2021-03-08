@@ -21,7 +21,7 @@ Instructions for utilizing available features can be found here:
 
 For the purposes of the beta, Senteon has provided you with:
 - Installer for Senteon Command Center
-- Credentials for Senteon Command Center admin account
+- Credentials for Senteon Command Center
 - Credentials for Managed Account
 
 > **Note**: In full release, you will be able to create new Managed Accounts through Command Center. 
