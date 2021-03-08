@@ -73,5 +73,5 @@ To install you will need:
 <img src="images/uac.png" width="250">
 
 ## Logging in
-Once Command Center installation has completed, the command console can be accessed from the local machine that it was installed on. 
-The username and password will be provided to the client and is different from the one used to install core agents on client systems. This username and password combination provide full privileged access into the CommandCenter admin console from which all client accounts can be accessed and managed through. 
+
+After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`.
