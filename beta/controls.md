@@ -23,6 +23,6 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 ## Manage Control Set
 
-Once controls have been verified, the subaccount dashboard can be accessed through the `Manage Account` button. 
+Once controls have been verified, the subaccount dashboard can be accessed through the `Manage Account` button in the `Account Manager` tab. 
 
 The subaccount dashboard will allow you to view endpoints registered under that subaccount as well as reset controls for all endpoints in the subaccount. More information on resetting can be found [here](). (THIS IS BLANK)
