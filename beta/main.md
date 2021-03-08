@@ -9,13 +9,11 @@ Instructions for utilizing available features can be found here:
   - [Generating Reports](reports.md)
 
 ### Terminology
-
-`Senteon Commmand Center`: The central administrator console
-
-`Senteon Agent`: A small program installed on each endpoint that performs actions and communicates back to Command Center
-
-`Managed Account`: An account that agents/endpoints are registered to and managed from.
-
+|            Term             |       Description      |
+| :-------------------------: | ---------------------- |
+|   Senteon Command Center    | The central administrator console |
+|   Senteon Agent             | A small program installed on each endpoint that performs actions <br> and communicates back to Command Center |
+|   Managed Account           | An account that agents/endpoints are registered to and managed from |
 
 ## Installation
 
@@ -40,8 +38,7 @@ For the purposes of the beta, Senteon has provided you with:
 
 <img src="images/uac.png" width="250">
 
-
-Once the install finishes, the Command Center console can now be accessed from this machine. 
+After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`.
 
 ### Senteon Agent
 
@@ -50,9 +47,11 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 <img src="images/agentlocation.png" width="750">
 
 
-To install you will need:
-- Account ID - ID of Managed Account you wish to register the agent/endpoint to
-- Account Password - Password for Managed Account
+**To install you will need:**
+| Requirement | Description |
+| ---------------- | ---------------------------------------------------------------- |
+| Account ID       | ID of Managed Account you wish to register the agent/endpoint to |
+| Account Password | Password for Managed Account                                     |
 
 **Steps**
 1. Load up `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
@@ -64,7 +63,7 @@ To install you will need:
 <img src="images/eulaAgent.png" width="550">
 
 3. Choose the folder where you want to install (`C:\Program Files\Senteon\SenteonAgent` by default)
-4. Enter the credentials for your managed account registered in Command Center
+4. Enter the credentials for your Managed Account registered in Command Center
 
 <img src="images/acctIDPass.png" width="550">
 
@@ -72,6 +71,4 @@ To install you will need:
 
 <img src="images/uac.png" width="250">
 
-## Logging in
-
-After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`.
+After the installation is complete, the "Senteon Agent" service will be running on the endpoint. This service is configured to automatically restart if the computer is rebooted.
