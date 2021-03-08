@@ -12,9 +12,9 @@ Instructions for utilizing available features can be found here:
 
 `Senteon Command Center` - The central administrator console
 
-`Senteon Agent` - A small program installed on each endpoint that performs actions and communicates back to Command Center |
+`Senteon Agent` - A small program installed on each endpoint that performs actions and communicates back to Command Center
 
-`Managed Account` - An account that agents/endpoints are registered to and managed from |
+`Managed Account` - An account that agents/endpoints are registered to and managed from
 
 ## Installation
 
