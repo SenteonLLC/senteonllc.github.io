@@ -16,6 +16,16 @@ Instructions for utilizing available features can be found here:
 
 `Managed Account` - An account that agents/endpoints are registered to and managed from
 
+### Supported Operating Systems
+
+**Senteon Command Center**
+- Windows 10 Version 2004+
+- Windows Server 2016 Version 2004+
+- Windows Server 2019 Version 1809+
+
+**Senteon Agent**
+- Windows 10 Version 2004+
+
 ## Installation
 
 For the purposes of the beta, Senteon has provided you with:
@@ -38,6 +48,8 @@ For the purposes of the beta, Senteon has provided you with:
 3) Accept the UAC prompt that appears in the taskbar.
 
 <img src="images/uac.png" width="250">
+
+**Post-Install**
 
 After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`.
 
@@ -74,4 +86,10 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 <img src="images/uac.png" width="250">
 
+**Post-Install**
+
 After the installation is complete, the "Senteon Agent" service will be running on the endpoint. This service is configured to automatically restart if the computer is rebooted.
+
+## Next Steps
+
+In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [Setting up Controls](controls.md).
