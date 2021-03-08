@@ -38,8 +38,7 @@ For the purposes of the beta, Senteon has provided you with:
 
 <img src="images/uac.png" width="250">
 
-
-Once the install finishes, the Command Center console can now be accessed from this machine. 
+After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`.
 
 ### Senteon Agent
 
@@ -72,6 +71,4 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 <img src="images/uac.png" width="250">
 
-## Logging in
-
-After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`.
+After the installation is complete, the "Senteon Agent" service will be running on the endpoint. This service is configured to automatically restart if the computer is rebooted.
