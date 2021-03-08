@@ -13,7 +13,7 @@ Instructions for utilizing available features can be found here:
 
 For the purposes of the beta, the Senteon Command Center installer is distributed to participants directly by Senteon.
 
-1. Load up `SenteonCommandCenter.msi` onto the machine that is intended to be used as the command console and execute (double-click). 
+1. Load up `SenteonCommandCenter.msi` onto the machine that is intended to be used as the central console and execute (double-click). 
 2. Accept the Senteon End-User License Agreement and select `Next`.
 3. Accept the UAC prompt that appears in the taskbar.
 
