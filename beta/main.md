@@ -9,11 +9,12 @@ Instructions for utilizing available features can be found here:
   - [Generating Reports](reports.md)
 
 ### Terminology
-| Term                   | Description                       |
-|:----------------------:|:----------------------------------|
-| Senteon Command Center | The central administrator console |
-| Senteon Agent          | A small program installed on each endpoint that performs actions <br> and communicates back to Command Center |
-| Managed Account        | An account that agents/endpoints are registered to and managed from |
+
+`Senteon Command Center` - The central administrator console
+
+`Senteon Agent` - A small program installed on each endpoint that performs actions and communicates back to Command Center |
+
+`Managed Account` - An account that agents/endpoints are registered to and managed from |
 
 ## Installation
 
@@ -48,12 +49,12 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 
 **To install you will need:**
-| Requirement      | Description                                                      |
-|:----------------:|:-----------------------------------------------------------------|
-| Account ID       | ID/Name of Managed Account you wish to register the agent/endpoint to |
-| Account Password | Password for Managed Account                                     |
 
+- `Account ID` - ID/Name of Managed Account you wish to register the agent/endpoint to
+
+- `Account Password` - Password for Managed Account
 **Steps**
+
 1) Load up `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
 
 <img src="images/senteonAgent.png" width="750">
