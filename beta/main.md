@@ -25,9 +25,10 @@ Once the install finishes, the Command Center console can now be accessed from t
 Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCenter\` by default), there will be an additional .msi installer for the Senteon Agent called `SenteonAgent.msi`. This installer should be distributed and installed onto all systems that you intend to manage. 
 
 To install you will need:
-- Account ID
-- Account Password
+- Account ID - ID of managed account you wish to register the endpoint to
+- Account Password - Password for managed account
 
+**Steps**
 1. Load up `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
 2. Accept the Senteon End-User License Agreement and select `Next`.
 3. Choose the folder where you want to install (`C:\Program Files\Senteon\SenteonAgent` by default)
