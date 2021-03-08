@@ -64,7 +64,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 <img src="images/eulaAgent.png" width="550">
 
 3. Choose the folder where you want to install (`C:\Program Files\Senteon\SenteonAgent` by default)
-4. Enter the credentials for your managed account registered in Command Center
+4. Enter the credentials for your Managed Account registered in Command Center
 
 <img src="images/acctIDPass.png" width="550">
 
