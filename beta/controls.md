@@ -4,17 +4,25 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 ## Verify and Apply Control Set
 1. Log into Command Center with your provided account details
+
 ![Login](images/login.PNG)
+
 3.  Navigate to the `Account Manager` tab.
+
 ![AcctMger](images/AccountManager.png)
+
 5.  Select the relevant subaccount from the list provided and choose `Manage Account`.
 
     > **Note**: This will bring up a list of all the controls that will be applied to systems running a Senteon Agent with that subaccount ID.
+ 
 ![SetCtrl](images/SetControls.png)
+
 4.  After verifying all of the controls, click the `Accept` button to apply them to the registered endpoints.
+
 ![AcptCtrl](images/AcceptControls.png)
+
 ## Manage Control Set
 
 Once controls have been verified, the subaccount dashboard can be accessed through the `Manage Account` button. 
 
-The subaccount dashboard will allow you to view endpoints registered under that subaccount as well as reset controls for all endpoints in the subaccount. More information on resetting can be found [here]().
+The subaccount dashboard will allow you to view endpoints registered under that subaccount as well as reset controls for all endpoints in the subaccount. More information on resetting can be found [here](). (THIS IS BLANK)
