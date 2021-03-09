@@ -1,9 +1,9 @@
 # Getting Started 
 ## Beta Build
 
-On this page you can find instructions for installing and logging into the beta build of Senteon Fortify
+On this page you can find instructions for installing and logging into the beta build of Senteon Fortify.
 
-Instructions for utilizing available features can be found here:
+Instructions for utilizing available features after install can be found here:
   - [Setting up Controls](controls.md)
   - [Resetting Systems](resetting.md)
   - [Generating Reports](reports.md)
@@ -35,7 +35,7 @@ For the purposes of the beta, Senteon has provided you with:
 
 > **Note**: In full release, you will be able to create new Managed Accounts through Command Center. 
 
-Senteon installation is divided into two separate installers. The provided installer is the Command Center installer, where customers can manage their controls and accounts. After installing Command Center, the agent installer must be deployed on systems that controls should be applied on. Documentation for setting both up can be found below.
+Senteon installation is divided into two separate installers. The provided installer is the Command Center installer, where customers can manage their controls and accounts. After installing Command Center, the agent installer must be deployed on systems that controls should be applied on. Documentation for setting both up can be found below. 
 
 Please be aware that Senteon does not currently support Command Center and Agent installations on the same system. It is highly recommended to keep the services separate to reduce to possibility of operational conflicts with their databases.
 
