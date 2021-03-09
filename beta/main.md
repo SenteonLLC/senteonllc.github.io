@@ -37,6 +37,8 @@ For the purposes of the beta, Senteon has provided you with:
 
 Senteon installation is divided into two separate installers. The provided installer is the Command Center installer, where customers can manage their controls and accounts. After installing Command Center, the agent installer must be deployed on systems that controls should be applied on. Documentation for setting both up can be found below. 
 
+Please be aware that Senteon does not currently support Command Center and Agent installations on the same system. It is highly recommended to keep the services separate to reduce to possibility of operational conflicts with their databases.
+
 ### Command Center
 
 1) Load up `SenteonCommandCenter.msi` onto the machine that is intended to be used as the central console and execute (double-click). 
