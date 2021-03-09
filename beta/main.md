@@ -35,6 +35,8 @@ For the purposes of the beta, Senteon has provided you with:
 
 > **Note**: In full release, you will be able to create new Managed Accounts through Command Center. 
 
+Senteon installation is divided into two separate installers. The provided installer is the Command Center installer, where customers can manage their controls and accounts. After installing Command Center, the agent installer must be deployed on systems that controls should be applied on. Documentation for setting both up can be found below.
+
 ### Command Center
 
 1) Load up `SenteonCommandCenter.msi` onto the machine that is intended to be used as the central console and execute (double-click). 
