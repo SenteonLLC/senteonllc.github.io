@@ -29,4 +29,4 @@ Once controls have been approved, a Managed Account's dashboard can be accessed 
 
 <img src="images/managedAccount.png" width="750">
 
-This dashboard will allow you to view endpoints registered under that Managed Account as well as reset controls for those endpoints. More information on resetting can be found [here](resetting.md).
+This dashboard will allow you to view endpoints registered under that Managed Account as well as reset controls for those endpoints. More information on resetting can be found in [Resetting Systems](resetting.md).
