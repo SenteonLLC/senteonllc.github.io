@@ -26,8 +26,10 @@ Instructions for utilizing available features after install can be found here:
 **Senteon Agent**
 - Windows 10 Version 2004+
 
-## Installation
+# Installation
 
+## Please note there are two installs that need to be done to support the Senteon Infrastructure. Please first follow the steps for installed Command Center followed by the steps to install the Senteon Agent.
+### The Command Center allows for remote management and administering of the system, but the Senteon Agent is necessary to apply the controls and changes pushed by command center.
 For the purposes of the beta, Senteon has provided you with:
 - Installer for Senteon Command Center
 - Credentials for Senteon Command Center
@@ -39,7 +41,7 @@ Senteon installation is divided into two separate installers. The provided insta
 
 Please be aware that Senteon does not currently support Command Center and Agent installations on the same system. It is highly recommended to keep the services separate to reduce to possibility of operational conflicts with their databases.
 
-### Command Center
+# Command Center Installation Steps
 
 1) Load up `SenteonCommandCenter.msi` onto the machine that is intended to be used as the central console and execute (double-click). 
 
@@ -57,7 +59,7 @@ Please be aware that Senteon does not currently support Command Center and Agent
 
 After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`.
 
-### Senteon Agent
+# Senteon Agent Installation Steps
 
 Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCenter\` by default), there will be an additional .msi installer for the Senteon Agent called `SenteonAgent.msi`. This installer should be distributed and installed onto all systems that you intend to manage. 
 
