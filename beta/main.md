@@ -20,13 +20,13 @@ Instructions for utilizing available features can be found here:
 
 **Senteon Command Center**
 - Windows 10 Version 2004+
-  - Pro or Enterprise
+  - Pro and Enterprise (Not Home)
 - Windows Server 2016 Version 2004+
 - Windows Server 2019 Version 1809+
 
 **Senteon Agent**
 - Windows 10 Version 2004+
-  - Pro or Enterprise
+  - Pro and Enterprise (Not Home)
 
 # Installation
 
