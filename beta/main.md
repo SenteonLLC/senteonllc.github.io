@@ -9,7 +9,7 @@ Instructions for utilizing available features can be found here:
   - [Generating Reports](reports.md)
   - [Viewing Alerts](alerts.md)
   - [Users](users.md)
-  - [The Senteon Solution Overview](overview.md)
+  - [Senteon Overview](overview.md)
 
 ### Terminology
 
