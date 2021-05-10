@@ -3,7 +3,7 @@
 Once Command Center and the Senteon Agents are installed on their corresponding systems, endpoints for the Managed Account will populate in Command Center. From here you will be able to begin the Intelligent Setup process to apply policies to your endpoint fleet.
 
 ## Verify Status of Endpoints
-Endpoints will be appear in the Managed Account Dashboard under the `Endpoints` tab once they have had the Senteon Agent installed and registered to the Managed Account.
+Endpoints will be appear in the Managed Account Console under the `Endpoints` tab once they have had the Senteon Agent installed and registered to the Managed Account.
 > **Note**: If an endpoint doesn't appear in the list, verify that the Senteon Agent has been installed and registered to the proper Managed Account. If you have verified that installation was done properly, see [Troubleshooting](troubleshoot.md) for more guidance.
 
 ### Steps ###
@@ -15,7 +15,7 @@ Endpoints will be appear in the Managed Account Dashboard under the `Endpoints` 
 
 <img src="images/accountmanager.png" width="750">
 
-3) Select the relevant Managed Account from the list provided and choose `Manage Account` to open a Managed Account Dashboard.
+3) Select the relevant Managed Account from the list provided and choose `Manage Account` to open a Managed Account Console.
 
 <img src="images/manageaccount.png" width="750">
 
