@@ -2,7 +2,7 @@
 
 This page details the additional features that will be available upon Senteon's release as a full solution. These functions are currently unavailable as Senteon works on fixing the errors within their logic
 
-Grouping
-Alerts
-Additional Actions
-Users
+- Endpoint Grouping
+- Alerts
+- Additional Actions
+- Users
