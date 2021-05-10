@@ -33,15 +33,15 @@ To do so follow the steps below:
 
 
 ## Initialize the Endpoint 
-1) On the `Endpoints` screen you can see the status of Senteon agents on each endpoint. All endpoints with the status `ready for initialization` are ready for initializing.
+1) On the `Endpoints` screen you can see the status of Senteon agents on each endpoint. All endpoints with the status `Ready to Begin Evaluation` are ready for initializing.
 
 <img src="images/login.PNG" width="750">
 
-2)  From the `endpoints` screen, navigate to the `Unintialized` screen using the radio buttons at the top 
+2)  From the `Endpoints` screen, navigate to the `Endpoint Setup` screen using the radio buttons at the top 
 
 <img src="images/AccountManager.png" width="750">
 
-3)  The `uninitialized` screen has a list on the bottom left indicating all endpoints ready for initialization. Select the endpoints you wish to initialize from the list and then select `Initialize`. 
+3)  The `Endpoint Setup` screen has a list on the bottom left indicating all endpoints ready for initialization. Select the endpoints you wish to initialize from the list and then select `Initialize Selected`. 
 > **Note**: You can initialize as many endpoints at once as you would like. When the grouping feature is released, endpoints that are initialized together will be initialized into the same group and compared against the same baseline. 
  
 <img src="images/SetControls.png" width="750">
@@ -50,7 +50,7 @@ To do so follow the steps below:
 > **Note**: This initialization period is configured to take as long as the Senteon Agent needs to make determinations. With future updates this time is expected to be around 2 weeks. For the purposes of the beta, this audit period has been removed and endpoints can be setup immediately.  
 
 
-5)  Changing back to the `Endpoint` screen will show that the endpoints are now in a ready for setup state. Changing back to the `Uninitialized` screen will show that this endpoint is now listed in the `ready for setup` list and can be setup.
+5)  Changing back to the `Endpoint` screen will show that the endpoints are now in a ready for setup state. Changing back to the `Uninitialized` screen will show that this endpoint is now listed in the `Ready for Setup` list and can be setup.
 > **Note**: Currently changing tabs is necessary to prompt Command Center to update with endpoint statuses from Senteon master servers. This will be available as a refresh button for individual lists upon release. 
 
 
