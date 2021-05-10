@@ -4,7 +4,7 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 ## Verify Status of Endpoints
 Endpoints will be appear in the Managed Account Dashboard under the `Endpoints` tab once they have had the Senteon Agent installed and registered to the Managed Account.
-> **Note**: If an endpoint doesn't appear in the list, verify that the Senteon Agent has been installed and registered to the proper Managed Account. If you have verified that installation was done properly, see [Troubleshooting(troubleshoot.md)] for more guidance.
+> **Note**: If an endpoint doesn't appear in the list, verify that the Senteon Agent has been installed and registered to the proper Managed Account. If you have verified that installation was done properly, see [Troubleshooting](troubleshoot.md) for more guidance.
 
 ### Steps ###
 1) Log into Command Center with your provided `Owner` user credentials.
