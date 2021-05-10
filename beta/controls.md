@@ -45,27 +45,22 @@ Follow the steps below:
 <img src="images/evaluation.png" width="750">
 <img src="images/acceptinitialization.png" width="750">
 
-During the Evaluation Phase, endpoints will be analyzed to determine which controls can be safely implemented without disrupting user experience and network operations.
-> **Note**: The Evlauation Phase is configured to take as long as the Senteon Agent needs to agther data and make determinations. With future updates this time is expected to be around 2 weeks. For the purposes of the beta, this time period has been bypassed and endpoints can be setup immediately.  
+ During the Evaluation Phase, endpoints will be analyzed to determine which controls can be safely implemented without disrupting user experience and network operations.
+ > **Note**: For the purposes of this Beta, The Evaluation Phase will complete immediately. In the Full Release, evaluation will take around 2 weeks maximum  to gather relevant data and make a decision depending on prior configuration of an endpoint.
 
-3) Once an endpoint completes the Evaluation Phase, its `System Status` becomes "Ready For Setup". Changing tabs or clicking the `refresh` icon will pull the latest status. Once an endpoint's `System Status` is "Ready For Setup", you are ready to continue.
+3) Once an endpoint completes the Evaluation Phase, its `System Status` becomes "Ready For Setup". Changing pages or clicking the `refresh` icon will pull the latest status. Once an endpoint's `System Status` is "Ready For Setup", you are ready to continue.
 
 ## Intelligent Setup: Guided Setup Phase
 1) On the `Endpoint Setup` page, all endpoints that have completed the Evaluation Phase will appear under the section labled `Ready For Setup`.
 
-2) Select the endpoint you would like to setup by selecting the setup button next to the relevant endpoint.
-> **Note**: It is currently not possible to setup endpoints in groups due to the nature of the Senteon Agent providing unique telemetry for each endpoint resulting in differing analysis based on the endpoint's activity. Senteon will be supporting quick setup for a high volume of endpoints by providing the ability to automatically enforce the baseline of an existing endpoint onto selected endpoints as necessary. This feature will be available on release with Groups functionality. 
+2) Select the endpoint you would like to setup by clicking the `Finish Setup` button next to it.
+ > **Note**: It is currently not possible to perform Guided Setup for batches of endpoints. We plan to add this functionality for the Full Release.
 
 <img src="images/endpointfinalization.png" width="750">
 
-3) For the purposes of the Beta, all controlsets are currently being accepted without conflicts. With proper application, questions targeted at specific controls that an endpoint is found to have issues with enabling will be posted to the client with unique telemetry to allow for an educated decision to be made by the administrator. 
-> **Note**: The very first endpoint setup for a managed account will have an extended wizard used to answer managed account specific questions that will apply to all controls within a managed account organization. 
+3) For the purposes of the Beta, all settings/values suggested in the default Senteon Recommended Policy Set are accepted without conflicts.
+ > **Note**: It is currently not possible to perform Guided Setup for batches of endpoints. We plan to add this functionality for the Full Release.
 
 <img src="images/wizard.png" width="750">
 
-4) Once the setup is completed, Endpoint will begin to apply controls based upon the specified configurations. Its status in the `Endpoints` page will now be listed as `Active`. 
-
-
-
-
-This dashboard will allow you to view endpoints registered under that Managed Account as well as reset controls for those endpoints. More information on resetting can be found in [Resetting Systems](resetting.md).
+4) Once Guided Setup is completed, the Senteon Agent on the endpoint will apply the configurations of the finalized Policy Set (also referred to as the Active Policy Set). The endpoint's `System Status` will be updated to "Active"
