@@ -1,5 +1,5 @@
 # Getting Started 
-## Beta Build
+## MVP Beta
 
 On this page you can find instructions for installing and logging into the beta build of Senteon.
 
