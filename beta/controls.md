@@ -2,10 +2,12 @@
 
 Once Command Center and the Senteon Agents are installed on their corresponding systems, endpoints for the Managed Account will populate in Command Center. From here you will be able to begin the Intelligent Setup process to apply policies to your endpoint fleet.
 
-## Verify status of endpoints
-All endpoints with Senteon Agents installed that have an internet connection will be viewable from the managed account endpoints screen. 
-To do so follow the steps below:
-1) Log into Command Center with your provided administrator credentials
+## Verify Status of Endpoints
+Endpoints will be appear in the Managed Account Dashboard under the `Endpoints` tab once they have had the Senteon Agent installed and registered to the Managed Account.
+> Note: If an endpoint doesn't appear in the list, verify that the Senteon Agent has been installed and registered to the proper Managed Account. If you have verified that installation was done properly, see [# Troubleshooting] for more guidance.
+
+Follow the steps below:
+1) Log into Command Center with your provided `Owner` user credentials.
 
 <img src="images/loginpage.png" width="750">
 
@@ -13,24 +15,24 @@ To do so follow the steps below:
 
 <img src="images/accountmanager.png" width="750">
 
-3)  Select the relevant managed account from the list provided and choose `Manage Account`.
+3)  Select the relevant Managed Account from the list provided and choose `Manage Account`.
 
 <img src="images/manageaccount.png" width="750">
 
-4)  Navigate to the `Endpoints` Screen
+4)  Navigate to the `Endpoints` tab
 
 <img src="images/navtoendpoints.png" width="750">
 
-5)  This pages shows all endpoints associated with the managed account
+5)  The main `Endpoints` page shows all endpoints registered to the Managed Account
 
 <img src="images/endpoints.PNG" width="750">
 
-6)  Under a single endpoint, select the `info` button to see fingerprinted information on the endpoint's status.
+6)  Under a single endpoint, select the `info` button to see detailed information on the endpoint and its status.
 
 <img src="images/endpointinfo.png" width="750">
 <img src="images/endpointinfopage.PNG" width="750">
 
-7) Once the Endpoint's status has been verified, you can continue to the initialization of the endpoint and control setup.  
+7) Once an endpoint's status has been verified, you can continue to the initialization of the endpoint and control setup.  
 
 ## Initialize the Endpoint 
 1) On the `Endpoints` screen you can see the status of Senteon agents on each endpoint. All endpoints with the status `Ready to Begin Evaluation` are ready for initializing.
