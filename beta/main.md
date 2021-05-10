@@ -37,7 +37,7 @@ Instructions for utilizing available features can be found here:
 
 ## Please note there are 2 programs that need to be installed for Senteon to work. Please first follow the steps for installing Command Center, and then follow the steps to install the Senteon Agent.
 ### Command Center is used for central administration of Senteon.
-### Senteon Agents are installed on every endpoint and are used to apply the controls and changes pushed by Command Center.
+### Senteon Agents are installed on every endpoint and are used to apply the policies and changes configured in Command Center.
 
 For the purposes of the beta, Senteon has provided you with:
 - Installer for Senteon Command Center
