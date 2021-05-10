@@ -31,7 +31,7 @@ Once an endpoint's `System Status` is "Ready To Begin Evaluation", you are ready
 
 ## Intelligent Setup: Evaluation Phase
 During the Evaluation Phase, an endpoint will be analyzed to determine which controls can be safely implemented without disrupting user experience and network operations.
- > **Note**: For the purposes of this Beta, The Evaluation Phase will complete immediately. In the Full Release, evaluation will take up to 2 weeks to gather relevant data and make a decision depending on prior configuration of an endpoint.
+ > **Note**: For the purposes of this Beta, The Evaluation Phase will complete immediately. In the Full Release, evaluation will take up to 2 weeks to gather relevant data and make a decision depending on prior configuration of the endpoint.
 
 ### Steps ###
 1)  Navigate to the `Endpoint Setup` page.
