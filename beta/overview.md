@@ -1,6 +1,6 @@
 # Senteon Overview
 
-This page is dedicated to an overview of the purpose of the Senteon Solution and its intended benefits for its users. 
+This page is dedicated to an overview of the purpose of Senteon and its intended benefits for our users. 
 
 ## Philosophy
 The Senteon team strongly believes that cybersecurity should be built upon fundamentals that allow for a robust environment with properly hardened endpoints. The team found that there was a distinct lack of solutions tailored toward helping professionals create and maintain endpoint configurations in favor of solutions providing advanced endpoint detection and response and other reactive solutions. While effective on their own, reactive solutions only achieve full effectiveness in properly configured environments.
