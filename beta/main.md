@@ -1,7 +1,7 @@
 # Getting Started 
 ## MVP Beta
 
-On this page you can find instructions for installing and logging into the beta build of Senteon.
+On this page you can find instructions for installing and logging into the MVP Beta Build of Senteon.
 
 A high-level overview of Senteon can be found here: [Senteon Overview](overview.md)
 
