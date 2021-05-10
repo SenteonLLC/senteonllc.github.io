@@ -1,7 +1,9 @@
 # Getting Started 
 ## Beta Build
 
-On this page you can find instructions for installing and logging into the beta build of Senteon
+On this page you can find instructions for installing and logging into the beta build of Senteon.
+
+A high-level overview of Senteon can be found here: [Senteon Overview](overview.md)
 
 Instructions for utilizing available features can be found here:
   - [Setting up Controls](controls.md)
@@ -9,7 +11,6 @@ Instructions for utilizing available features can be found here:
   - [Generating Reports](reports.md)
   - [Viewing Alerts](alerts.md)
   - [Users](users.md)
-  - [Senteon Overview](overview.md)
 
 ### Terminology
 
