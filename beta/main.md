@@ -103,4 +103,5 @@ After the installation is complete, the "Senteon Agent" service will be running 
 
 ## Next Steps
 
-In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [Setting up Controls](controls.md).
+In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [configuring Endpoints](controls.md).
+To read more about the Senteon process, check [overview]().
