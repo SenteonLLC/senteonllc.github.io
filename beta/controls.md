@@ -1,6 +1,6 @@
 # Configuring Endpoints
 
-Once Command Center and the Senteon Agents are installed on their corresponding systems, Endpoints can be viewed through the Command Center Dashboard and Controls can be applied to them. 
+Once Command Center and the Senteon Agents are installed on their corresponding systems, Endpoints for the Managed Account will populate in Command Center. From here you will be able to begin the Intelligent Setup process to apply policies to your endpoint fleet.
 
 ## Verify status of endpoints
 All endpoints with Senteon Agents installed that have an internet connection will be viewable from the managed account endpoints screen. 
