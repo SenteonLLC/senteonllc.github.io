@@ -7,7 +7,7 @@ All endpoints with Senteon Agents installed that have an internet connection wil
 To do so follow the steps below:
 1) Log into Command Center with your provided administrator credentials
 
-<img src="images/loginpage.PNG" width="750">
+<img src="images/loginpage.png" width="750">
 
 2)  Navigate to the `Account Manager` tab.
 
