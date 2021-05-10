@@ -1,4 +1,4 @@
-# Configuring Endpoints
+# Configuring/Setting Up Endpoints
 
 Once Command Center and the Senteon Agents are installed on their corresponding systems, endpoints for the Managed Account will populate in Command Center. From here you will be able to begin the Intelligent Setup process to apply policies to your endpoint fleet.
 
@@ -6,40 +6,36 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 Endpoints will be appear in the Managed Account Dashboard under the `Endpoints` tab once they have had the Senteon Agent installed and registered to the Managed Account.
 > **Note**: If an endpoint doesn't appear in the list, verify that the Senteon Agent has been installed and registered to the proper Managed Account. If you have verified that installation was done properly, see [# Troubleshooting] for more guidance.
 
-Follow the steps below:
+### Steps ###
 1) Log into Command Center with your provided `Owner` user credentials.
 
 <img src="images/loginpage.png" width="750">
 
-2)  Navigate to the `Account Manager` tab.
+2) Navigate to the `Account Manager` tab.
 
 <img src="images/accountmanager.png" width="750">
 
-3)  Select the relevant Managed Account from the list provided and choose `Manage Account` to open a Managed Account Dashboard.
+3) Select the relevant Managed Account from the list provided and choose `Manage Account` to open a Managed Account Dashboard.
 
 <img src="images/manageaccount.png" width="750">
 
-4)  Navigate to the `Endpoints` tab
+4) Navigate to the `Endpoints` tab
 
 <img src="images/navtoendpoints.png" width="750">
 
-5)  The main `Endpoints` page shows all endpoints registered to the Managed Account
+5) The main `Endpoints` page shows all endpoints registered to the Managed Account
 
 <img src="images/endpoints.PNG" width="750">
 
-6)  Under a single endpoint, select the `Info` button to see detailed information about the endpoint.
-
-<img src="images/endpointinfo.png" width="750">
-<img src="images/endpointinfopage.PNG" width="750">
-
-7) Once an endpoint's `System Status` is "Ready To Begin Evaluation", you are ready to continue.
+Once an endpoint's `System Status` is "Ready To Begin Evaluation", you are ready to continue.
 
 ## Intelligent Setup: Evaluation Phase
-1)  Navigate to the `Endpoint Setup` page.
+### Steps ###
+1) Navigate to the `Endpoint Setup` page.
 
 <img src="images/endpointsetup.png" width="750">
 
-2)  The `Endpoint Setup` page has a section on the bottom left labeled `Ready For Evaluation` indicating all endpoints ready for to begin the Intelligent Setup process. Select the endpoints you wish to initialize from the list and then click the `Initialize Selected` button. This will begin the Evaluation Phase.
+2) The `Endpoint Setup` page has a section on the bottom left labeled `Ready For Evaluation` indicating all endpoints ready for to begin the Intelligent Setup process. Select the endpoints you wish to initialize from the list and then click the `Initialize Selected` button. This will begin the Evaluation Phase.
 > **Note**: You can initialize as many endpoints at once as you would like. When the grouping feature is released, endpoints that are initialized together will be added to the same group and evaluated against the same baseline.
  
 <img src="images/evaluation.png" width="750">
@@ -51,6 +47,7 @@ Follow the steps below:
 3) Once an endpoint completes the Evaluation Phase, its `System Status` becomes "Ready For Setup". Changing pages or clicking the `refresh` icon will pull the latest status. Once an endpoint's `System Status` is "Ready For Setup", you are ready to continue.
 
 ## Intelligent Setup: Guided Setup Phase
+### Steps ###
 1) On the `Endpoint Setup` page, all endpoints that have completed the Evaluation Phase will appear under the section labled `Ready For Setup`.
 
 2) Select the endpoint you would like to setup by clicking the `Finish Setup` button next to it.
@@ -63,4 +60,4 @@ Follow the steps below:
 
 <img src="images/wizard.png" width="750">
 
-4) Once Guided Setup is completed, the Senteon Agent on the endpoint will apply the configurations of the finalized Policy Set (also referred to as the Active Policy Set). The endpoint's `System Status` will be updated to "Active"
+Once Guided Setup is completed, the Senteon Agent on the endpoint will apply the configurations of the finalized Policy Set (also referred to as the Active Policy Set). The endpoint's `System Status` will be updated to "Active"
