@@ -15,7 +15,7 @@ Follow the steps below:
 
 <img src="images/accountmanager.png" width="750">
 
-3)  Select the relevant Managed Account from the list provided and choose `Manage Account`.
+3)  Select the relevant Managed Account from the list provided and choose `Manage Account` to open a Managed Account Dashboard.
 
 <img src="images/manageaccount.png" width="750">
 
@@ -32,7 +32,7 @@ Follow the steps below:
 <img src="images/endpointinfo.png" width="750">
 <img src="images/endpointinfopage.PNG" width="750">
 
-7) Once an endpoint's status has been verified, you can continue to the initialization of the endpoint and control setup.  
+7) Once an endpoint's status is `Ready To Begin Evaluation`, you are ready to continue.
 
 ## Initialize the Endpoint 
 1) On the `Endpoints` screen you can see the status of Senteon agents on each endpoint. All endpoints with the status `Ready to Begin Evaluation` are ready for initializing.
