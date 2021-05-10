@@ -6,21 +6,18 @@ If an Agent is directly uninstalled, it will go through the disabling process on
 ## Reset Controls and Disable Endpoint ##
 1) From a Managed Account's dashboard, navigate to the `Endpoints` tab.
 
-<img src="images/controlsSnip.png" width="750">
+<img src="images/endpoints.PNG" width="750">
 
 2) Select the `Disable` button next to the endpoint you wish to disable. 
 
-<img src="images/resetControls.png" width="750">
+<img src="images/disableendpoint.png" width="750">
 
 ## Re-Enable Controls and Re-Enable Endpoint ##
 
 1) From a Managed Account's dashboard, navigate to the `Endpoints` tab.
 
-<img src="images/controlsSnip.png" width="750">
 
 2) Select the `Re-Enable` button next to the endpoint you wish to disable. 
-
-<img src="images/resetControls.png" width="750">
 
 
 To uninstall the agent, simply uninstall using the Windows built in application removal functionality. 
