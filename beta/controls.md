@@ -4,7 +4,7 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 ## Verify Status of Endpoints
 Endpoints will be appear in the Managed Account Dashboard under the `Endpoints` tab once they have had the Senteon Agent installed and registered to the Managed Account.
-> Note: If an endpoint doesn't appear in the list, verify that the Senteon Agent has been installed and registered to the proper Managed Account. If you have verified that installation was done properly, see [# Troubleshooting] for more guidance.
+> **Note**: If an endpoint doesn't appear in the list, verify that the Senteon Agent has been installed and registered to the proper Managed Account. If you have verified that installation was done properly, see [# Troubleshooting] for more guidance.
 
 Follow the steps below:
 1) Log into Command Center with your provided `Owner` user credentials.
@@ -27,42 +27,30 @@ Follow the steps below:
 
 <img src="images/endpoints.PNG" width="750">
 
-6)  Under a single endpoint, select the `info` button to see detailed information about the endpoint.
+6)  Under a single endpoint, select the `Info` button to see detailed information about the endpoint.
 
 <img src="images/endpointinfo.png" width="750">
 <img src="images/endpointinfopage.PNG" width="750">
 
 7) Once an endpoint's `System Status` is "Ready To Begin Evaluation", you are ready to continue.
 
-## Initialize the Endpoint 
-1) On the `Endpoints` screen you can see the status of Senteon agents on each endpoint. All endpoints with the status `Ready to Begin Evaluation` are ready for initializing.
-
-<img src="images/endpoints.PNG" width="750">
-
-2)  From the `Endpoints` screen, navigate to the `Endpoint Setup` screen using the radio buttons at the top 
+## Intelligent Setup: Evaluation
+1)  Navigate to the `Endpoint Setup` page.
 
 <img src="images/endpointsetup.png" width="750">
 
-3)  The `Endpoint Setup` screen has a list on the bottom left indicating all endpoints ready for initialization. Select the endpoints you wish to initialize from the list and then select `Initialize Selected`. 
-> **Note**: You can initialize as many endpoints at once as you would like. When the grouping feature is released, endpoints that are initialized together will be initialized into the same group and compared against the same baseline. 
+2)  The `Endpoint Setup` page has a section on the bottom left called `Ready For Evaluation` indicating all endpoints ready for to begin the Intelligent Setup process. Select the endpoints you wish to initialize from the list and then click the `Initialize Selected` button. This will begin the Evaluation Phase.
+> **Note**: You can initialize as many endpoints at once as you would like. When the grouping feature is released, endpoints that are initialized together will be added to the same group and evaluated against the same baseline.
  
 <img src="images/evaluation.png" width="750">
 <img src="images/acceptinitialization.png" width="750">
 
-4)  After initialization, Endpoints will begin to analyze the requirements set for by Senteon and determine which controls can be safely implemented on the endpoint.
-> **Note**: This initialization period is configured to take as long as the Senteon Agent needs to make determinations. With future updates this time is expected to be around 2 weeks. For the purposes of the beta, this audit period has been removed and endpoints can be setup immediately.  
+3)  During the Evaluation Phase, endpoints will be analyzed to determine which controls can be safely implemented without disrupting user experience and network operations.
+> **Note**: ThE Evlauation Phase is configured to take as long as the Senteon Agent needs to agther data and make determinations. With future updates this time is expected to be around 2 weeks. For the purposes of the beta, this time period has been bypassed and endpoints can be setup immediately.  
 
+4) Once an endpoint completes the Evaluation Phase, its `System Status` becomces "Ready For Setup". Clicking the `Refresh` icon will show the endpoints that have completed the Evaluation Phase. Once your endpoints appear in the list, you are ready to continue.
 
-
-5)  Changing back to the `Endpoint` screen will show that the endpoints are now in a ready for setup state. Changing back to the `Uninitialized` screen will show that this endpoint is now listed in the `Ready for Setup` list and can be setup.
-> **Note**: Currently changing tabs is necessary to prompt Command Center to update with endpoint statuses from Senteon master servers. This will be available as a refresh button for individual lists upon release. 
-
-
-
-
-## Endpoint Setup
-Once endpoints have been initialized and audited, they can be setup for controls to be applied
-
+## Intelligent Setup: Setup Wizard
 1) On the `Endpoint Setup` Screen, all endpoints ready for setup with be listed in the top list.
 
 2) Select the endpoint you would like to setup by selecting the setup button next to the relevant endpoint.
