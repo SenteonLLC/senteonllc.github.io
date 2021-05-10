@@ -7,6 +7,9 @@ Instructions for utilizing available features can be found here:
   - [Setting up Controls](controls.md)
   - [Resetting Systems](resetting.md)
   - [Generating Reports](reports.md)
+  - [Viewing Alerts](alerts.md)
+  - [Users](users.md)
+  - [The Senteon Solution Overview]
 
 ### Terminology
 
