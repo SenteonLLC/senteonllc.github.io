@@ -34,24 +34,24 @@ Follow the steps below:
 
 7) Once an endpoint's `System Status` is "Ready To Begin Evaluation", you are ready to continue.
 
-## Intelligent Setup: Evaluation
+## Intelligent Setup: Evaluation Phase
 1)  Navigate to the `Endpoint Setup` page.
 
 <img src="images/endpointsetup.png" width="750">
 
-2)  The `Endpoint Setup` page has a section on the bottom left called `Ready For Evaluation` indicating all endpoints ready for to begin the Intelligent Setup process. Select the endpoints you wish to initialize from the list and then click the `Initialize Selected` button. This will begin the Evaluation Phase.
+2)  The `Endpoint Setup` page has a section on the bottom left labeled `Ready For Evaluation` indicating all endpoints ready for to begin the Intelligent Setup process. Select the endpoints you wish to initialize from the list and then click the `Initialize Selected` button. This will begin the Evaluation Phase.
 > **Note**: You can initialize as many endpoints at once as you would like. When the grouping feature is released, endpoints that are initialized together will be added to the same group and evaluated against the same baseline.
  
 <img src="images/evaluation.png" width="750">
 <img src="images/acceptinitialization.png" width="750">
 
-3)  During the Evaluation Phase, endpoints will be analyzed to determine which controls can be safely implemented without disrupting user experience and network operations.
-> **Note**: ThE Evlauation Phase is configured to take as long as the Senteon Agent needs to agther data and make determinations. With future updates this time is expected to be around 2 weeks. For the purposes of the beta, this time period has been bypassed and endpoints can be setup immediately.  
+During the Evaluation Phase, endpoints will be analyzed to determine which controls can be safely implemented without disrupting user experience and network operations.
+> **Note**: The Evlauation Phase is configured to take as long as the Senteon Agent needs to agther data and make determinations. With future updates this time is expected to be around 2 weeks. For the purposes of the beta, this time period has been bypassed and endpoints can be setup immediately.  
 
-4) Once an endpoint completes the Evaluation Phase, its `System Status` becomces "Ready For Setup". Clicking the `Refresh` icon will show the endpoints that have completed the Evaluation Phase. Once your endpoints appear in the list, you are ready to continue.
+3) Once an endpoint completes the Evaluation Phase, its `System Status` becomes "Ready For Setup". Changing tabs or clicking the `refresh` icon will pull the latest status. Once an endpoint's `System Status` is "Ready For Setup", you are ready to continue.
 
-## Intelligent Setup: Setup Wizard
-1) On the `Endpoint Setup` Screen, all endpoints ready for setup with be listed in the top list.
+## Intelligent Setup: Guided Setup Phase
+1) On the `Endpoint Setup` page, all endpoints that have completed the Evaluation Phase will appear under the section labled `Ready For Setup`.
 
 2) Select the endpoint you would like to setup by selecting the setup button next to the relevant endpoint.
 > **Note**: It is currently not possible to setup endpoints in groups due to the nature of the Senteon Agent providing unique telemetry for each endpoint resulting in differing analysis based on the endpoint's activity. Senteon will be supporting quick setup for a high volume of endpoints by providing the ability to automatically enforce the baseline of an existing endpoint onto selected endpoints as necessary. This feature will be available on release with Groups functionality. 
