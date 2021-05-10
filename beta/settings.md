@@ -5,7 +5,7 @@ This page details all of the settings currently available to be set by the clien
 These settings are set through the primary account
 
 * Change Password
-  * This setting allows users to change their own passwords. CHanging other user's passwords is only possible as the `Owner` account and must be done through the `Users` page.
+  * This setting allows users to change their own passwords. Changing other user's passwords is only possible as the `Owner` account and must be done through the `Users` page.
   
 ## Managed Account Settings
 These settings are set through the managed account and only affect the individual managed account it is applied on.
