@@ -10,7 +10,7 @@ This page describes alerts that a Senteon User may see in Command Center alongsi
   * [Action Options] The Senteon User can choose to realign the setting to the Active Policy Set baseline, or ignore the alert.
  
 **Endpoint Uninstalling**
-* Descrption: This alert triggers when a Senteon Agent has been signalled to uninstall from an endpoint. 
+* Descrption: This alert triggers when a Senteon Agent has been signaled to uninstall from an endpoint. 
 * Guidance: If this was not intentional, we recommend you investigate. The Senteon Agent will need to be reinstalled and reconfigured from scratch if you wish to manage the endpoint again.
 
 **Endpoint Uninstall Failed**
