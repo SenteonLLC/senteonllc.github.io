@@ -11,10 +11,10 @@ Command Center provides the ability to create and manage users to allow for usag
   * Alert Visibility and Response
 
  * Administrator
-  * All Manager Permissions 
-  * Endpoint Deactivation
-  * Managed Account Creation and Deactivation
-  * Read-Only access to Users
+   * All Manager Permissions 
+   * Endpoint Deactivation
+   * Managed Account Creation and Deactivation
+   * Read-Only access to Users
  
 * Owner
   * All Administrator Permissions
