@@ -27,12 +27,12 @@ Follow the steps below:
 
 <img src="images/endpoints.PNG" width="750">
 
-6)  Under a single endpoint, select the `info` button to see detailed information on the endpoint and its status.
+6)  Under a single endpoint, select the `info` button to see detailed information about the endpoint.
 
 <img src="images/endpointinfo.png" width="750">
 <img src="images/endpointinfopage.PNG" width="750">
 
-7) Once an endpoint's status is `Ready To Begin Evaluation`, you are ready to continue.
+7) Once an endpoint's `System Status` is "Ready To Begin Evaluation", you are ready to continue.
 
 ## Initialize the Endpoint 
 1) On the `Endpoints` screen you can see the status of Senteon agents on each endpoint. All endpoints with the status `Ready to Begin Evaluation` are ready for initializing.
