@@ -30,7 +30,7 @@ Endpoints will be appear in the Managed Account Dashboard under the `Endpoints` 
 Once an endpoint's `System Status` is "Ready To Begin Evaluation", you are ready to continue.
 
 ## Intelligent Setup: Evaluation Phase
-During the Evaluation Phase, endpoints will be analyzed to determine which controls can be safely implemented without disrupting user experience and network operations.
+During the Evaluation Phase, an endpoint will be analyzed to determine which controls can be safely implemented without disrupting user experience and network operations.
  > **Note**: For the purposes of this Beta, The Evaluation Phase will complete immediately. In the Full Release, evaluation will take up to 2 weeks to gather relevant data and make a decision depending on prior configuration of an endpoint.
 
 ### Steps ###
@@ -38,8 +38,8 @@ During the Evaluation Phase, endpoints will be analyzed to determine which contr
 
 <img src="images/endpointsetup.png" width="750">
 
-2)  The `Endpoint Setup` page has a section on the bottom left labeled `Ready For Evaluation` indicating all endpoints ready for to begin the Intelligent Setup process. Select the endpoints you wish to initialize from the list and then click the `Initialize Selected` button. This will begin the Evaluation Phase.
- > **Note**: You can initialize as many endpoints at once as you would like. When the grouping feature is released, endpoints that are initialized together will be added to the same group and evaluated against the same baseline.
+2)  The `Endpoint Setup` page has a section on the bottom left labeled `Ready For Evaluation` indicating all endpoints ready for to begin the Intelligent Setup process. Select the endpoints from the list that you wish to start the process for and then click the `Initialize Selected` button. This will begin the Evaluation Phase.
+ > **Note**: You can initialize as many endpoints at once as you would like. When the grouping feature is released, endpoints that are initialized together will be added to the same group and evaluated against the same benchmark.
  
 <img src="images/evaluation.png" width="750">
 <img src="images/acceptinitialization.png" width="750">
