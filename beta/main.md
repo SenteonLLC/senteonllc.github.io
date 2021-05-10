@@ -20,7 +20,7 @@ Instructions for utilizing available features can be found here:
 
 `Master Account` - The primary account that you signed up for Senteon with. This account acts as a container for all of your users, data, and resources
 
-`Managed Account` - A "sub-account" within the Master Account that you set up per organization. Agents/endpoints are registered to Managed Accounts for administration
+`Managed Account` - A "sub-account" within the Master Account that you set up for each organization you wish to manage. Agents/endpoints are registered to Managed Accounts for administration
 
 ### Supported Operating Systems
 
