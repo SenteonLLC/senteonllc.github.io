@@ -7,7 +7,7 @@ Endpoints will be appear in the Managed Account Console under the `Endpoints` ta
 > **Note**: If an endpoint doesn't appear in the list, verify that the Senteon Agent has been installed and registered to the proper Managed Account. If you have verified that installation was done properly, see [Troubleshooting](troubleshoot.md) for more guidance.
 
 ### Steps ###
-1) Log into Command Center with your provided `Owner` user credentials.
+1) Log into Command Center with your provided Master Account credentials.
 
 <img src="images/loginpage.png" width="750">
 
