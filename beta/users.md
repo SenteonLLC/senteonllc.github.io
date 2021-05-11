@@ -1,22 +1,28 @@
-## Users functionality
-Command Center provides the ability to create and manage users to allow for usage within an organization. Users can be set to one of three roles, with the original account being a unique higher privileged administrator that cannot be duplicated. Thie page details the permissions of each role as well as its intended purpose
-  
-* Auditor 
+# User System and Role Based Access Control
+Command Center gives you the ability to create and manage users in addition to your Master Account user. 
+
+## Roles and Permissions
+
+The Master Account user is automatically assigned agiven the "Owner" role. This is the highest privileged role, and no other users can be assigned this role.
+
+Senteon provides 3 additional roles to meet your different use-cases.
+
+**Auditor**
   * Report Generation
-  * Read-Only access to Managed Accounts & Control Sets
+  * Read-Only access to Managed Account Consoles
  
-* Manager
+**Manager**
   * All Auditor Permissions
-  * Endpoint, Group, and Control Editing and Creation
+  * Endpoint, Group, Control Editing, Policy Creation
   * Alert Visibility and Response
 
- * Administrator
+ **Administrator**
    * All Manager Permissions 
    * Endpoint Deactivation
    * Managed Account Creation and Deactivation
    * Read-Only access to Users
- 
-* Owner
+
+**Owner**
   * All Administrator Permissions
   * User Creation, Deletion, & Password Changes
   * Managed Account Settings
