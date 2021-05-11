@@ -18,7 +18,7 @@ If a Seneon Agent is manually uninstalled from the Endpoint by a Windows Adminis
 
 1) From the Managed Account Console, navigate to the `Endpoints` tab.
 
-2) Select the `Re-Enable` button next to the endpoint you wish to disable. 
+2) On the main `Endpoints` page, select the `Re-Enable` button next to the endpoint you wish to disable. 
 
 
 ## Uninstalling Senteon Agent (Resets Senteon-Managed Settings) ##
