@@ -6,11 +6,11 @@ On this page you can find instructions for installing and logging into the MVP B
 A high-level overview of Senteon can be found here: [Senteon Overview](overview.md)
 
 Instructions for utilizing available features can be found here:
-  - [Configuring/Setting Up Endpoints](controls.md)
-  - [Resetting Systems](resetting.md)
+  - [Configuring/Setting Up Endpoints](endpoint_setup.md)
   - [Generating Reports](reports.md)
   - [Viewing Alerts](alerts.md)
   - [Users & Access Control](users.md)
+  - [Disabling, Reverting, and Uninstalling Senteon](disabling_and_uninstalling.md)
 
 ### Terminology
 
