@@ -21,5 +21,8 @@ If a Seneon Agent is manually uninstalled from the Endpoint by a Windows Adminis
 2) Select the `Re-Enable` button next to the endpoint you wish to disable. 
 
 
-## Uninstalling Senteon ##
-To uninstall the agent, simply uninstall using the Windows built in application removal functionality. 
+## Uninstalling Senteon Agent (Resets Senteon-Managed Settings) ##
+To uninstall the Senteon Agent, simply uninstall using the Windows built in application removal functionality.
+
+## Uninstalling Senteon Command Center ##
+To uninstall the Senteon Command Center, simply uninstall using the Windows built in application removal functionality. 
