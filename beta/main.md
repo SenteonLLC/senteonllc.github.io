@@ -1,12 +1,16 @@
 # Getting Started 
-## Beta Build
+## MVP Beta
 
-On this page you can find instructions for installing and logging into the beta build of Senteon Fortify.
+On this page you can find instructions for installing and logging into the MVP Beta Build of Senteon.
 
-Instructions for utilizing available features after install can be found here:
-  - [Setting up Controls](controls.md)
-  - [Resetting Systems](resetting.md)
+A high-level overview of Senteon can be found here: [Senteon Overview](overview.md)
+
+Instructions for utilizing available features can be found here:
+  - [Configuring/Setting Up Endpoints](endpoint_setup.md)
   - [Generating Reports](reports.md)
+  - [Viewing Alerts](alerts.md)
+  - [Users and Access Control](users_and_rbac.md)
+  - [Disabling, Reverting, and Uninstalling Senteon](disabling_and_uninstalling.md)
 
 ### Terminology
 
@@ -14,38 +18,44 @@ Instructions for utilizing available features after install can be found here:
 
 `Senteon Agent` - A small program installed on each endpoint that performs actions and communicates back to Command Center
 
-`Managed Account` - An account that agents/endpoints are registered to and managed from
+`Master Account` - The primary account that you signed up for Senteon with. This account acts as a container for all of your users, data, and resources
+
+`Managed Account` - A "sub-account" within the Master Account that you set up for each organization you wish to manage. Agents/endpoints are registered to Managed Accounts for administration
 
 ### Supported Operating Systems
 
 **Senteon Command Center**
 - Windows 10 Version 2004+
+  - Pro and Enterprise (Not Home)
 - Windows Server 2016 Version 2004+
 - Windows Server 2019 Version 1809+
 
 **Senteon Agent**
 - Windows 10 Version 2004+
+  - Pro and Enterprise (Not Home)
 
-## Installation
+# Installation
+
+## Please note there are 2 programs that need to be installed for Senteon to work. Please first follow the steps for installing Command Center, and then follow the steps to install the Senteon Agent.
+### Command Center is used for central administration of Senteon.
+### Senteon Agents are installed on every endpoint and are used to apply the policies and changes configured in Command Center.
 
 For the purposes of the beta, Senteon has provided you with:
 - Installer for Senteon Command Center
 - Credentials for Senteon Command Center
-- Credentials for Managed Account
+- Managed Account ID and Registration Code
 
 > **Note**: In full release, you will be able to create new Managed Accounts through Command Center. 
 
-Senteon installation is divided into two separate installers. The provided installer is the Command Center installer, where customers can manage their controls and accounts. After installing Command Center, the agent installer must be deployed on systems that controls should be applied on. Documentation for setting both up can be found below. 
+Senteon installation is divided into two separate stages that use different installers. The provided installer is for Command Center, the administrator console. After installing Command Center on the computer you wish to use for Senteon administration, the Senteon Agent installer will be created for you to deploy on your endpoints. Documentation for setting both up can be found below.
 
-Please be aware that Senteon does not currently support Command Center and Agent installations on the same system. It is highly recommended to keep the services separate to reduce to possibility of operational conflicts with their databases.
+# Command Center Installation Steps
 
-### Command Center
-
-1) Load up `SenteonCommandCenter.msi` onto the machine that is intended to be used as the central console and execute (double-click). 
+1) Transfer `SenteonCommandCenter.msi` onto the computer that is intended to be used as the central console and execute (double-click). 
 
 <img src="images/startInstall.png" width="750">
 
-2) Accept the Senteon End-User License Agreement and select `Next`.
+2) Review and Accept the Senteon End-User License Agreement, then select `Next`.
 
 <img src="images/eula.png" width="550">
 
@@ -57,32 +67,31 @@ Please be aware that Senteon does not currently support Command Center and Agent
 
 After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`.
 
-### Senteon Agent
+# Senteon Agent Installation Steps
 
 Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCenter\` by default), there will be an additional .msi installer for the Senteon Agent called `SenteonAgent.msi`. This installer should be distributed and installed onto all systems that you intend to manage. 
 
 <img src="images/agentlocation.png" width="750">
 
-
 **To install you will need:**
 
-- `Account ID` - ID/Name of Managed Account you wish to register the agent/endpoint to
+- `Managed Account ID` - ID/Name of Managed Account you wish to register the agent/endpoint to
 
-- `Account Password` - Password for Managed Account
+- `Registration Code` - Registration code for Managed Account
 
 **Steps**
 
-1) Load up `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
+1) Transfer `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
 
 <img src="images/senteonAgent.png" width="750">
 
-2) Accept the Senteon End-User License Agreement and select `Next`.
+2) Review and Accept the Senteon End-User License Agreement, then select `Next`.
 
 <img src="images/eulaAgent.png" width="550">
 
 3) Choose the folder where you want to install (`C:\Program Files\Senteon\SenteonAgent` by default)
 
-4) Enter the credentials for your Managed Account registered in Command Center
+4) Enter the requested details for the Managed Account you wish to register the endpoint to.
 
 <img src="images/acctIDPass.png" width="550">
 
@@ -96,4 +105,5 @@ After the installation is complete, the "Senteon Agent" service will be running 
 
 ## Next Steps
 
-In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [Setting up Controls](controls.md).
+In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [Configuring/Setting Up Endpoints](controls.md).
+To read more about the Senteon process, check [overview](overview.md).
