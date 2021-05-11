@@ -6,3 +6,5 @@ This page details the additional features that will be available upon Senteon's 
 - Alerts
 - Additional Actions
 - Users
+
+## Known Bugs
