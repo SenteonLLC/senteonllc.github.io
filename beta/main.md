@@ -36,10 +36,14 @@ Instructions for utilizing available features can be found here:
 
 # Installation
 
+
 ## Please note there are 2 programs that need to be installed for Senteon to work. Please first follow the steps for installing Command Center, and then follow the steps to install the Senteon Agent.
 ### Command Center is used for central administration of Senteon.
 ### Senteon Agents are installed on every endpoint and are used to apply the policies and changes configured in Command Center.
 
+
+## Please note there are two installs that need to be done to support the Senteon Infrastructure. Please first follow the steps for installed Command Center followed by the steps to install the Senteon Agent.
+### The Command Center allows for remote management and administering of the system, but the Senteon Agent is necessary to apply the controls and changes pushed by command center.
 For the purposes of the beta, Senteon has provided you with:
 - Installer for Senteon Command Center
 - Credentials for Senteon Command Center
@@ -51,7 +55,9 @@ Senteon installation is divided into two separate stages that use different inst
 
 # Command Center Installation Steps
 
+
 1) Transfer `SenteonCommandCenter.msi` onto the computer that is intended to be used as the central console and execute (double-click). 
+
 
 <img src="images/startInstall.png" width="750">
 
