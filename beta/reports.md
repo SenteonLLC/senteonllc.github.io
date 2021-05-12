@@ -4,7 +4,7 @@
 
 Reports can be generated from the Managed Account Console `Dashboard` tab.
 
-Simply choose whether you would like a CSV or PDF style report, where the report should be generated, and what information you want on the report then select `Generate`. 
+Simply choose whether you would like a CSV or PDF style report, where the report should be generated, and what information you want on the report then click `Generate Report`. 
 
 <img src="images/reportgeneration.png" width="750">
 
