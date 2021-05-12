@@ -3,7 +3,7 @@ Command Center gives you the ability to create and manage users in addition to y
 
 ## Roles and Permissions
 
-The Master Account user is automatically assigned agiven the "Owner" role. This is the highest privileged role, and no other users can be assigned this role.
+The Master Account user is automatically assigned the "Owner" role. This is the highest privileged role, and no other users can be assigned this role.
 
 Senteon provides 3 additional roles to meet your different use-cases.
 
