@@ -1,6 +1,6 @@
 # Generating Reports
 
-> **WARNING:** Currently reports will not generate any data as they are reliant on the Grouping system (available on release) to provide data on endpoint compliance with the Senteon Recommended Policy Set.
+> **WARNING:** Currently reports will not generate any data as they are reliant on the Grouping system (available on release) to provide data on endpoint compliance with the Senteon Recommended Configuration Set.
 
 Reports can be generated from the Managed Account Console `Dashboard` tab.
 
