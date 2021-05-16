@@ -55,9 +55,9 @@ During the Evaluation Phase, an endpoint will be analyzed to determine which con
 
 <img src="images/endpointfinalization.png" width="750">
 
-3)  For the purposes of the Beta, all settings/values suggested in the default Senteon Recommended Policy Set are accepted without conflicts.
+3)  For the purposes of the Beta, all settings/values suggested in the default Senteon Recommended Configuration Set are accepted without conflicts.
  > **Note**: It is currently not possible to perform Guided Setup for batches of endpoints. We plan to add this functionality for the Full Release.
 
 <img src="images/wizard.png" width="750">
 
-Once Guided Setup is completed, the Senteon Agent on the endpoint will apply the configurations of the finalized Policy Set (also referred to as the Active Policy Set). The endpoint's `System Status` will be updated to "Active"
+Once Guided Setup is completed, the Senteon Agent on the endpoint will apply the configurations of the finalized Configuration Set (also referred to as the Active Configuration Set). The endpoint's `System Status` will be updated to "Active"
