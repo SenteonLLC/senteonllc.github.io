@@ -1,4 +1,4 @@
-# General
+# Controls
 # Endpoints
 # Groups
 # Setup
