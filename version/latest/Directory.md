@@ -8,17 +8,17 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
   - [Install Flags]
   - [Managed Accounts]
   - [Command Center Installer]
-- [Endpoints, Groups, & Controls]
-  - [Controls]
+- [Endpoints, Groups, & Controls](EndpointConfiguration.md)
+  - [Controls](EndpointConfiguration.md#controls)
     - [Configuration Sets]
     - [Control Information]
     - [Changing Configurations]
-  - [Endpoints]
+  - [Endpoints](EndpointConfiguration.md#endpoints)
     - [Endpoint Listing]
     - [Endpoint Information]
     - [Modifying Endpoints]
     - [Endpoint States]
-  - [Groups]
+  - [Groups](EndpointConfiguration.md#groups)
     - [Group Info]
     - [Group Modification]
       - [Moving Endpoints]
@@ -27,7 +27,7 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
       - [Converting Exception Groups to Management]
       - [Individual Control Modification]
       - [New Management Group Creation]
-  - [Endpoint Setup]
+  - [Endpoint Setup](EndpointConfiguration.md#setup)
     - [Evaluation]
     - [Finalization Wizard]
 - [Users]
