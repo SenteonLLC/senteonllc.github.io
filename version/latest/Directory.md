@@ -9,31 +9,32 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
   - [Managed Accounts]
   - [Command Center Installer]
 <details>
-  <summary>[Endpoints, Groups, & Controls](EndpointConfiguration.md)</summary>
-  - [Controls](EndpointConfiguration.md#controls)
-    - [Configuration Sets](EndpointConfiguration.md#configuration-sets)
-    - [Control Information](EndpointConfiguration.md#control-information)
-    - [Changing Configurations](EndpointConfigurations.md#changing-configurations.md)
-  - [Endpoints](EndpointConfiguration.md#endpoints)
-    - [Endpoint Listing](EndpointConfigurations.md#endpoint-listing)
-    - [Endpoint Information](EndpointConfigurations.md#endpoint-information)
-    - [Modifying Endpoints](EndpointConfigurations.md#modifying-endpoints)
-      - [Changing Groups](EndpointConfigurations.md#changing-groups)
-      - [Changing Controls](EndpointConfigurations.md#changing-controls)
-    - [Endpoint States](EndpointConfigurations.md#endpoint-states)
-  - [Groups](EndpointConfiguration.md#groups)
-    - [Group Info](EndpointConfigurations.md#group-info)
-    - [Group Modification](EndpointConfigurations.md#group-modification)
-      - [Moving Endpoints](EndpointConfigurations.md#moving-endpoints)
-      - [Making Exception Groups](EndpointConfigurations.md#making-exception-groups)
-      - [Merging Exception Groups](EndpointConfigurations.md#merging-exception-groups)
-      - [Converting Exception Groups to Management](EndpointConfigurations.md#converting-exception-groups)
-      - [Individual Control Modification](EndpointConfigurations.md#individual-control-modification)
-      - [New Management Group Creation](EndpointConfigurations.md#new-management-group-creation)
-  - [Endpoint Setup](EndpointConfiguration.md#setup)
-    - [Evaluation](EndpointConfigurations.md#evaluation)
-    - [Finalization Wizard](EndpointConfigurations.md#finalization-wizard)
+  <summary><a href=EndpointConfiguration.md> Endpoints, Groups, & Controls</a></summary>
+   [Controls](EndpointConfiguration.md#controls)
+     [Configuration Sets](EndpointConfiguration.md#configuration-sets)
+     [Control Information](EndpointConfiguration.md#control-information)
+     [Changing Configurations](EndpointConfigurations.md#changing-configurations.md)
+   [Endpoints](EndpointConfiguration.md#endpoints)
+     [Endpoint Listing](EndpointConfigurations.md#endpoint-listing)
+     [Endpoint Information](EndpointConfigurations.md#endpoint-information)
+     [Modifying Endpoints](EndpointConfigurations.md#modifying-endpoints)
+       [Changing Groups](EndpointConfigurations.md#changing-groups)
+       [Changing Controls](EndpointConfigurations.md#changing-controls)
+     [Endpoint States](EndpointConfigurations.md#endpoint-states)
+   [Groups](EndpointConfiguration.md#groups)
+     [Group Info](EndpointConfigurations.md#group-info)
+     [Group Modification](EndpointConfigurations.md#group-modification)
+       [Moving Endpoints](EndpointConfigurations.md#moving-endpoints)
+       [Making Exception Groups](EndpointConfigurations.md#making-exception-groups)
+       [Merging Exception Groups](EndpointConfigurations.md#merging-exception-groups)
+       [Converting Exception Groups to Management](EndpointConfigurations.md#converting-exception-groups)
+       [Individual Control Modification](EndpointConfigurations.md#individual-control-modification)
+       [New Management Group Creation](EndpointConfigurations.md#new-management-group-creation)
+   [Endpoint Setup](EndpointConfiguration.md#setup)
+     [Evaluation](EndpointConfigurations.md#evaluation)
+     [Finalization Wizard](EndpointConfigurations.md#finalization-wizard)
 </details>
+
 - [Users]
   - [Roles]
   - [Owner Account]
