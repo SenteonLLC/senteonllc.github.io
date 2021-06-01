@@ -29,7 +29,7 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
             - [Converting Exception Groups to Management](EndpointConfigurations.md#converting-exception-groups)
             - [Individual Control Modification](EndpointConfigurations.md#individual-control-modification)
             - [New Management Group Creation](EndpointConfigurations.md#new-management-group-creation)
-   - [Endpoint Setup](EndpointConfiguration.md#setup)
+   - [Endpoint Setup](EndpointConfigurations.md#setup)
         - [Evaluation](EndpointConfigurations.md#evaluation)
         - [Finalization Wizard](EndpointConfigurations.md#finalization-wizard)
 - [Users](Users.md)
