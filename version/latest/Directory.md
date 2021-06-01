@@ -32,14 +32,14 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
    - [Endpoint Setup](EndpointConfiguration.md#setup)
         - [Evaluation](EndpointConfigurations.md#evaluation)
         - [Finalization Wizard](EndpointConfigurations.md#finalization-wizard)
-- [Users]
+- [Users](Users.md)
   - [Roles]
   - [Owner Account]
   - [Adding, Editing, and Removing Users]
-- [Alerts]
+- [Alerts](Alerts.md)
   - [Alert Types]
   - [Configuration Drift Management]
-- [Settings]
+- [Settings](Settings.md)
   - [Command Center Settings]
   - [Managed Account Settings]
 - [Report Generation]
