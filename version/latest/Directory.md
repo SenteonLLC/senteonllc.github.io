@@ -3,11 +3,11 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
 
 
 - [Quickstart]
-- [Setup](installation.md)
-  - [Core Installer]
-  - [Install Flags]
-  - [Managed Accounts]
-  - [Command Center Installer]
+- [Setup](Setup.md)
+  - [Core Installer](Setup.md#core-installer)
+  - [Install Flags](Setup.md#install-flags)
+  - [Managed Accounts](Setup.md#managed-accounts)
+  - [Command Center Installer](Setup.md#command-center-installer)
 - [Endpoints, Groups, & Controls](EndpointConfiguration.md)
   -  [Controls](EndpointConfiguration.md#controls)
       -  [Configuration Sets](EndpointConfiguration.md#configuration-sets)
@@ -33,17 +33,17 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
         - [Evaluation](EndpointConfiguration.md#evaluation)
         - [Finalization Wizard](EndpointConfiguration.md#finalization-wizard)
 - [Users](Users.md)
-  - [Roles]
-  - [Owner Account]
-  - [Adding, Editing, and Removing Users]
+  - [Roles](Users.md#roles)
+  - [Owner Account](Users.md#owner-account)
+  - [Modifying Users](Users.md#modifying-users)
 - [Alerts](Alerts.md)
-  - [Alert Types]
-  - [Configuration Drift Management]
+  - [Alert Types](Alerts.md#alert-types)
+  - [Configuration Drift Management](Alerts.md#configuration-drift-management)
 - [Settings](Settings.md)
-  - [Command Center Settings]
-  - [Managed Account Settings]
-- [Report Generation]
-  - [Managed Account Reports]
-  - [Group Specific Settings] 
+  - [Command Center Settings](Settings.md#command-center-settings)
+  - [Managed Account Settings](Settings.md#managed-account-settings)
+- [Report Generation](Reports.md)
+  - [Managed Account Reports](Reports.md#managed-account-reports)
+  - [Group Specific Settings](Reports.md#group-specific-settings)
 - [Technical Details]
 -   [Benchmarks]
