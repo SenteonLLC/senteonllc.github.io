@@ -10,7 +10,7 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
   - [Command Center Installer]
 - [Endpoints, Groups, & Controls](EndpointConfiguration.md)
   - [Controls](EndpointConfiguration.md#controls)
-    - [Configuration Sets](EndpointConfiguration.md#configuration=sets)
+    - [Configuration Sets](EndpointConfiguration.md#configuration-sets)
     - [Control Information](EndpointConfiguration.md#control-information)
     - [Changing Configurations](EndpointConfigurations.md#changing-configurations.md)
   - [Endpoints](EndpointConfiguration.md#endpoints)
