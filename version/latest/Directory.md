@@ -45,5 +45,5 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
 - [Report Generation](Reports.md)
   - [Managed Account Reports](Reports.md#managed-account-reports)
   - [Group Specific Settings](Reports.md#group-specific-settings)
-- [Technical Details]
--   [Benchmarks]
+- [Technical Details](TechnicalDetails.md)
+- [Benchmarks](Benchmarks.md)
