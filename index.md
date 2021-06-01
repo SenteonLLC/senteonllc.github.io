@@ -1,5 +1,5 @@
 # Senteon 
-Welcome to the documentation for the Senteon security configuration management solution. basic terminology and operating system support details are listed below. Senteon recommends following the list of readings below for basic usage if it is your first time using the solution. Otherwise all documentation can be found in the [Directory](/verion/latest/directory.md)
+Welcome to the documentation for the Senteon security configuration management solution. basic terminology and operating system support details are listed below. Senteon recommends following the list of readings below for basic usage if it is your first time using the solution. Otherwise all documentation can be found in the [Directory](version/latest/Directory.md)
 ### Terminology
 
 `Senteon Command Center` - The central administrator console
