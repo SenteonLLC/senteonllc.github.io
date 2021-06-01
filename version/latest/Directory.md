@@ -8,6 +8,11 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
   - [Install Flags]
   - [Managed Accounts]
   - [Command Center Installer]
+- [Endpoints, Groups, & Controls](EndpointConfiguration.md)
+  -  [Controls](EndpointConfiguration.md#controls)
+    -  [Configuration Sets](EndpointConfiguration.md#configuration-sets)
+    -  [Control Information](EndpointConfiguration.md#control-information)
+    -  
 <details>
   <summary><a href=EndpointConfiguration.md> Endpoints, Groups, & Controls</a></summary>
   <ul>
