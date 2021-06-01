@@ -19,12 +19,12 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
       </ul>
     </li>
   </ul>
-  - [Endpoints](EndpointConfiguration.md#endpoints)
-      - [Endpoint Listing](EndpointConfigurations.md#endpoint-listing)
-      - [Endpoint Information](EndpointConfigurations.md#endpoint-information)
-      - [Modifying Endpoints](EndpointConfigurations.md#modifying-endpoints)
-        - [Changing Groups](EndpointConfigurations.md#changing-groups)
-        - [Changing Controls](EndpointConfigurations.md#changing-controls)
+    - [Endpoints](EndpointConfiguration.md#endpoints)
+        - [Endpoint Listing](EndpointConfigurations.md#endpoint-listing)
+        - [Endpoint Information](EndpointConfigurations.md#endpoint-information)
+        - [Modifying Endpoints](EndpointConfigurations.md#modifying-endpoints)
+          - [Changing Groups](EndpointConfigurations.md#changing-groups)
+          - [Changing Controls](EndpointConfigurations.md#changing-controls)
       - [Endpoint States](EndpointConfigurations.md#endpoint-states)
     - [Groups](EndpointConfiguration.md#groups)
       - [Group Info](EndpointConfigurations.md#group-info)
