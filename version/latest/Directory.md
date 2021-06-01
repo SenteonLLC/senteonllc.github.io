@@ -14,6 +14,8 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
     <li><a href=EndpointConfiguration.md#controls>Controls</a>
       <ul>
         <li><a href=EndpointConfiguration.md#configuration-sets>Configuration Sets</a></li>
+        <li><a href=EndpointConfiguration.md#control-information>Control Information</a></li>
+        <li><a href=EndpointConfiguration.md#changing-configurations.md>Changing Configurations</a></li>
       </ul>
     </li>
     <li><a href=></a></li>
@@ -21,9 +23,7 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
     <li><a href=></a></li>
     <li><a href=></a></li>
   </ul>
-     [Configuration Sets](EndpointConfiguration.md#configuration-sets)
-     [Control Information](EndpointConfiguration.md#control-information)
-     [Changing Configurations](EndpointConfigurations.md#changing-configurations.md)
+   
    [Endpoints](EndpointConfiguration.md#endpoints)
      [Endpoint Listing](EndpointConfigurations.md#endpoint-listing)
      [Endpoint Information](EndpointConfigurations.md#endpoint-information)
