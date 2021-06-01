@@ -1,26 +1,5 @@
 # Quickstart
-This page provides a quickstart guide for getting Senteon Command Center and Agent installed on endpoints. This guide will walk you through setting up using the installation of Command Center followed by installation of the Senteon Agent. If you intend to utilize the agent on multiple endpoints, Senteon recommends utilizing the command line installer, for which the instructions can be found [here](Setup.html)
-### Terminology
-
-`Senteon Command Center` - The central administrator console
-
-`Senteon Agent` - A small program installed on each endpoint that performs actions and communicates back to Command Center
-
-`Master Account` - The primary account that you signed up for Senteon with. This account acts as a container for all of your users, data, and resources
-
-`Managed Account` - A "sub-account" within the Master Account that you set up for each organization you wish to manage. Agents/endpoints are registered to Managed Accounts for administration
-
-### Supported Operating Systems
-
-**Senteon Command Center**
-- Windows 10 Version 2004+
-  - Pro and Enterprise (Not Home)
-- Windows Server 2016 Version 2004+
-- Windows Server 2019 Version 1809+
-
-**Senteon Agent**
-- Windows 10 Version 2004+
-  - Pro and Enterprise (Not Home)
+This page provides a quickstart guide for getting Senteon Command Center and Agent installed on endpoints. This guide will walk you through setting up using the installation of Command Center followed by installation of the Senteon Agent. If you intend to utilize the agent on multiple endpoints, Senteon recommends utilizing the command line installer, for which the instructions can be found [here](Setup.md)
 
 # Installation
 
