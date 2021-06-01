@@ -21,3 +21,8 @@ Welcome to the documentation for the Senteon security configuration management s
 **Senteon Agent**
 - Windows 10 Version 2004+
   - Pro and Enterprise (Not Home)
+
+## Basic setup guide
+* Setup
+* Evaluation
+* Finalization
