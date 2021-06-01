@@ -8,7 +8,8 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
   - [Install Flags]
   - [Managed Accounts]
   - [Command Center Installer]
-- [Endpoints, Groups, & Controls](EndpointConfiguration.md)
+<details>
+  <summary>[Endpoints, Groups, & Controls](EndpointConfiguration.md)</summary>
   - [Controls](EndpointConfiguration.md#controls)
     - [Configuration Sets](EndpointConfiguration.md#configuration-sets)
     - [Control Information](EndpointConfiguration.md#control-information)
@@ -32,6 +33,7 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
   - [Endpoint Setup](EndpointConfiguration.md#setup)
     - [Evaluation](EndpointConfigurations.md#evaluation)
     - [Finalization Wizard](EndpointConfigurations.md#finalization-wizard)
+</details>
 - [Users]
   - [Roles]
   - [Owner Account]
