@@ -18,13 +18,13 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
         <li><a href=EndpointConfiguration.md#changing-configurations.md>Changing Configurations</a></li>
       </ul>
     </li>
-    <li><a href=></a></li>
+    <li>[Endpoints](EndpointConfiguration.md#endpoints)</li>
     <li><a href=></a></li>
     <li><a href=></a></li>
     <li><a href=></a></li>
   </ul>
    
-   [Endpoints](EndpointConfiguration.md#endpoints)
+   
      [Endpoint Listing](EndpointConfigurations.md#endpoint-listing)
      [Endpoint Information](EndpointConfigurations.md#endpoint-information)
      [Modifying Endpoints](EndpointConfigurations.md#modifying-endpoints)
