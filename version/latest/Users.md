@@ -37,8 +37,8 @@ You can create additional users through the Master Account Console in Command Ce
 2. Click the `Add User` button
 3. Enter a username and the role of the user, then click `Create User`
 4. Senteon will generate a password for the user and copy it to your clipboard.
-> Make sure you save this password to a secure location or share it with the intended user in a timely and secure fashion.
 
+Make sure you save this password to a secure location or share it with the intended user in a timely and secure fashion.
 When logging into a user account for the first time, you will be prompted to create a new password.
 
 # Modifying Users
