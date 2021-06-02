@@ -1,13 +1,13 @@
 # Overview
 Command Center gives you the ability to create and manage users in addition to your Master Account user.
 
-  - [Roles and Permissions](Users.md#roles-and-permissions)
-  - [Creating Users](Users.md#creating-users)
-  - [Modifying Users](Users.md#modifying-users)
-      - [Change Password For Current User](Users.md#changing-password-for-current-user)
-      - [Change Password For Another User](Users.md#changing-password-for-another-user)
-      - [Modifying a User's Role](Users.md#modifying-a-user-role)
-  - [Deleting Users](Users.md#deleting-users)
+  - [Roles and Permissions](UsersAndPermissions.md#roles-and-permissions)
+  - [Creating Users](UsersAndPermissions.md#creating-users)
+  - [Modifying Users](UsersAndPermissions.md#modifying-users)
+      - [Change Password For Current User](UsersAndPermissions.md#changing-password-for-current-user)
+      - [Change Password For Another User](UsersAndPermissions.md#changing-password-for-another-user)
+      - [Modifying a User's Role](UsersAndPermissions.md#modifying-a-user-role)
+  - [Deleting Users](UsersAndPermissions.md#deleting-users)
 
 # Roles and Permissions
 
