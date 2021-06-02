@@ -20,7 +20,7 @@ Senteon installation is divided into two separate stages that use different inst
 
 1) Transfer `SenteonCommandCenter.msi` onto the computer that is intended to be used as the central console and execute (double-click). 
 
-<img src="images/startInstall.png" width="750">
+> <img src="images/startInstall.png" width="750">
 
 2) Review and Accept the Senteon End-User License Agreement, then select `Next`.
 
