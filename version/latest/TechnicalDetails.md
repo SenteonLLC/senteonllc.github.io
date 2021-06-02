@@ -1,14 +1,29 @@
 # Senteon Technical Details
 
-### Resource Usage
+- [Resource Usage](TechnicalDetails.md#resource-usage)
+- [Networking & Security](TechnicalDetails.md#networking-&-security)
 
-- Senteon Agent Size: 12.3 MB
 
-- Senteon Command Center Size: 29.2 MB
+## Resource Usage
 
-### Networking & Security
+**Senteon Agent**
+- Required Disk Space: 12.3 MB
+- Avg. Memory Usage: 20-25 MB
 
-Senteon Command Center and Senteon Agent require access to Senteon's Master Communications server. The networking details can be found below:
+**Senteon Command Center Size**
+- Required Disk Space: 29.2 MB
+- Avg. Memory Usage: 60-70 MB
 
-- Master Server DNS Hostname: `master.senteon.co`
-- Required Protocol/Port: `TCP 5555`
+
+## Networking & Security
+
+Senteon Command Center and Senteon Agent require access to Senteon's Master Communications server as well as the Updates server
+
+**Senteon Master Communications Server**
+  - DNS Hostname: `master.senteon.co`
+  - Required Protocol/Port(s): `TCP 5555`
+
+
+**Senteon Update Server**
+  - DNS Hostname: `updates.senteon.co`
+  - Required Protocol/Port(s): `TCP 80 & 443`
