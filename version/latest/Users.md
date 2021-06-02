@@ -38,29 +38,28 @@ You can create additional users through the Master Account Console in Command Ce
 3. Enter a username and the role of the user, then click `Create User`
 4. Senteon will generate a password for the user and copy it to your clipboard.
 
-Make sure you save this password to a secure location or share it with the intended user in a timely and secure fashion.
-When logging into a user account for the first time, you will be prompted to create a new password.
+- Make sure you save this password to a secure location or share it with the intended user in a timely and secure fashion.
+- When logging into a user account for the first time, you will be prompted to create a new password.
 
 # Modifying Users
 
-## Modify Role
+## Change Password For Current User
+You can change the password for your current user no matter what role they are assigned.
+
 **Steps**
-1. Log into Command Center and navigate to the Users tab
-2. Select the user you wish to modify the role of and click `Edit User`
-3. Select the role you wish the user to assign the user and click `Save Changes`
+1. Log into Command Center as the user and navigate to the Settings tab
+2. Navigate to General Settings and click `Change Password`
 
 ## Change Password For Another User
 **Steps**
 1. Log into Command Center and navigate to the Users tab
 2. Select the user you wish to modify the role of and click `Change Password`
 
-## Change Password For Current User
-
-> Note: You can change the password for your current user no matter what role they are assigned
-
+## Modify Role
 **Steps**
-1. Log into Command Center as the user and navigate to the Settings tab
-2. Navigate to General Settings and click `Change Password`
+1. Log into Command Center and navigate to the Users tab
+2. Select the user you wish to modify the role of and click `Edit User`
+3. Select the role you wish the user to assign the user and click `Save Changes`
 
 # Deleting Users
 **Steps**
