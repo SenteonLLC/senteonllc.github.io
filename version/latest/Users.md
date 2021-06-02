@@ -1,7 +1,7 @@
-# User System and Role Based Access Control
+# Overview
 Command Center gives you the ability to create and manage users in addition to your Master Account user. 
 
-## Roles and Permissions
+# Roles and Permissions
 
 The Master Account user is automatically assigned the "Owner" role. This is the highest privileged role, and no other users can be assigned this role.
 
