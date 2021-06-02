@@ -1,5 +1,7 @@
-# Senteon Command Center Installer
+# Senteon Command Center Installation
 The Senteon Command Center installer is directly distributed for use by the Senteon team. 
+
+**Steps**
 
 1) Transfer `SenteonCommandCenter.msi` onto the computer that is intended to be used as the central console and execute (double-click). 
 
@@ -21,7 +23,7 @@ After Command Center has finished installing, it can be accessed by searching "S
 # Managed Accounts
 Managed accounts are created using the Command Center console. Managed accounts are used to differentiate different clients under the parent company for multi tenant support. When a managed account is created, Senteon generates a registration code along side it that is used to verify the authenticity of the install. Users should retain this information in a password vault or other secure storage. 
 
-# Senteon Agent Installer
+# Senteon Agent Installation
 Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCenter\` by default), there will be an additional .msi installer for the Senteon Agent called `SenteonAgent.msi`. This installer should be distributed and installed onto all systems that you intend to manage. 
 
 <img src="images/agentlocation.png" width="750">
