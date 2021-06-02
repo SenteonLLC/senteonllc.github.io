@@ -6,7 +6,7 @@ Command Center gives you the ability to create and manage users in addition to y
   - [Modifying Users](Users.md#modifying-users)
       - [Change Password For Current User](Users.md#changing-password-for-current-user)
       - [Change Password For Another User](Users.md#changing-password-for-another-user)
-      - [Modifying a User's Role](Users.md#modifying-a-user's-role)
+      - [Modifying a User's Role](Users.md#modifying-a-user-role)
   - [Deleting Users](Users.md#deleting-users)
 
 # Roles and Permissions
@@ -78,7 +78,7 @@ You can change the password for your current user no matter what role they are a
 
 <img src="images/Modify User.png" width="750">
 
-## Modifying A User's Role
+## Modifying A User Role
 **Steps**
 1) Log into Command Center and navigate to the Users tab
 2) Select the user you wish to modify the role of and click `Edit User`
