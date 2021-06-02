@@ -36,6 +36,7 @@ This is the documentation knowledge base for Senteon solutions. You can navigate
   - [Roles and Permissions](Users.md#roles-and-permissions)
   - [Creating Users](Users.md#creating-users)
   - [Modifying Users](Users.md#modifying-users)
+  - [Deleting Users](Users.md#deleting-users)
 - [Alerts](Alerts.md)
   - [Alert Types](Alerts.md#alert-types)
   - [Configuration Drift Management](Alerts.md#configuration-drift-management)
