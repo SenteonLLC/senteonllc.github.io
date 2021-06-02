@@ -1,5 +1,5 @@
 # Senteon Documentation Directory
-This is the documentation knowledge base for Senteon solutions. You can navigate directly into the relevant category for the information you are looking for. 
+This is the documentation knowledge base for Senteon. You can navigate directly into the relevant category for the information you are looking for. 
 
 
 - [Quickstart](QuickStart.md)
