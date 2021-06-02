@@ -1,7 +1,7 @@
 # Senteon Technical Details
 
 - [Resource Usage](TechnicalDetails.md#resource-usage)
-- [Networking & Security](TechnicalDetails.md#networking-&-security)
+- [Networking & Security](TechnicalDetails.md#networking-and-security)
 
 
 ## Resource Usage
@@ -15,7 +15,7 @@
 - Avg. Memory Usage: 60-70 MB
 
 
-## Networking & Security
+## Networking and Security
 
 Senteon Command Center and Senteon Agent require access to Senteon's Master Communications server as well as the Updates server
 
