@@ -23,6 +23,6 @@ Welcome to the documentation for the Senteon security configuration management s
   - Pro and Enterprise (Not Home)
 
 ## Basic setup guide
-* Setup
+* [Setup](version/latest/Setup.md)
 * Evaluation
 * Finalization
