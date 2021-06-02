@@ -72,3 +72,4 @@ Senteon Agent installer is run using the Msiexec and has a multitude of flags th
 
 
 # Managed Accounts
+Managed accounts are created in the Command Center dashboard. Managed accounts are used to differentiate different clients under the parent company for multi tenant support. WHen a managed account is created, Senteon generated a registration code along side it that is used to verify the authenticity of the install. users should retain this information in a password manager or other secure storage. 
