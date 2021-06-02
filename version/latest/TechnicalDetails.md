@@ -17,6 +17,8 @@
 
 ## Networking and Security
 
+### Networking
+
 Senteon Command Center and Senteon Agent require access to Senteon's Master Communications server as well as the Updates server
 
 **Senteon Master Communications Server**
@@ -27,3 +29,13 @@ Senteon Command Center and Senteon Agent require access to Senteon's Master Comm
 **Senteon Update Server**
   - DNS Hostname: `updates.senteon.co`
   - Required Protocol/Port(s): `TCP 80 & 443`
+
+### Security
+
+**Data-in-Transit**
+
+Senteon Command Center and Senteon Agent encrypt authentication data in transit using RSA 2048 and AES256. 
+
+**Data-at-Rest**
+
+Senteon encrypts all credentials and sensitive data at rest.
