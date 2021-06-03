@@ -1,4 +1,4 @@
-# Overview
+# Users and Permissions Overview
 This section describes Senteon's User and Role-Based Permission Systems. Command Center gives you the ability to create and manage users in addition to your Master Account user.
 
   - [Roles and Permissions](UsersAndPermissions.md#roles-and-permissions)
