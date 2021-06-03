@@ -87,6 +87,8 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 *Note: Senteon Recommends that you use an account with Administrator privileges to install Senteon Agent*
 
+---
+
 **Steps**
 
 1) Transfer `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
