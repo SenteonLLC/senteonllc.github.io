@@ -43,3 +43,6 @@ This is the documentation knowledge base for Senteon. You can navigate directly 
   - [Managed Account Reports](Reports.md#managed-account-reports)
   - [Group Specific Settings](Reports.md#group-specific-settings)
 - [Technical Details](TechnicalDetails.md)
+  - [Supported Operating Systems](TechnicalDetails.md#supported-operating-systems)
+  - [Resource Usage](TechnicalDetails.md#resource-usage)
+  - [Networking and Security](TechnicalDetails.md#networking-and-security)
