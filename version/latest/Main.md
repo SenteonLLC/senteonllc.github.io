@@ -115,7 +115,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 <img src="images/uac.png" width="250">
 
-## Senteon Agent Commandline Install
+## Senteon Agent Command Line Install
 Senteon Agent can be installed using Msiexec. All available flags can be found in the MsiExec documentation. The Senteon recommended install command flags can be found below.
 
 
