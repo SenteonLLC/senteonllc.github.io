@@ -4,8 +4,8 @@ This section describes Senteon's User and Role-Based Permission Systems. Command
   - [Roles and Permissions](UsersAndPermissions.md#roles-and-permissions)
   - [Creating Users](UsersAndPermissions.md#creating-users)
   - [Modifying Users](UsersAndPermissions.md#modifying-users)
-      - [Change Password for Current User](UsersAndPermissions.md#changing-password-for-current-user)
-      - [Change Password for Another User](UsersAndPermissions.md#changing-password-for-another-user)
+      - [Changing Password for Current User](UsersAndPermissions.md#changing-password-for-current-user)
+      - [Changing Password for Another User](UsersAndPermissions.md#changing-password-for-another-user)
       - [Modifying a User's Role](UsersAndPermissions.md#modifying-a-user-role)
   - [Deleting Users](UsersAndPermissions.md#deleting-users)
 
