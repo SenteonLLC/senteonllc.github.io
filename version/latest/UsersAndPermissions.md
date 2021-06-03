@@ -56,7 +56,7 @@ You can create additional users through the Master Account Console in Command Ce
 ---
 **Post-Creation**
 
-When logging into a user account for the first time, you will be prompted to create a new password.
+When logging in as user for the first time, you will be prompted to create a new password.
 
 <img src="images/User First Login.png" width="550">
 
