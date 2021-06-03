@@ -1,7 +1,7 @@
 # Overview
 This page provides a quickstart guide for getting Senteon Command Center and Senteon Agent(s) installed on your devices. 
 
-If you intend to install agents on multiple endpoints, Senteon recommends using the Command Line installation option.
+If you intend to install agents on multiple endpoints, Senteon recommends using the Command-line installation option.
 
 # Before You Begin
 
@@ -115,7 +115,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 <img src="images/uac.png" width="250">
 
-## Senteon Agent Command Line Install
+## Senteon Agent Command-line Install
 Senteon Agent can be installed using Msiexec. All available flags can be found in the MsiExec documentation. The Senteon recommended install command flags can be found below.
 
 
