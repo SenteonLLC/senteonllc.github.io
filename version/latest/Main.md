@@ -120,3 +120,16 @@ After the installation is complete, the "Senteon Agent" service will be running 
 ## Next Steps
 
 In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [Evaluating/Setting Up Endpoints](Setup.md).
+
+
+# Commandline Install Flags
+Senteon Agent can be installed using Msiexec and has a multitude of flags that can be utilized during the installation process. All available flags can be found in the MsiExec documentation. The Senteon recommended install command flags can be found below.
+
+| Flag | Usage |
+|:--------|:-------:|
+| /i   | Install with the following msi file   |
+| /quiet   | Silent install without the GUI. Recommended for installs using RMM tools or SCCM   |
+| ACCOUNTID=   | Specifies the Managed Account the Agent will belong to   |
+| INSTALLCODE=   | Specifies the Registration Code of the Managed Account being used   |
+| ACCEPTALL=   | Accepts the EULA   |
+| /l*v  | Sets up a file for Installation logging information   |
