@@ -3,7 +3,6 @@ This is the documentation knowledge base for Senteon. You can navigate directly 
 
 
 - [Main](Main.md)
-- [Setup](Setup.md)
 - [Endpoints, Groups, & Controls](EndpointConfiguration.md)
   -  [Controls](EndpointConfiguration.md#controls)
       -  [Configuration Sets](EndpointConfiguration.md#configuration-sets)
