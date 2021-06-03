@@ -76,7 +76,6 @@ After Command Center has finished installing, it can be accessed by searching "S
 
 # Step 3: Install Senteon Agent(s)
 
-*Note: Senteon Recommends that you use an account with Administrator privileges to install Senteon Agent*
 
 Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCenter\` by default), there will be an additional .msi installer for the Senteon Agent called `SenteonAgent.msi`. This installer should be distributed and installed onto all systems that you intend to manage. 
 
@@ -87,6 +86,8 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 - `Managed Account ID` - ID/Name of Managed Account you wish to register the agent/endpoint to
 
 - `Registration Code` - Registration code for Managed Account
+
+*Note: Senteon Recommends that you use an account with Administrator privileges to install Senteon Agent*
 
 **Steps**
 
