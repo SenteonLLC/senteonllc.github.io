@@ -15,6 +15,10 @@ If you intend to install agents on multiple endpoints, Senteon recommends using 
 
 `Managed Account` - A "sub-account" within the Master Account that you set up for each organization you wish to manage. Agents/endpoints are registered to Managed Accounts for administration
 
+`Master Account User` - This user acts as a Command Center User w/ the Owner role. If you lose access to this account, you will not be able to perform critical functions.
+
+`Command Center User` - A local user within a Master Account with permissions to login and perform actions in Command Center based off of the user's role.
+
 ### Supported Operating Systems
 
 **Senteon Command Center**
