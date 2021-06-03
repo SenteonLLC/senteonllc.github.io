@@ -93,7 +93,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 *Note: Senteon Recommends that you use an account with Administrator privileges to install Senteon Agent*
 
-## Senteon Agent GUI Install
+## Senteon Agent GUI/Desktop Install
 
 **Steps**
 
