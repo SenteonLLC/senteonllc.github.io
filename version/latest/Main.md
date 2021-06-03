@@ -79,6 +79,8 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 <img src="images/agentlocation.png" width="750">
 
+---
+
 **To install you will need:**
 
 - `Managed Account ID` - ID/Name of Managed Account you wish to register the agent/endpoint to
@@ -86,8 +88,6 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 - `Registration Code` - Registration code for Managed Account
 
 *Note: Senteon Recommends that you use an account with Administrator privileges to install Senteon Agent*
-
----
 
 **Steps**
 
