@@ -93,6 +93,8 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 *Note: Senteon Recommends that you use an account with Administrator privileges to install Senteon Agent*
 
+## Senteon Agent GUI Install
+
 **Steps**
 
 1) Transfer `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
@@ -113,17 +115,9 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 <img src="images/uac.png" width="250">
 
-**Post-Install**
+## Senteon Agent Commandline Install
+Senteon Agent can be installed using Msiexec. All available flags can be found in the MsiExec documentation. The Senteon recommended install command flags can be found below.
 
-After the installation is complete, the "Senteon Agent" service will be running on the endpoint. This service is configured to automatically restart if the computer is rebooted.
-
-## Next Steps
-
-In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [Evaluating/Setting Up Endpoints](Setup.md).
-
-
-## Commandline Install Flags
-Senteon Agent can be installed using Msiexec and has a multitude of flags that can be utilized during the installation process. All available flags can be found in the MsiExec documentation. The Senteon recommended install command flags can be found below.
 
 | Flag | Description |
 |:--------|:-------:|
@@ -133,3 +127,26 @@ Senteon Agent can be installed using Msiexec and has a multitude of flags that c
 | INSTALLCODE=   | Specifies the Registration Code of the Managed Account being used   |
 | ACCEPTALL=   | Accepts the EULA   |
 | /l*v  | Sets up a file for Installation logging information   |
+
+---
+
+**Steps**
+
+1) Transfer `SenteonAgentInstaller.msi` onto the endpoint you want to manage. 
+
+<img src="images/senteonAgent.png" width="750">
+
+2) Using Administrator PowerShell or a Remote CLI session with a user that has Administrator privileges, run the following install command:
+
+```
+msiexec /i "<path>\SenteonAgent.msi" /quiet ACCOUNTID="<Managed Account>" INSTALLCODE="<Registration Code>" ACCEPTALL=YES /l*v "SenteonInstall.log"
+
+```
+
+**Post-Install**
+
+After the installation is complete, the "Senteon Agent" service will be running on the endpoint. This service is configured to automatically restart if the computer is rebooted.
+
+## Next Steps
+
+In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [Evaluating/Setting Up Endpoints](Setup.md).
