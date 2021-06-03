@@ -3,9 +3,15 @@ This page provides a quickstart guide for getting Senteon Command Center and Sen
 
 If you intend to install agents on multiple endpoints, Senteon recommends using the Command-line installation option.
 
+
+- Before You Begin
   - [Terminology](Main.md#terminology)
   - [Supported Operating Systems](Main.md#supported-operating-systems)
   - [Prerequisites](Main.md#prerequisites)
+- Step 1: Install Command Center
+- Step 2: Create a Managed Account for the Organization
+- Step 3: Install Senteon Agent(s)
+
 
 # Before You Begin
 
@@ -50,6 +56,8 @@ After installing Command Center on the computer you intend to use for Senteon ad
 # Step 1: Install Command Center
 
 *Note: Senteon Recommends that you use an account with Administrator privileges to install Senteon Command Center*
+
+**Steps**
 
 1) Transfer `SenteonCommandCenter.msi` onto the computer that is intended to be used as the central console and execute (double-click). 
 
