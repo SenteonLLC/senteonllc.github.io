@@ -3,6 +3,10 @@ This page provides a quickstart guide for getting Senteon Command Center and Sen
 
 If you intend to install agents on multiple endpoints, Senteon recommends using the Command-line installation option.
 
+  - [Terminology](Main.md#terminology)
+  - [Supported Operating Systems](Main.md#supported-operating-systems)
+  - [Prerequisites](Main.md#prerequisites)
+
 # Before You Begin
 
 ### Terminology
