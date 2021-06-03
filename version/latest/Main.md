@@ -47,7 +47,7 @@ After installing Command Center on the computer you wish to use for Senteon admi
 
 1) Transfer `SenteonCommandCenter.msi` onto the computer that is intended to be used as the central console and execute (double-click). 
 
-> <img src="images/startInstall.png" width="750">
+ <img src="images/startInstall.png" width="750">
 
 2) Review and Accept the Senteon End-User License Agreement, then select `Next`.
 
@@ -70,9 +70,13 @@ After Command Center has finished installing, it can be accessed by searching "S
 3) Enter a name for the Managed Account in the `Account Identifier` box
 
 4) Copy the Registration Code and save it in a password vault or secure location.
-> Note: This will be used for installing Senteon Agents
+  > Note: This will be used for installing Senteon Agents
+ 
+5) Click `Create Managed Account`
 
 # Step 3: Install Senteon Agent(s)
+
+*Note: Senteon Recommends that you use an account with Administrator privileges to install Senteon Agent*
 
 Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCenter\` by default), there will be an additional .msi installer for the Senteon Agent called `SenteonAgent.msi`. This installer should be distributed and installed onto all systems that you intend to manage. 
 
