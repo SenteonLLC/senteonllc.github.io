@@ -62,7 +62,7 @@ When logging in as user for the first time, you will be prompted to create a new
 
 # Modifying Users
 
-## Changing Password For Current User
+## Changing Password for Current User
 You can change the password for your current user no matter what role they are assigned.
 
 **Steps**
@@ -71,14 +71,14 @@ You can change the password for your current user no matter what role they are a
 
 <img src="images/Change User Password.png" width="750">
 
-## Changing Password For Another User
+## Changing Password for Another User
 **Steps**
 1) Log into Command Center and navigate to the Users tab
 2) Select the user you wish to modify the role of and click `Change Password`
 
 <img src="images/Modify User.png" width="750">
 
-## Modifying A User Role
+## Modifying a User Role
 **Steps**
 1) Log into Command Center and navigate to the Users tab
 2) Select the user you wish to modify the role of and click `Edit User`
