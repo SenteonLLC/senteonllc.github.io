@@ -1,7 +1,7 @@
 # Overview
 This page provides a quickstart guide for getting Senteon Command Center and Senteon Agent(s) installed on your devices. 
 
-If you intend to install agents on multiple endpoints, Senteon recommends using the command line installer (instructions can be found [here](Setup.md)).
+If you intend to install agents on multiple endpoints, Senteon recommends using the Command Line installation option.
 
 # Before You Begin
 
