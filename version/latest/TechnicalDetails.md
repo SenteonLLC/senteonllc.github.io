@@ -1,7 +1,20 @@
 # Senteon Technical Details
 
+- [Supported Operating Systems](TechnicalDetails.md#supported-operating-systems)
 - [Resource Usage](TechnicalDetails.md#resource-usage)
 - [Networking and Security](TechnicalDetails.md#networking-and-security)
+
+## Supported Operating Systems
+
+**Senteon Command Center**
+- Windows 10 Version 2004+
+  - Pro and Enterprise (Not Home)
+- Windows Server 2016 Version 2004+
+- Windows Server 2019 Version 1809+
+
+**Senteon Agent**
+- Windows 10 Version 2004+
+  - Pro and Enterprise (Not Home)
 
 
 ## Resource Usage
