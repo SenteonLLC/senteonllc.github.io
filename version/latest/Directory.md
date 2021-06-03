@@ -2,7 +2,7 @@
 This is the documentation knowledge base for Senteon. You can navigate directly into the relevant category for the information you are looking for. 
 
 
-- [Quickstart](QuickStart.md)
+- [Main](Main.md)
 - [Setup](Setup.md)
   - [Senteon Command Center Installation](Setup.md#senteon-command-center-installation)
   - [Managed Accounts](Setup.md#managed-accounts)
