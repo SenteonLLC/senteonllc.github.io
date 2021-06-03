@@ -8,9 +8,9 @@ If you intend to install agents on multiple endpoints, Senteon recommends using 
   - [Terminology](Main.md#terminology)
   - [Supported Operating Systems](Main.md#supported-operating-systems)
   - [Prerequisites](Main.md#prerequisites)
-- [Install Command Center](Main.md#before-you-begin)
-- [Create a Managed Account for the Organization](Main.md#before-you-begin)
-- [Install Senteon Agent(s)](Main.md#before-you-begin)
+- [Step 1: Install Command Center](Main.md#step-1-install-command-center)
+- [Step 2: Create a Managed Account for the Organization](Main.md#step-2-create-a-managed-account-for-the-organization)
+- [Step 3: Install Senteon Agent(s)](Main.md#before-you-begin)
 
 
 # Before You Begin
