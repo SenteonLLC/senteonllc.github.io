@@ -1,8 +1,8 @@
-# Controls
+# Configuration Sets
 
-## Configuration Sets
-## Control Information
+## Setting Information
 ## Changing Configurations
+
 # Endpoints
 ## Endpoint Listing
 ## Endpoint Information
@@ -10,6 +10,7 @@
 ### Changing Groups
 ### Changing Controls
 ## Endpoint States
+
 # Groups
 ## Group Info
 ## Group Modification
@@ -19,7 +20,7 @@
 ### Converting Exception Groups
 ### Individual Control Modification
 ### New Management Group Creation
+
 # Setup
 ## Evaluation
 ## Finalization Wizard
-
