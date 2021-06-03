@@ -11,8 +11,8 @@ If you intend to install agents on multiple endpoints, Senteon recommends using 
 - [Step 1: Install Command Center](Main.md#step-1-install-command-center)
 - [Step 2: Create a Managed Account for the Organization](Main.md#step-2-create-a-managed-account-for-the-organization)
 - [Step 3: Install Senteon Agent(s)](Main.md#step-3-install-senteon-agents)
-  - [Senteon Agent GUI/Desktop Install](Main.md#senteon-agent-guidesktop-install)
-  - [Senteon Agent Command-line Install](Main.md#senteon-agent-command-line-install) 
+  - [GUI/Desktop Install](Main.md#senteon-agent-guidesktop-install)
+  - [Command-line Install](Main.md#senteon-agent-command-line-install) 
 - [Next Steps](Main.md#next-steps)
 
 
