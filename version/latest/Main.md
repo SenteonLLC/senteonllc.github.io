@@ -41,7 +41,7 @@ Senteon has provided you with:
 
 Senteon installation is divided into two separate stages that use different installers. The provided installer is for Command Center, the administrator console. 
 
-After installing Command Center on the computer you wish to use for Senteon administration, the Senteon Agent installer will be created for you to deploy on your endpoints. Documentation for both up can be found below.
+After installing Command Center on the computer you intend to use for Senteon administration, the Senteon Agent installer will be created for you to deploy on your endpoints. Documentation for both can be found below.
 
 # Step 1: Install Command Center
 
