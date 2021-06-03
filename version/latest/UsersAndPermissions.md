@@ -91,6 +91,6 @@ You can change the password for your current user no matter what role they are a
 **Steps**
 1) Log into Command Center and navigate to the Users tab
 2) Select the user you wish to delete and click the `Delete User` button.
-3) Confirm that you wish to delete the user.
+3) Confirm that you wish to delete the user
 
 <img src="images/Delete User.png" width="750">
