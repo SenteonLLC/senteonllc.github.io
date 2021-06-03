@@ -1,7 +1,7 @@
 # Senteon Technical Details
 
 - [Resource Usage](TechnicalDetails.md#resource-usage)
-- [Networking & Security](TechnicalDetails.md#networking-and-security)
+- [Networking and Security](TechnicalDetails.md#networking-and-security)
 
 
 ## Resource Usage
