@@ -4,10 +4,6 @@ This is the documentation knowledge base for Senteon. You can navigate directly 
 
 - [Main](Main.md)
 - [Setup](Setup.md)
-  - [Senteon Command Center Installation](Setup.md#senteon-command-center-installation)
-  - [Managed Accounts](Setup.md#managed-accounts)
-  - [Senteon Agent Installation](Setup.md#senteon-agent-installation)
-  - [Install Flags](Setup.md#install-flags)
 - [Endpoints, Groups, & Controls](EndpointConfiguration.md)
   -  [Controls](EndpointConfiguration.md#controls)
       -  [Configuration Sets](EndpointConfiguration.md#configuration-sets)
