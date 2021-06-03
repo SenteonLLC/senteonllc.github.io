@@ -126,7 +126,7 @@ Senteon Agent can be installed using Msiexec. All available flags can be found i
 | ACCOUNTID=   | Specifies the Managed Account the Agent will belong to   |
 | INSTALLCODE=   | Specifies the Registration Code of the Managed Account being used   |
 | ACCEPTALL=   | Accepts the EULA   |
-| /l*v  | Sets up a file for Installation logging information   |
+| /l*v  | Sets the output file for Installation logging information   |
 
 ---
 
