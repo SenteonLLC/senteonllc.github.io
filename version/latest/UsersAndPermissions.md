@@ -1,5 +1,5 @@
 # Overview
-Command Center gives you the ability to create and manage users in addition to your Master Account user.
+This section describes Senteon's User and Role-Based Permission Systems. Command Center gives you the ability to create and manage users in addition to your Master Account user.
 
   - [Roles and Permissions](UsersAndPermissions.md#roles-and-permissions)
   - [Creating Users](UsersAndPermissions.md#creating-users)
@@ -21,7 +21,7 @@ Senteon provides 3 additional roles to meet your different use-cases.
  
 **Manager**
   * All Auditor Permissions
-  * Endpoint, Group, Control Editing, Config Set Creation
+  * Endpoint, Group, Configuation Set Creation and Modification
   * Alert Visibility and Response
 
  **Administrator**
