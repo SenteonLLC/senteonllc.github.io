@@ -6,13 +6,16 @@
 
 ## Resource Usage
 
-**Senteon Agent**
-- Required Disk Space: 12.3 MB
-- Avg. Memory Usage: 20-25 MB
-
 **Senteon Command Center Size**
 - Required Disk Space: 29.2 MB
 - Avg. Memory Usage: 60-70 MB
+
+
+**Senteon Agent**
+- Required Disk Space: 12.3 MB
+- Avg. Memory Usage: 20-25 MB
+- Maximum Audit Log Size Increase from Best-Practice Configurations:
+    - Windows 10 - 244 MB
 
 
 ## Networking and Security
