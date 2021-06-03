@@ -1,18 +1,19 @@
 # Quickstart
-This page provides a quickstart guide for getting Senteon Command Center and Agent installed on your devices. This guide will walk you through setting up using the installation of Command Center followed by installation of the Senteon Agent. If you intend to utilize the agent on multiple endpoints, Senteon recommends utilizing the command line installer, for which the instructions can be found [here](Setup.md)
+This page provides a quickstart guide for getting Senteon Command Center and Agent installed on your devices. 
 
-# Installation
+We will walk you through setting up Senteon Command Center followed by installing Senteon Agents onto your devices.
 
-## Please note there are 2 programs that need to be installed for Senteon to work. Please first follow the steps for installing Command Center, and then follow the steps to install the Senteon Agent.
-### Command Center is used for central administration of Senteon.
-### Senteon Agents are installed on every endpoint and are used to apply the policies and changes configured in Command Center.
+If you intend to install agents on multiple endpoints, Senteon recommends using the command line installer (instructions can be found [here](Setup.md)).
 
-For the purposes of the beta, Senteon has provided you with:
+# Before You Begin
+
+**Command Center is used for central administration of Senteon**
+
+**Senteon Agents are installed on every endpoint and are used to apply the policies and changes configured in Command Center**
+
+Senteon has provided you with:
 - Installer for Senteon Command Center
-- Credentials for Senteon Command Center
-- Managed Account ID and Registration Code
-
-> **Note**: In full release, you will be able to create new Managed Accounts through Command Center. 
+- Master Account Credentials for Senteon Command Center
 
 Senteon installation is divided into two separate stages that use different installers. The provided installer is for Command Center, the administrator console. After installing Command Center on the computer you wish to use for Senteon administration, the Senteon Agent installer will be created for you to deploy on your endpoints. Documentation for setting both up can be found below.
 
