@@ -1,4 +1,4 @@
-# Quickstart
+# Overview
 This page provides a quickstart guide for getting Senteon Command Center and Agent installed on your devices. 
 
 We will walk you through setting up Senteon Command Center followed by installing Senteon Agents onto your devices.
