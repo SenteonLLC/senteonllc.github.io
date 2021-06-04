@@ -1,7 +1,15 @@
-# Alerts
-Senteon generates alerts for a variety of different actions that Command Center and Senteon Agent can take.
+# Alerts Overview
 
-Senteon Command Center has two locations to view alerts. The first is in the main window for Command Center and the second is within the Managed Account. Command Center view displays all alerts underneath every managed account the command center has access to as well as command center specific alerts. The managed account alerts only display alerts specific to the related account.
+This section decribes Senteon's event-logging and alerting system.
+
+---
+
+Alerts can be viewed in two locations:
+
+**Master Account Console** - The "Alerts" tab of the Master Account Console will display aggregated alerts for all Managed Accounts within the Master Account.
+
+**Managed Account Console** - The "Alerts" tab of the Managed Account Console will display alerts for only that specific Managed Account.
+
 
 # Alert Priority Levels
 
