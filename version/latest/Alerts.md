@@ -1,13 +1,23 @@
 # Alerts
-Senteon generates alerts for a variety of different actions that Command Center and Senteon Agent can take. Alerts are divided into three priority levels:
-* **Critical**
-  * Critical alerts involve events that require immediate attention or action from the managing team.
-* **Important**
-  * Important alerts have middling severity level that typically indicates that there may not be action needed, but the team should be aware that the event has occurred.
-* **Informational**
-  * Informational alerts provide details to the activities and events occurring on the agents 
+Senteon generates alerts for a variety of different actions that Command Center and Senteon Agent can take.
 
-Senteon Command Center has two locations to view alerts. The first is in the main window for Command Center and the second is within the Managed Account. Command Center view displays all alerts underneath every managed account the command center has access to as well as command center specific alerts. The managed account alerts only display alerts specific to the related account. 
+Senteon Command Center has two locations to view alerts. The first is in the main window for Command Center and the second is within the Managed Account. Command Center view displays all alerts underneath every managed account the command center has access to as well as command center specific alerts. The managed account alerts only display alerts specific to the related account.
+
+# Alert Priority Levels
+
+| Priority Level | Description |
+|:--------------:|:-----------:|
+| Critical | Indicates an event that requires immediate attention or action. |
+| Important | Indicates that there may not be action needed, but the team should be aware that the event has occurred. |
+| Informational | Indicates that a typical event has occured and provides details surrounding the event. |
+
+
+- **Critical**
+  * Indicates an event that requires immediate attention or action. 
+- **Important**
+  * Indicates that there may not be action needed, but the team should be aware that the event has occurred.
+- **Informational**
+  * Indicates that a typical event has occured and provides details surrounding the event.
 
 # Alert Types
 |    Alert    | Description |
