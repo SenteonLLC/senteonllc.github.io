@@ -7,6 +7,8 @@ Every setting within a configuration set can be viewed to see the setting's GPO 
 ## Changing Configurations
 Changing setting configurations with a configuration set can be done through multiple methods detailed under the endpoints and groups sections below. It is, however, worth noting that regardless of how configurations are changed and adjusted. they are always associated with groups and not with endpoints directly. As a result, when settings are changed on an endpoint, users will be prompted to move the endpoint into another group with a matching configuration set or create a new exception group with the intended condfiguration set. 
 
+Configuration settings are always changed using a modify window that will display the setting as well as its preferred value and any alternate acceptable values it has. Any place where configurations can be edited will have access to the modify window.
+
 # Endpoints
 Once a Senteon Agent is installed, it will fingerprint the system it is installed on and register itself with the Senteon Servers and display an entry on the endpoint listing for the managed account. This information can be refreshed at any time using the refresh button located next to the endpoints and groups tabs.
 ## Endpoint Listing
@@ -55,7 +57,24 @@ When a group is selected, all of the settings that are different between the two
 If the Senteon User wishes to move the endpoint to the new group, keep the new group selected and then select the `Change Group` button.
 
 ### Changing Settings
+The endpoint change controls page shows the endpoint's current configuration set that is taken from its current group. individual settings can be adjusted on this page. 
+
+After the settings have been changed, the configuration set can be updated by selecting `Save Controls`. Senteon will determine if there is any groups with a configuration set matching the newly created set. If so, the Senteon User will have the option to move the endpoint into the existing group. If they choose not to, a new exception group will be created. 
+
 ## Endpoint States
+The Senteon Agent reports its current status to Command Center whenever it is updated. This status indicates the current state that the agent is in. All of the possible states that the agent can be in are detailed here:
+
+|   State    | Description |
+|:-----------:|:-----------:|
+| Uninstalling | The agent is uninstalling from the endpoint. Once an endpoint is listed to be uninstalling, it is safe to remove from the database |
+| Disabled | The agent is fully disabled and is not impacting the endpoint. Endpoint configuration is set to the state it was in before Senteon was installed |
+| Disabling Endpoint | The agent is in the process of disabling itself and resetting endpoint settings back to the state they were in prior to the Senteon Agent |
+| Active | The Senteon Agent is currently online with an applied configuration set and actively monitoring for drifts from the baseline  |
+| Ready for Setup | The Senteon Agent has finished evaluating the endpoint and is ready to be setup with the guided wizard |
+| Evaluating | The agent is currently in the process of evaluating the endpoint and determining the suggested baseline configuration set  |
+| Ready to Begin Evaluation | The Senteon Agent has been successfully installed and is ready to begin evaluation of the endpoint |
+| Creating Temporary Endpoint Profile | The Agent is currently in the process of installing and first time setup |
+
 
 # Groups
 ## Group Info
