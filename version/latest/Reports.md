@@ -36,9 +36,9 @@ You can choose from the following options depending on the data you wish to incl
 
 Group Reports can be generated in the following location: `Managed Account Console > Endpoints > Groups`
 
-1) Click the `View` button on the group you wish t generate a report for
+1) Click the `View` button on the group you wish to generate a report for
 2) Click the `Generate Report` button
 
 ### Report Options
 
-Group specific reports will detail all of the Endpoints, Security Configurations, and Alerts specific to the Group and all Endpoints within that Group. 
+Group Reports will display all of the Endpoints, Security Configurations, and Alerts specific to the Group and all Endpoints within that Group. 
