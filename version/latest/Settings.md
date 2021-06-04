@@ -12,15 +12,25 @@ Currently the only available setting in the Master Account Console is the abilit
 
 **Configuration Drift Management**
 
-This setting indicates the current response Senteon has for configuration drift alerts on all endpoints underneath the managed account. There are currently three available settings to choose from:
+This setting defines Senteon's reponse to configuration drift on all endpoints underneath the Managed Account.
+
+|   Option    | Description |
+|:-----------:|:-----------:|
+| Automatically Enforce (Default) | Senteon will generate an alert and automatically return the setting back to its target baseline value. |
+| Alert and Require Approval | Senteon will generate an alert. In the "Alerts" tab, Senteon users with `Manager` role or higher will have the option to choose whether or not they want to return the setting back to its target baseline value. |
+| Alert Only | Senteon will generate an alert and no further action will be taken by Senteon. |
+
 
 * Automatically Enforce (Default)
-  * Senteon will automatically return controls to their specified baseline when the agent detects that they have drifted and provide an alert to the user that it has happened.
+  * Senteon will generate an alert and automatically return the setting back to its target baseline value.
 * Alert and Require Approval
-  * Senteon will alert the administrator that a control monitored by Senteon has drifted. The administrator then has the option of choosing whether or not he/she wants to return the control to its baseline.
+  * Senteon will generate an alert. In the "Alerts" tab, Senteon users with `Manager` role or higher will have the option to choose whether or not they want to return the setting back to its target baseline value.
 * Alert Only
-  * Senteon will alert the administrator that a control monitored by Senteon has drifted. No action can be taken from the dashboard to rectify the drift. 
+  * Senteon will generate an alert and no further action will be taken by Senteon.
 
-**Account-wide Guided Setup Decision Settings**
 
-Settings under the Account-wide Guided Setup Decisions category include controls that may be affected by organization wide cultural and technical restrictions. Once these have been set for the first time in the wizard, Senteon utilizes this decision on all subsequent endpoint setups. Changing the specified value for these controls can be done here through these settings. After adjustment in the settings, Senteon will apply the updated controls to all subsequent endpoints evaluated, but not to endpoints that have already been set up.
+**Account-wide Guided Setup Decisions**
+
+This category displays the chosen values for security configurations that are reliant on an understanding of organizational/company culture. These values are the result of decisions made during Guided Setup. Once the decisions have been made for the first time, Senteon will use the decisions during the setup of all subsequent endpoints within the Managed Account instead of asking the Senteon User every time. 
+
+The target values can be modified here if one wishes to change a decision. After adjustment, Senteon will use the updated target values during the setup of all subsequent endpoints, but it will not affect any active endpoints that have been setup previously.
