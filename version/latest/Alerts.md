@@ -24,7 +24,3 @@ Senteon Command Center has two locations to view alerts. The first is in the mai
 |  Endpoint Disabled  |  Indicates that a Senteon Agent has been disabled as well as providing which endpoint the Agent is on, who it was disabled by, and when it was disabled.  |
 |  Endpoint Re-Enabled  |  Indicates that a Senteon Agent has been re-enabled as well as providing which endpoint the Agent is on, who it was re-enabled by, and when it was re-enabled.  |
 |  Endpoint Reset  |  Indicates that a Senteon Agent has been reset  as well as providing which endpoint the Agent is on, who it was reset by, and when it was reset.  |
-
-# Configuration Drift Management
-
-Configuration drift is automatically fixed by Senteon when detected, but this setting can be changed in the managed account settings. The alternative options are to request IT team approval before correcting drift and not allowing correction at all. In the case that drift is set to be manually corrected, the option to do so will be provided on the alert relevant to the drifted control. Unless a specific situation calls for it, Senteon recommends allowing automatic drift enforcement and the creation of exception sets to account for changes where necessary.
