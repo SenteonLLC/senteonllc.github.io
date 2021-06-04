@@ -24,13 +24,13 @@ You can choose from the following options depending on the data you wish to incl
 
 | Option | Description |
 |:--------------:|:-----------:|
-| Endpoints | Dislays a listing of all endpoints within the Managed Account organized by Group with their current compliance percentages |
+| Endpoints | Dislays a listing of all Endpoints within the Managed Account organized by Group with their current compliance percentages |
 | Security Configurations | Displays a listing of all Senteon-supported Security Configurations in the form of "Configuration Sets" with descriptions and Senteon preferred values |
-| Alerts | Displays a listing of all alerts generated for the Managed Account in the last month |
+| Alerts | Displays a listing of all Alerts generated for the Managed Account in the last month |
 
-- `Endpoints` - Dislays a listing of all endpoints within the Managed Account organized by Group with their current compliance percentages
+- `Endpoints` - Dislays a listing of all Endpoints within the Managed Account organized by Group with their current compliance percentages
 - `Security Configurations` - Displays a listing of all Senteon-supported Security Configurations in the form of "Configuration Sets" with descriptions and Senteon preferred values
-- `Alerts` - Displays a listing of all alerts generated for the Managed Account in the last month
+- `Alerts` - Displays a listing of all Alerts generated for the Managed Account in the last month
 
 ## Group Reports
 
