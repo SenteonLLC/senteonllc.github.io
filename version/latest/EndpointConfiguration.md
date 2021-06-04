@@ -8,7 +8,7 @@ Every setting within a configuration set can be viewed to see the setting's GPO 
 Changing setting configurations with a configuration set can be done through multiple methods detailed under the endpoints and groups sections below. It is, however, worth noting that regardless of how configurations are changed and adjusted. they are always associated with groups and not with endpoints directly. As a result, when settings are changed on an endpoint, users will be prompted to move the endpoint into another group with a matching configuration set or create a new exception group with the intended condfiguration set. 
 
 # Endpoints
-Once a Senteon Agent is installed, it will fingerprint the system it is installed on and register itself with the Senteon Servers and display an entry on the endpoint listing for the managed account. 
+Once a Senteon Agent is installed, it will fingerprint the system it is installed on and register itself with the Senteon Servers and display an entry on the endpoint listing for the managed account. This information can be refreshed at any time using the refresh button located next to the endpoints and groups tabs.
 ## Endpoint Listing
 Endpoints listed on Senteon Command Center will show up on the list of endpoints under the Managed Account Endpoints tab with the following information:
 |   Setting    | Description |
@@ -19,9 +19,42 @@ Endpoints listed on Senteon Command Center will show up on the list of endpoints
 | Agent Status | the current status of the Agent on the endpoint. Information about the different status can be found in [Endpoint States](#endpoint-states) |
 | Command Buttons | Depending on the current status of the agent, different activities can be taken on the endpoint. These options can be found in [Modifying Endpoints](#modifying-endpoints). The option to view an endpoint's specific information will always be available here. |
 ## Endpoint Information
+When in-depth information on an endpoint is needed, the info button can be selected from the relevant endpoint. This page will load the following set of information specific to the endpoint:
+|   Setting    | Description |
+|:-----------:|:-----------:|
+| Hostname | The hostname of the endpoint that this agent is installed on |
+| Operating System | The current operating system of the endpoint the agent is installed on |
+| OS Version | The current OS Version that the endpoint is on |
+| Connection Status | The current connection status of the endpoint. This will display whether the endpoint is online or offline based on when the last time the endpoint checked in with the master server is.  |
+| Last Check in Time | The last time the endpoint checked in with master server. This should occur on standard intervals and a long period without check in may be an indicator that the endpoint is currently experiencing issues |
+| Install Date | This value indicated when the agent was installed on the endpoint.  |
+| Agent Version | The current version of the agent that is installed on the endpoint. Agents should automatically update themselves, and outdated agents are an indicator of an issue with the endpoint  |
+| Group | The current group that the endpoint is in |
+| Endpoint Config Status | The current status of the endpoints configurations. If any settings have been found to be drifted this value will indicate that the endpoint has drifted. If there are no current issues the status will indicate that the endpoint is compliant |
+| Endpoint Configuration Listing | These listing will show the current configuration settings on the endpoint along with their current value and current target values. Using the radio buttons, this list can be adjusted to display only the settings that have drifted from their current target settings. Specific information about each control can be viewed by selecting the view button for the relevant setting |
+
 ## Modifying Endpoints
+Endpoints can be modified through the listings page via the command buttons. These buttons are only available when the endpoint agent status is set to a relevant status. All of the possible commands are:
+|   Command    | Availability | Usage |
+|:-----------:|:-----------:|:-----------:|
+| Info | Always Available | Displays info specific to the endpoint including its current configuration status, Operating system, and a list of applied configurations |
+| Edit | When agent is Active | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [modifying Endpoint Configurations](#modifying-endpoint-configurations)  |
+| Disable | When the endpoint is active, ready for setup, ready for evaluation, evaluating, or creating temporary endpoint profile | disables the agent on the endpoint and reverts the endpoint settings to their original settings before the Senteon Agent had any impact on them. This is automatically done when an endpoint is uninstalled |
+| Enable | When an endpoint is Disabled | Enabling a disabled endpoint will revert an agent back to its status before it was disabled |
+| Reset | When an endpoint is Disabled | Reset an agent to allow for a reevaluation of an endpoint |
+| Remove | When an endpoint has been uninstalled | Removes the endpoint from the database after uninstall |
+
+## Modifying Endpoint Configurations
+Endpoints can have their configuration sets modified in two ways. Both methods are available through the `Edit` button on active endpoints in the Endpoints page. Endpoints can modify their configuration sets by either changing the current group they are in, or through direct modification of settings, which will move them to a matching group or create a new exception group. 
+
 ### Changing Groups
-### Changing Controls
+The endpoint change groups page shows off the endpoint's current group as well as all other available groups you can move the endpoint into. 
+
+When a group is selected, all of the settings that are different between the two groups will be displayed. The value displayed for those settings will be the current value of the new group that the endpoint's current group is being compared to. 
+
+If the Senteon User wishes to move the endpoint to the new group, keep the new group selected and then select the `Change Group` button.
+
+### Changing Settings
 ## Endpoint States
 
 # Groups
