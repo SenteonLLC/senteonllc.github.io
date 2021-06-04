@@ -20,3 +20,7 @@ This setting indicates the current response Senteon has for configuration drift 
   * Senteon will alert the administrator that a control monitored by Senteon has drifted. The administrator then has the option of choosing whether or not he/she wants to return the control to its baseline.
 * Alert Only
   * Senteon will alert the administrator that a control monitored by Senteon has drifted. No action can be taken from the dashboard to rectify the drift. 
+
+**Control Settings**
+
+Settings under the control settings category include controls that may be affected by organization wide cultural and technical restrictions. Once these have been set for the first time in the wizard, Senteon utilizes this decision on all subsequent endpoint setups. Changing the specified value for these controls can be done here through these settings. After adjustment in the settings, Senteon will apply the updated controls to all subsequent endpoints evaluated, but not to endpoints that have already been set up.
