@@ -6,12 +6,13 @@ Senteon recommends following the list of readings below for key concepts and ins
 - [Before You Begin](Main.md#before-you-begin)
   - [Terminology](Main.md#terminology)
   - [Supported Operating Systems](Main.md#supported-operating-systems)
+- [Installation](Main.md#installation)
   - [Prerequisites](Main.md#prerequisites)
-- [Step 1: Install Command Center](Main.md#step-1-install-command-center)
-- [Step 2: Create a Managed Account for the Organization](Main.md#step-2-create-a-managed-account-for-the-organization)
-- [Step 3: Install Senteon Agent(s)](Main.md#step-3-install-senteon-agents)
-  - [GUI/Desktop Install](Main.md#senteon-agent-guidesktop-install)
-  - [Command-line Install](Main.md#senteon-agent-command-line-install) 
+  - [Step 1: Install Command Center](Main.md#step-1-install-command-center)
+  - [Step 2: Create a Managed Account for the Organization](Main.md#step-2-create-a-managed-account-for-the-organization)
+  - [Step 3: Install Senteon Agent(s)](Main.md#step-3-install-senteon-agents)
+    - [GUI/Desktop Install](Main.md#senteon-agent-guidesktop-install)
+    - [Command-line Install](Main.md#senteon-agent-command-line-install) 
 - [Next Steps](Main.md#next-steps)
 
 
@@ -135,6 +136,10 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 5) Accept the UAC prompt that appears in the taskbar.
 
 <img src="images/uac.png" width="250">
+
+**Post-Install**
+
+After the installation is complete, the "Senteon Agent" service will be running on the endpoint. This service is configured to automatically restart if the computer is rebooted.
 
 ### Senteon Agent Command-line Install
 Senteon Agent can be installed using Msiexec. All available flags can be found in the MsiExec documentation. The Senteon recommended install command flags can be found below.
