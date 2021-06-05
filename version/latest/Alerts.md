@@ -2,16 +2,17 @@
 
 This section decribes Senteon's event-logging and alerting system.
 
+- [Viewing Alerts](Alerts.md#viweing-alerts)
+- [Alert Priority Levels](Alerts.md#alert-priority-levels)
+- [Alert Types](Alerts.md#alert-types)
+
+# Viewing Alerts
 
 Alerts can be viewed in two locations:
 
 - `Master Account Console > Alerts` - Displays aggregated Alerts for all Managed Accounts within the Master Account
-
 - `Managed Account Console > Alerts` - Displays Alerts for only that specific Managed Account
 
-
-- [Alert Priority Levels](Alerts.md#alert-priority-levels)
-- [Alert Types](Alerts.md#alert-types)
 
 
 # Alert Priority Levels
