@@ -3,7 +3,9 @@
 This section describes the settings available to Senteon Users.
 
 - [Command Center - Master Account Settings](Settings.md#command-center---master-account-settings)
+  - [General Settings](Settings.md#general-settings)
 - [Command Center - Managed Account Settings](Settings.md#command-center---managed-account-settings)
+  - [General Settings](Settings.md#general-settings)
 
 # Command Center - Master Account Settings
 
@@ -13,7 +15,7 @@ Location: `Master Account Console > Settings`
 
 ## General Settings
 
-**Change Password**
+### Change Password
 
 Currently the only available setting in the Master Account Console is the ability for a logged in user to change their password. This functionality is available to all users except for the Master Account/Owner user.
 
@@ -25,7 +27,7 @@ Location: `Managed Account Console > Settings`
 
 ## General Settings
 
-**Configuration Drift Management**
+### Configuration Drift Management
 
 This setting defines Senteon's reponse to configuration drift on all Endpoints registered to the Managed Account.
 
@@ -44,7 +46,7 @@ This setting defines Senteon's reponse to configuration drift on all Endpoints r
   * Senteon will generate an alert and no further action will be taken by Senteon.
 
 
-**Account-wide Guided Setup Decisions**
+### Account-wide Guided Setup Decisions
 
 This category displays the chosen values for security configurations that are reliant on an understanding of organizational/company culture. These values are the result of decisions made during Guided Setup. Once the decisions have been made for the first time, Senteon will use the decisions during the setup of all subsequent endpoints within the Managed Account instead of asking the Senteon User every time. 
 
