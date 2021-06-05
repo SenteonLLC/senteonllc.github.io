@@ -20,6 +20,15 @@ If you intend to install agents on multiple endpoints, Senteon recommends using 
 
 ### Terminology
 
+| Term | Description |
+|:--------------:|:-----------:|
+| Senteon Command Center | The central administrator console |
+| Senteon Agent | A small program installed on each endpoint that performs actions and communicates back to Command Center |
+| Master Account | The primary account that you signed up for Senteon with. This account acts as a container for all of your users, data, and resources |
+| Managed Account | A "sub-account" within the Master Account that you set up for each organization you wish to manage. Agents/endpoints are registered to Managed Accounts for administration |
+| Command Center User | A local user within a Master Account with permissions to login and perform actions in Command Center based off of the user's role |
+
+
 `Senteon Command Center` - The central administrator console
 
 `Senteon Agent` - A small program installed on each endpoint that performs actions and communicates back to Command Center
@@ -58,7 +67,7 @@ After installing Command Center on the computer you intend to use for Senteon ad
 
 # Step 1: Install Command Center
 
-*Note: Senteon Recommends that you use an account with Administrator privileges to install Senteon Command Center*
+*Note: Senteon recommends that you use an account with Administrator privileges to install Senteon Command Center*
 
 **Steps**
 
@@ -106,7 +115,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 - `Registration Code` - Registration code for Managed Account
 
-*Note: Senteon Recommends that you use an account with Administrator privileges to install Senteon Agent*
+*Note: You **MUST** use an account with Administrator privileges on the endpoint to install Senteon Agent*
 
 ## Senteon Agent GUI/Desktop Install
 
