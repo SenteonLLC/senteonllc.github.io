@@ -1,4 +1,6 @@
 site_name: Senteon Documentation
 theme: readthedocs
 repo_name: GitHub
+docs_dir: '/'
 site_dir: 'site'
+use_directory_urls: true
