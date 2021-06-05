@@ -10,6 +10,10 @@ Alerts can be viewed in two locations:
 - `Managed Account Console > Alerts` - Displays Alerts for only that specific Managed Account
 
 
+- [Alert Priority Levels](Alerts.md#alert-priority-levels)
+- [Alert Types](Alerts.md#alert-types)
+
+
 # Alert Priority Levels
 
 | Priority Level | Description |
