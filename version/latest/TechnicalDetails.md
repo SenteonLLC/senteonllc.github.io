@@ -35,7 +35,7 @@
 
 ### Networking
 
-Senteon Command Center and Senteon Agent require access to Senteon's Master Communications server as well as the Updates server.
+Senteon Command Center and Senteon Agent require access to Senteon's Master Communications server as well as the Update server.
 
 **Senteon Master Communications Server**
   - DNS Hostname: `master.senteon.co`
