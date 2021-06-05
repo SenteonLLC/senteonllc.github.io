@@ -3,9 +3,9 @@
 This section describes the settings available to Senteon Users.
 
 - [Command Center - Master Account Settings](Settings.md#command-center---master-account-settings)
-  - [General Settings](Settings.md#general-settings-1)
+  - [General Settings](Settings.md#general-settings)
 - [Command Center - Managed Account Settings](Settings.md#command-center---managed-account-settings)
-  - [General Settings](Settings.md#general-settings-2)
+  - [General Settings](Settings.md#general-settings-1)
 
 # Command Center - Master Account Settings
 
