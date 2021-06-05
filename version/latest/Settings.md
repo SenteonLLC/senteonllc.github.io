@@ -1,4 +1,13 @@
+# Senteon Settings Overview
+
+This section describes the settings available to Senteon Users.
+
+- [Command Center Settings - Master Account Console](Settings.md#command-center-settings-master-account-console)
+- [Command Center Settings - Managed Account Console](Settings.md#command-center-settings-managed-account-console)
+
 # Command Center Settings - Master Account Console
+
+Master Account Settings affect Senteon functionality and are scoped to the entire Master Account.
 
 ## General Settings
 
@@ -8,11 +17,14 @@ Currently the only available setting in the Master Account Console is the abilit
 
 # Command Center Settings - Managed Account Console
 
+Managed Account Settings affect Senteon functionality, but only affect resources within that specific Managed Account
+
+
 ## General Settings
 
 **Configuration Drift Management**
 
-This setting defines Senteon's reponse to configuration drift on all endpoints underneath the Managed Account.
+This setting defines Senteon's reponse to configuration drift on all Endpoints registered to the Managed Account.
 
 |   Option    | Description |
 |:-----------:|:-----------:|
