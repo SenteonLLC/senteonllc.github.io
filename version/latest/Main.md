@@ -89,7 +89,7 @@ After Command Center has finished installing, it can be accessed by searching "S
 
 # Step 2: Create a Managed Account for the Organization
 
-1) Login to Command Center using your Master Account
+1) Login to Command Center using your Master Account user
 
 2) Navigate to the Account Manager tab and click `Create Account`
 
