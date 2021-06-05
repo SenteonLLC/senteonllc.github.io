@@ -1,5 +1,5 @@
 site_name: Senteon Documentation
 theme: jekyll-theme-slate
 repo_name: GitHub
-docs_dir: 'docs'
+docs_dir: 'version/latest/'
 site_dir: 'site'
