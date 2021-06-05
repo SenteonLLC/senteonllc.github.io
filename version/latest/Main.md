@@ -145,7 +145,7 @@ Senteon Agent can be installed using Msiexec. All available flags can be found i
 **Install Flags**
 
 | Flag | Description |
-|:--------|:-------:|
+|:-------:|:-------:|
 | /i   | Install with the following msi file   |
 | /quiet   | Silent install without the GUI. Recommended for installs using RMM tools or SCCM   |
 | ACCOUNTID=   | Specifies the Managed Account the Agent will belong to   |
