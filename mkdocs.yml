@@ -1,5 +1,4 @@
 site_name: Senteon Documentation
 theme: readthedocs
 repo_name: GitHub
-docs_dir: 'version/latest/'
 site_dir: 'site'
