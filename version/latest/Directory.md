@@ -3,6 +3,17 @@ This is the documentation knowledge base for Senteon. You can navigate directly 
 
 
 - [Main](Main.md)
+  - [Before You Begin](Main.md#before-you-begin)
+    - [Terminology](Main.md#terminology)
+    - [Supported Operating Systems](Main.md#supported-operating-systems)
+  - [Installation](Main.md#installation)
+    - [Prerequisites](Main.md#prerequisites)
+    - [Step 1: Install Command Center](Main.md#step-1-install-command-center)
+    - [Step 2: Create a Managed Account for the Organization](Main.md#step-2-create-a-managed-account-for-the-organization)
+    - [Step 3: Install Senteon Agent(s)](Main.md#step-3-install-senteon-agents)
+      - [GUI/Desktop Install](Main.md#senteon-agent-guidesktop-install)
+      - [Command-line Install](Main.md#senteon-agent-command-line-install) 
+  - [Next Steps](Main.md#next-steps)
 - [Endpoints, Groups, & Controls](EndpointConfiguration.md)
   -  [Controls](EndpointConfiguration.md#controls)
       -  [Configuration Sets](EndpointConfiguration.md#configuration-sets)
