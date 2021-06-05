@@ -1,7 +1,7 @@
 # Senteon Overview
 Welcome to the documentation for Senteon's Security Configuration Management solution. basic terminology and operating system support details are listed below.
 
-Senteon recommends following the list of readings below for basic concepts and install instructions if it is your first time using the solution. Otherwise all documentation can be found in the [Directory](Directory.md).
+Senteon recommends following the list of readings below for key concepts and install instructions if it is your first time using the solution. Otherwise all documentation can be found in the [Directory](Directory.md).
 
 - [Before You Begin](Main.md#before-you-begin)
   - [Terminology](Main.md#terminology)
