@@ -108,10 +108,16 @@ When an Exception Group is no longer necessary, Senteon Users can merge the Exce
 In some situations, Senteon Users may decide they want to convert an Exception Group into a standalone Management Group. This is done using the `Convert to Mgmt Grp` button available to Exception Groups. Doing so will turn the Exception Group into a Management Group with the same name, effective configuration set (its former parent Management Group's configuration set + the groups own differences), and all endpoints previously part of the Exception Group. 
 
 ### Individual Setting Modification
-To modify specific settings for 
+To modify specific settings for a group, access the individual setting tab in the `Edit Groups` window. For Management Groups, settings can be directly modified and saved here. For Exception Groups, Settings associated with the exception group can be directly modified here. Other settings can be added to the exception group and modified here as well using the `Add Settings` button. Settings can also be removed from the Exception set using the `Remove Selected Setting from Exception` button. 
 
 ### New Management Group Creation
+Management Groups can be created from the Groups page. When doing so, the group's name and configuration set can be defined and endpoints can be moved into the group as it is created through the Group Creation Form.
 
 # Setup
+When endpoints have a Senteon Agent installed, the Senteon Agent will register itself with Command Center so that it can be evaluated and finalized. Starting Evaluation will allow the Senteon Agent to audit all of the settings related to that endpoint type and determine the ideal baseline for the endpoint. After evaluation is complete, the endpoint can be setup with the wizard. The Setup wizard contains questions relating to settings that the Agent could not make determinations for due to organizational/cultural restrictions. Specific choices that can be made during evaluation and setup are detailed below. 
+
 ## Evaluation
-## Finalization Wizard
+Evaluation can be started on one or more endpoints simultaneously through the Endpoint Setup page. When endpoints are selected for evaluation, one of three options can be chosen. Endpoints can either be placed into a new group and evaluated, placed into a pre-existing group and evaluated, or evaluation and set up can be skipped entirely and an existing configuration set will be immediately applied. Adding the Endpoint to an existing group will utilize the group's pre-existing configuration set as a baseline and ignore settings that are already not configured for the group. 
+
+## Setup Wizard
+Setup must be done for endpoints one at a time. When the setup wizard begins, the Senteon User can choose to skip the wizard and immediately setup the wizard with the configuration set of its current group regardless of the conflicts found in the wizard. Otherwise, the wizard will run through a set of questions that detail specific issues related to settings and provide endpoint specific data for settings that have findings. Senteon also provides an explanation as to the importance and potential impact caused by these settings to help Senteon Users make clear informed decisions. Some settings decisions are considered to be organization wide, and will only be queried once. Once a decision as been made, these settings will be accessible for the Managed Account settings for modification. 
