@@ -77,13 +77,39 @@ The Senteon Agent reports its current status to Command Center whenever it is up
 
 
 # Groups
+Groups are utilized to keep endpoints consistent with the same baseline. Each group has a configuration set associated with it that is used by all endpoints within the group. Groups must have endpoints of the same types within them. Endpoint types are defined by Senteon when they have different full configuration sets. Examples include `Windows 10 Standalone`, `Windows 10 Domain Joined`, and `Server 2016 Non-DC`. This endpoint type is determined when the Agent is installed and will be listed as the endpoint's group until it is placed in a created group during evaluation. There are two different types of groups available for creation:
+
+|   Group Type    | Description |
+|:-----------:|:-----------:|
+| Management Group | Management Groups have all settings available for the endpoint type and should be used for general baselines that include the majority of endpoints |
+| Exception Group | Exception Groups are created underneath a management group and only have the settings that are configured to be different from its parent management group. These groups should be used when Endpoints have configuration sets that are slightly different from the management group. |
+
 ## Group Info
+Info for a specific group can be accessed by selecting the `view` button next to the relevant group.
+Group info for Management Groups will display the current endpoints that belong to the role, the current configuration set for the role, and the exception groups underneath that management group. 
+Group info for an Exception Group will display the current endpoints that belong to the role, the current configurations set that are different from the management group, and its entire effective configuration set with the management group's controls included. 
+
+The Group info page also includes a button used to generate a report specific to the group. To learn more about reports, please reference the [reports page](reports.md)
+
 ## Group Modification
+There is a multitude of ways to affect a group and its configuration sets that are dependent on the type of group. The different types of methods to change group configurations are detailed below. 
+
 ### Moving Endpoints
+Endpoints can be directly moved between groups through the `Edit Groups` window. Groups will list all endpoints within the group and all endpoints outside the group. An endpoint can be moved into a group and out of a group from any group window. 
+
+--Show moving Endpoints images --
 ### Making Exception Groups
+Exception Groups can be made using the `Create Exception` button available to Management Groups. Creation of an Exception Group allows the Senteon User to select endpoints within the Management Group to move to the Exception Group and change settings are necessary.
+
 ### Merging Exception Groups
+When an Exception Group is no longer necessary, Senteon Users can merge the Exception Group back into its Parent Management Group and return the endpoints back to the Management Group. This is done through the `Edit Groups` Window when accessed for a Management Group. 
+
 ### Converting Exception Groups
-### Individual Control Modification
+In some situations, Senteon Users may decide they want to convert an Exception Group into a standalone Management Group. This is done using the `Convert to Mgmt Grp` button available to Exception Groups. Doing so will turn the Exception Group into a Management Group with the same name, effective configuration set (its former parent Management Group's configuration set + the groups own differences), and all endpoints previously part of the Exception Group. 
+
+### Individual Setting Modification
+To modify specific settings for 
+
 ### New Management Group Creation
 
 # Setup
