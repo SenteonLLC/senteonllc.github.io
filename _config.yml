@@ -1,2 +1,4 @@
 theme: jekyll-theme-slate
 title: Senteon Documentation Page
+docs_dir: version/latest/
+sites_dir: sites/version/latest/
