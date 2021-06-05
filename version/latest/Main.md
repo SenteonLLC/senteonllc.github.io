@@ -1,8 +1,7 @@
 # Senteon Overview
-This page provides a quickstart guide for getting Senteon Command Center and Senteon Agent(s) installed on your devices. 
+Welcome to the documentation for Senteon's Security Configuration Management solution. basic terminology and operating system support details are listed below.
 
-If you intend to install agents on multiple endpoints, Senteon recommends using the Command-line installation option.
-
+Senteon recommends following the list of readings below for basic knowlegdge/usage if it is your first time using the solution. Otherwise all documentation can be found in the [Directory](Directory.md).
 
 - [Before You Begin](Main.md#before-you-begin)
   - [Terminology](Main.md#terminology)
