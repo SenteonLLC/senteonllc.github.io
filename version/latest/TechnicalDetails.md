@@ -27,7 +27,7 @@
 **Senteon Agent**
 - Required Disk Space: 12.3 MB
 - Avg. Memory Usage: 15-25 MB
-- Maximum Audit Log Size Increase from Best-Practice Configurations:
+- Maximum Audit Log size increase from best-practice configurations:
     - Windows 10 - 244 MB
 
 
