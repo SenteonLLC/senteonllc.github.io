@@ -5,9 +5,11 @@ This section describes the settings available to Senteon Users.
 - [Command Center Settings - Master Account Console](Settings.md#command-center-settings-master-account-console)
 - [Command Center Settings - Managed Account Console](Settings.md#command-center-settings-managed-account-console)
 
-# Command Center Settings - Master Account Console
+# Command Center - Master Account Settings
 
 Master Account Settings affect Senteon functionality and are scoped to the entire Master Account.
+
+Location: `Master Account Console > Settings`
 
 ## General Settings
 
@@ -15,10 +17,11 @@ Master Account Settings affect Senteon functionality and are scoped to the entir
 
 Currently the only available setting in the Master Account Console is the ability for a logged in user to change their password. This functionality is available to all users except for the Master Account/Owner user.
 
-# Command Center Settings - Managed Account Console
+# Command Center - Managed Account Settings
 
-Managed Account Settings affect Senteon functionality, but only affect resources within that specific Managed Account
+Managed Account Settings affect Senteon functionality, but only affect resources within that specific Managed Account.
 
+Location: `Managed Account Console > Settings`
 
 ## General Settings
 
