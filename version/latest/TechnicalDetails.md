@@ -39,12 +39,12 @@ Senteon Command Center and Senteon Agent require access to Senteon's Master Comm
 
 **Senteon Master Communications Server**
   - DNS Hostname: `master.senteon.co`
-  - Required Protocol/Port(s): `TCP 5555`
+  - Required Destination Protocol/Port(s): `TCP 5555`
 
 
 **Senteon Update Server**
   - DNS Hostname: `updates.senteon.co`
-  - Required Protocol/Port(s): `TCP 80 & 443`
+  - Required Destination Protocol/Port(s): `TCP 80 & 443`
 
 ### Security
 
