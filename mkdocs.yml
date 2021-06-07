@@ -10,7 +10,7 @@ nav:
     - 'Endpoint Configuration': 'endpointconfiguration.md'
     - Alerts: 'alerts.md'
     - Reports: 'reports.md'
-    - Settings: 'settingsmd'
+    - Settings: 'settings.md'
     - 'Users and Permissions': 'usersandpermissions.md'
     - 'Technical Details': 'technicaldetails.md'
 markdown_extensions:
