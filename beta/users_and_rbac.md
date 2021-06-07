@@ -1,3 +1,5 @@
+## WARNING: NOT FUNCTIONAL AT THIS TIME
+
 # User System and Role Based Access Control
 Command Center gives you the ability to create and manage users in addition to your Master Account user. 
 
@@ -13,7 +15,7 @@ Senteon provides 3 additional roles to meet your different use-cases.
  
 **Manager**
   * All Auditor Permissions
-  * Endpoint, Group, Control Editing, Policy Creation
+  * Endpoint, Group, Control Editing, Config Set Creation
   * Alert Visibility and Response
 
  **Administrator**
