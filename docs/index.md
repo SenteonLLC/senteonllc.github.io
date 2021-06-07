@@ -166,9 +166,9 @@ Senteon Agent can be installed using Msiexec. All available flags can be found i
 2) Using Administrator PowerShell or a Remote CLI session with a user that has Administrator privileges, run the following install command:
 
 
-```
-msiexec /i "<path>\SenteonAgent.msi" /quiet ACCOUNTID="<Managed Account>" INSTALLCODE="<Registration Code>" ACCEPTALL=YES /l*v "SenteonInstall.log"
-```
+```  
+msiexec /i "<path>\SenteonAgent.msi" /quiet ACCOUNTID="<Managed Account>" INSTALLCODE="<Registration Code>" ACCEPTALL=YES /l*v "SenteonInstall.log"  
+```  
 
 **Post-Install**
 
