@@ -36,7 +36,7 @@ When in-depth information on an endpoint is needed, the info button can be selec
 | Endpoint Configuration Listing | These listing will show the current configuration settings on the endpoint along with their current value and current target values. Using the radio buttons, this list can be adjusted to display only the settings that have drifted from their current target settings. Specific information about each control can be viewed by selecting the view button for the relevant setting |
 
 ## Modifying Endpoints
-Endpoints can be modified through the listings page via the command buttons. These buttons are only available when the endpoint agent status is set to a relevant status. All of the possible commands are:
+Endpoints can be modified through the listings page via the command buttons. These buttons are only available when the endpoint agent is fully active. All of the possible commands are:
 |   Command    | Availability | Usage |
 |:-----------:|:-----------:|:-----------:|
 | Info | Always Available | Displays info specific to the endpoint including its current configuration status, Operating system, and a list of applied configurations |
