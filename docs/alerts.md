@@ -48,4 +48,4 @@ Alerts can be viewed in two locations:
 |  Endpoint Reset  |  Indicates that a Senteon Agent has been reset  as well as providing which Endpoint the Agent is on, who it was reset by, and when it was reset.  |
 
 ## Example Alert:
-<img src="images/exampleAlert.PNG" width="750">
+<img src="../images/exampleAlert.PNG" width="750">
