@@ -30,6 +30,8 @@ Endpoints listed on Senteon Command Center will show up on the list of endpoints
 | Group | The current group that the endpoint belongs to and is deriving its configuration set from |
 | Agent Status | the current status of the Agent on the endpoint. Information about the different status can be found in [Endpoint States](#endpoint-states) |
 | Command Buttons | Depending on the current status of the agent, different activities can be taken on the endpoint. These options can be found in [Modifying Endpoints](#modifying-endpoints). The option to view an endpoint's specific information will always be available here. |
+  
+
 ## Endpoint Information
 When in-depth information on an endpoint is needed, the info button can be selected from the relevant endpoint. This page will load the following set of information specific to the endpoint:  
 <img src="../images/endpointinfo.png" width="750">  
