@@ -46,3 +46,6 @@ Alerts can be viewed in two locations:
 |  Endpoint Disabled  |  Indicates that a Senteon Agent has been disabled as well as providing which Endpoint the Agent is on, who it was disabled by, and when it was disabled.  |
 |  Endpoint Re-Enabled  |  Indicates that a Senteon Agent has been re-enabled as well as providing which Endpoint the Agent is on, who it was re-enabled by, and when it was re-enabled.  |
 |  Endpoint Reset  |  Indicates that a Senteon Agent has been reset  as well as providing which Endpoint the Agent is on, who it was reset by, and when it was reset.  |
+
+## Example Alert:
+
