@@ -2,9 +2,9 @@
 
 This section decribes Senteon's event-logging and alerting system.
 
-- [Viewing Alerts](Alerts.md#viweing-alerts)
-- [Alert Priority Levels](Alerts.md#alert-priority-levels)
-- [Alert Types](Alerts.md#alert-types)
+- [Viewing Alerts](alerts.md#viweing-alerts)
+- [Alert Priority Levels](alerts.md#alert-priority-levels)
+- [Alert Types](alerts.md#alert-types)
 
 # Viewing Alerts
 
