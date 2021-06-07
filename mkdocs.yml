@@ -13,3 +13,5 @@ nav:
     - Settings: 'settingsmd'
     - 'Users and Permissions': 'usersandpermissions.md'
     - 'Technical Details': 'technicaldetails.md'
+markdown_extensions:
+  - attr_list
