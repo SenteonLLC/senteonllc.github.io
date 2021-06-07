@@ -5,7 +5,7 @@ Configuration sets are groups of settings defined by Senteon as required or impo
 Every setting within a configuration set can be viewed to see the setting's GPO path as well as its underlying value (registry, auditpol, secpol, etc). Information panels also include descriptions that have an explanation of the setting, rationale for why it should be configured, the impact of configuring the control, and its default and preferred configuration values. Finally, any compliance or severity value will also be listed here. 
 
   
-<img src="/images/configurationInfoPanel.png" width="750">
+<img src="/docs/images/configurationInfoPanel.png" width="750">
   
 
 ## Changing Configurations
