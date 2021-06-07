@@ -1,4 +1,6 @@
-## Alerts
+## WARNING: NOT FUNCTIONAL AT THIS TIME
+
+# Alerts
 This page describes alerts that a Senteon User may see in Command Center alongside guidance on how to respond, and potential actions relevant to the alert (if applicable).
 
 **Audit Complete**
@@ -7,7 +9,7 @@ This page describes alerts that a Senteon User may see in Command Center alongsi
 **Configuration Drift Detected**
 * Description: This alert triggers for an endpoint when the Senteon Agent detects that one of the managed settings has been modified without approval.
 * [Action Condition] The Managed Account's `Configuration Drift Response` setting is set to "Alert & Require Approval"
-  * [Action Options] The Senteon User can choose to realign the setting to the Active Policy Set baseline, or ignore the alert.
+  * [Action Options] The Senteon User can choose to realign the setting to the Active Configuration Set (baseline), or ignore the alert.
  
 **Endpoint Uninstalling**
 * Description: This alert triggers when a Senteon Agent has been signaled to uninstall from an endpoint. 

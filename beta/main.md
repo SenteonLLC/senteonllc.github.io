@@ -8,9 +8,10 @@ A high-level overview of Senteon can be found here: [Senteon Overview](overview.
 Instructions for utilizing available features can be found here:
   - [Configuring/Setting Up Endpoints](endpoint_setup.md)
   - [Generating Reports](reports.md)
-  - [Viewing Alerts](alerts.md)
-  - [Users and Access Control](users_and_rbac.md)
   - [Disabling, Reverting, and Uninstalling Senteon](disabling_and_uninstalling.md)
+  - [Viewing Alerts (Not Available Yet)](alerts.md)
+  - [Users and Access Control (Not Available Yet)](users_and_rbac.md)
+
 
 ### Terminology
 
