@@ -3,6 +3,7 @@ Configuration sets are groups of settings defined by Senteon as required or impo
 
 ## Setting Information
 Every setting within a configuration set can be viewed to see the setting's GPO path as well as its underlying value (registry, auditpol, secpol, etc). Information panels also include descriptions that have an explanation of the setting, rationale for why it should be configured, the impact of configuring the control, and its default and preferred configuration values. Finally, any compliance or severity value will also be listed here. 
+<img src="images/configurationInfoPanel.png" width="750">
 
 ## Changing Configurations
 Changing setting configurations with a configuration set can be done through multiple methods detailed under the endpoints and groups sections below. It is, however, worth noting that regardless of how configurations are changed and adjusted. they are always associated with groups and not with endpoints directly. As a result, when settings are changed on an endpoint, users will be prompted to move the endpoint into another group with a matching configuration set or create a new exception group with the intended condfiguration set. 
@@ -11,6 +12,9 @@ Configuration settings are always changed using a modify window that will displa
 
 # Endpoints
 Once a Senteon Agent is installed, it will fingerprint the system it is installed on and register itself with the Senteon Servers and display an entry on the endpoint listing for the managed account. This information can be refreshed at any time using the refresh button located next to the endpoints and groups tabs.
+
+<img src="images/endpoints.PNG" width="750">
+
 ## Endpoint Listing
 Endpoints listed on Senteon Command Center will show up on the list of endpoints under the Managed Account Endpoints tab with the following information:
 |   Setting    | Description |
@@ -22,6 +26,7 @@ Endpoints listed on Senteon Command Center will show up on the list of endpoints
 | Command Buttons | Depending on the current status of the agent, different activities can be taken on the endpoint. These options can be found in [Modifying Endpoints](#modifying-endpoints). The option to view an endpoint's specific information will always be available here. |
 ## Endpoint Information
 When in-depth information on an endpoint is needed, the info button can be selected from the relevant endpoint. This page will load the following set of information specific to the endpoint:
+<img src="images/endpointinfo.png" width="750">
 |   Setting    | Description |
 |:-----------:|:-----------:|
 | Hostname | The hostname of the endpoint that this agent is installed on |
@@ -35,8 +40,11 @@ When in-depth information on an endpoint is needed, the info button can be selec
 | Endpoint Config Status | The current status of the endpoints configurations. If any settings have been found to be drifted this value will indicate that the endpoint has drifted. If there are no current issues the status will indicate that the endpoint is compliant |
 | Endpoint Configuration Listing | These listing will show the current configuration settings on the endpoint along with their current value and current target values. Using the radio buttons, this list can be adjusted to display only the settings that have drifted from their current target settings. Specific information about each control can be viewed by selecting the view button for the relevant setting |
 
+<img src="images/endpointinfopage.png" width="750">
+
 ## Modifying Endpoints
-Endpoints can be modified through the listings page via the command buttons. These buttons are only available when the endpoint agent is fully active. All of the possible commands are:
+Endpoints can be modified through the listings page via the command buttons. These buttons are only available when the endpoint agent status is appropriately configured. 
+All of the possible commands are:
 |   Command    | Availability | Usage |
 |:-----------:|:-----------:|:-----------:|
 | Info | Always Available | Displays info specific to the endpoint including its current configuration status, Operating system, and a list of applied configurations |
@@ -49,8 +57,13 @@ Endpoints can be modified through the listings page via the command buttons. The
 ## Modifying Endpoint Configurations
 Endpoints can have their configuration sets modified in two ways. Both methods are available through the `Edit` button on active endpoints in the Endpoints page. Endpoints can modify their configuration sets by either changing the current group they are in, or through direct modification of settings, which will move them to a matching group or create a new exception group. 
 
+<img src="images/editEndpoint.png" width="750">
+
 ### Changing Groups
 The endpoint change groups page shows off the endpoint's current group as well as all other available groups you can move the endpoint into. 
+
+
+<img src="images/groupDiff.PNG" width="750">
 
 When a group is selected, all of the settings that are different between the two groups will be displayed. The value displayed for those settings will be the current value of the new group that the endpoint's current group is being compared to. 
 
@@ -60,6 +73,9 @@ If the Senteon User wishes to move the endpoint to the new group, keep the new g
 The endpoint change controls page shows the endpoint's current configuration set that is taken from its current group. individual settings can be adjusted on this page. 
 
 After the settings have been changed, the configuration set can be updated by selecting `Save Controls`. Senteon will determine if there is any groups with a configuration set matching the newly created set. If so, the Senteon User will have the option to move the endpoint into the existing group. If they choose not to, a new exception group will be created. 
+
+
+<img src="images/endpointIndivSetting.PNG" width="750">
 
 ## Endpoint States
 The Senteon Agent reports its current status to Command Center whenever it is updated. This status indicates the current state that the agent is in. All of the possible states that the agent can be in are detailed here:
@@ -97,21 +113,35 @@ There is a multitude of ways to affect a group and its configuration sets that a
 ### Moving Endpoints
 Endpoints can be directly moved between groups through the `Edit Groups` window. Groups will list all endpoints within the group and all endpoints outside the group. An endpoint can be moved into a group and out of a group from any group window. 
 
---Show moving Endpoints images --
+<img src="images/modifyGroupEndpoint.PNG" width="750">
+
 ### Making Exception Groups
 Exception Groups can be made using the `Create Exception` button available to Management Groups. Creation of an Exception Group allows the Senteon User to select endpoints within the Management Group to move to the Exception Group and change settings are necessary.
+
+<img src="images/createException.PNG" width="750">
 
 ### Merging Exception Groups
 When an Exception Group is no longer necessary, Senteon Users can merge the Exception Group back into its Parent Management Group and return the endpoints back to the Management Group. This is done through the `Edit Groups` Window when accessed for a Management Group. 
 
+<img src="images/groupMergeChildren.PNG" width="750">
+
 ### Converting Exception Groups
 In some situations, Senteon Users may decide they want to convert an Exception Group into a standalone Management Group. This is done using the `Convert to Mgmt Grp` button available to Exception Groups. Doing so will turn the Exception Group into a Management Group with the same name, effective configuration set (its former parent Management Group's configuration set + the groups own differences), and all endpoints previously part of the Exception Group. 
+
 
 ### Individual Setting Modification
 To modify specific settings for a group, access the individual setting tab in the `Edit Groups` window. For Management Groups, settings can be directly modified and saved here. For Exception Groups, Settings associated with the exception group can be directly modified here. Other settings can be added to the exception group and modified here as well using the `Add Settings` button. Settings can also be removed from the Exception set using the `Remove Selected Setting from Exception` button. 
 
+Management Group:
+<img src="images/groupModifyIndividual.PNG" width="750">
+
+Exception Group:
+<img src="images/groupModifyIndividualException.PNG" width="750">
+
 ### New Management Group Creation
 Management Groups can be created from the Groups page. When doing so, the group's name and configuration set can be defined and endpoints can be moved into the group as it is created through the Group Creation Form.
+
+<img src="images/newGroup.PNG" width="750">
 
 # Setup
 When endpoints have a Senteon Agent installed, the Senteon Agent will register itself with Command Center so that it can be evaluated and finalized. Starting Evaluation will allow the Senteon Agent to audit all of the settings related to that endpoint type and determine the ideal baseline for the endpoint. After evaluation is complete, the endpoint can be setup with the wizard. The Setup wizard contains questions relating to settings that the Agent could not make determinations for due to organizational/cultural restrictions. Specific choices that can be made during evaluation and setup are detailed below. 
@@ -119,9 +149,19 @@ When endpoints have a Senteon Agent installed, the Senteon Agent will register i
 ## Evaluation
 Evaluation can be started on one or more endpoints simultaneously through the Endpoint Setup page. 
 
+<img src="images/SelectEvaluation.PNG" width="750">
+
 When endpoints are selected for evaluation, one of three options can be chosen. Endpoints can either be placed into a new group and evaluated, placed into a pre-existing group and evaluated, or evaluation and set up can be skipped entirely and an existing configuration set will be immediately applied. 
+
+<img src="images/EvaluationPrompt.PNG" width="750">
 
 Adding the Endpoint to an existing group will utilize the group's pre-existing configuration set as a baseline and ignore settings that are already not configured for the group. 
 
 ## Setup Wizard
 Setup must be done for endpoints one at a time. When the setup wizard begins, the Senteon User can choose to skip the wizard and immediately setup the wizard with the configuration set of its current group regardless of the conflicts found in the wizard. Otherwise, the wizard will run through a set of questions that detail specific issues related to settings and provide endpoint specific data for settings that have findings. Senteon also provides an explanation as to the importance and potential impact caused by these settings to help Senteon Users make clear informed decisions. Some settings decisions are considered to be organization wide, and will only be queried once. Once a decision as been made, these settings will be accessible for the Managed Account settings for modification. 
+
+<img src="images/readyforsetup.PNG" width="750">
+
+
+Example Wizard Page:
+<img src="images/readyforsetup.PNG" width="750">
