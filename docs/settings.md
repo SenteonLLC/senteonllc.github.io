@@ -2,10 +2,10 @@
 
 This section describes the settings available to Senteon Users.
 
-- [Command Center - Master Account Settings](settings.md#command-center---master-account-settings)
+- [Command Center - Master Account Settings](settings.md#command-center-master-account-settings)
     - [General Settings](settings.md#general-settings)
-- [Command Center - Managed Account Settings](settings.md#command-center---managed-account-settings)
-    - [General Settings](settings.md#general-settings-1)
+- [Command Center - Managed Account Settings](settings.md#command-center-managed-account-settings)
+    - [General Settings](settings.md#general-settings_1)
 
 # Command Center - Master Account Settings
 
@@ -19,7 +19,7 @@ Location: `Master Account Console > Settings`
 
 This provides a logged-in user with the ability to change their own password. This functionality is available to all users except for the Master Account/Owner User.
 
-*Note: To change the Mater Account/Owner User's password, contact Senteon Support*
+*Note: To change the Master Account/Owner User's password, contact Senteon Support*
 
 # Command Center - Managed Account Settings
 
