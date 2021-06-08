@@ -8,7 +8,11 @@ Below you can find details regarding the sets of settings/configurations Senteon
 ## Configuration Sets
 Configuration Sets are groups of settings and their recommended values defined by Senteon as required or important to ensure a strong security posture. Without Senteon, these settings would typically be managed and controlled using local/Domain Group Policy or the Windows registry.
 
-Configuration Sets are derived from various industry-recognized benchmarks such as the Center for Internet Security (CIS), the Defense Information Systems Agency's  Security Technical Implementation Guides (STIGs) and Microsoft's Security Configuration Framework (SCF).
+Configuration Sets are derived from various industry-recognized benchmarks such as:
+
+- Center for Internet Security (CIS) Benchmarks
+- Defense Information Systems Agency's Security Technical Implementation Guides (DISA STIGs)
+- Microsoft's Security Configuration Framework (SCF).
 
 Senteon utilitizes these defined configuration sets by associating them with groups to ensure that all endpoints within a group all remain consistent with each other. 
 
