@@ -2,9 +2,9 @@
 
 This section decribes Senteon's event-logging and alerting system.
 
-- [Viewing Alerts](Alerts.md#viweing-alerts)
-- [Alert Priority Levels](Alerts.md#alert-priority-levels)
-- [Alert Types](Alerts.md#alert-types)
+- [Viewing Alerts](alerts.md#viweing-alerts)
+- [Alert Priority Levels](alerts.md#alert-priority-levels)
+- [Alert Types](alerts.md#alert-types)
 
 # Viewing Alerts
 
@@ -24,11 +24,11 @@ Alerts can be viewed in two locations:
 | Informational | Indicates that a typical event has occured and provides details surrounding the event. |
 
 
-- **Critical**
+* **Critical**
   * Indicates an event that requires immediate attention or action. 
-- **Important**
+* **Important**
   * Indicates that there may not be action needed, but the team should be aware that the event has occurred.
-- **Informational**
+* **Informational**
   * Indicates that a typical event has occured and provides details surrounding the event.
 
 # Alert Types
@@ -48,4 +48,4 @@ Alerts can be viewed in two locations:
 |  Endpoint Reset  |  Indicates that a Senteon Agent has been reset  as well as providing which Endpoint the Agent is on, who it was reset by, and when it was reset.  |
 
 ## Example Alert:
-<img src="images/exampleAlert.PNG" width="750">
+<img src="../images/exampleAlert.PNG" width="750">
