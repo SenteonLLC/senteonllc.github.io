@@ -2,10 +2,10 @@
 
 This section describes the settings available to Senteon Users.
 
-- [Command Center - Master Account Settings](Settings.md#command-center---master-account-settings)
-  - [General Settings](Settings.md#general-settings)
-- [Command Center - Managed Account Settings](Settings.md#command-center---managed-account-settings)
-  - [General Settings](Settings.md#general-settings-1)
+- [Command Center - Master Account Settings](settings.md#command-center---master-account-settings)
+  - [General Settings](settings.md#general-settings)
+- [Command Center - Managed Account Settings](settings.md#command-center---managed-account-settings)
+  - [General Settings](settings.md#general-settings-1)
 
 # Command Center - Master Account Settings
 
@@ -30,14 +30,14 @@ Location: `Managed Account Console > Settings`
 ### Configuration Drift Management
 
 This setting defines Senteon's reponse to configuration drift on all Endpoints registered to the Managed Account.
-
+  
 |   Option    | Description |
 |:-----------:|:-----------:|
 | Automatically Enforce (Default) | Senteon will generate an alert and automatically return the setting back to its target baseline value. |
 | Alert and Require Approval | Senteon will generate an alert. In the "Alerts" tab, Senteon users with `Manager` role or higher will have the option to choose whether or not they want to return the setting back to its target baseline value. |
 | Alert Only | Senteon will generate an alert and no further action will be taken by Senteon. |
 
-
+  
 * Automatically Enforce (Default)
   * Senteon will generate an alert and automatically return the setting back to its target baseline value.
 * Alert and Require Approval
