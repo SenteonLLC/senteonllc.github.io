@@ -10,9 +10,9 @@ This section decribes Senteon's event-logging and alerting system.
 
 Alerts can be viewed in two locations:
 
-- `Master Account Console > Alerts` - Displays aggregated Alerts for all Managed Accounts within the Master Account
-- `Managed Account Console > Alerts` - Displays Alerts for only that specific Managed Account
+`Master Account Console > Alerts` - Displays aggregated Alerts for all Managed Accounts within the Master Account
 
+`Managed Account Console > Alerts` - Displays Alerts for only that specific Managed Account
 
 
 # Alert Priority Levels
@@ -23,13 +23,6 @@ Alerts can be viewed in two locations:
 | Important | Indicates that there may not be action needed, but the team should be aware that the event has occurred. |
 | Informational | Indicates that a typical event has occured and provides details surrounding the event. |
 
-
-* **Critical**
-  * Indicates an event that requires immediate attention or action. 
-* **Important**
-  * Indicates that there may not be action needed, but the team should be aware that the event has occurred.
-* **Informational**
-  * Indicates that a typical event has occured and provides details surrounding the event.
 
 # Alert Types
 |    Alert    | Description |
