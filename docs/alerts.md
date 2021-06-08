@@ -1,4 +1,4 @@
-# Alerts Overview
+# Alerts
 
 This section decribes Senteon's event-logging and alerting system.
 
@@ -6,7 +6,7 @@ This section decribes Senteon's event-logging and alerting system.
 - [Alert Priority Levels](alerts.md#alert-priority-levels)
 - [Alert Types](alerts.md#alert-types)
 
-# Viewing Alerts
+## Viewing Alerts
 
 Alerts can be viewed in two locations:
 
@@ -15,7 +15,7 @@ Alerts can be viewed in two locations:
 `Managed Account Console > Alerts` - Displays Alerts for only that specific Managed Account
 
 
-# Alert Priority Levels
+## Alert Priority Levels
 
 | Priority Level | Description |
 |:--------------:|:-----------:|
@@ -24,7 +24,7 @@ Alerts can be viewed in two locations:
 | Informational | Indicates that a typical event has occured and provides details surrounding the event. |
 
 
-# Alert Types
+## Alert Types
 |    Alert    | Description |
 |:-----------:|:-----------:|
 |  Configuration  Drift  | Indicates that an Endpoint has had a Senteon-managed setting change from the expected value. Depending on the Managed Account's current settings, this will just be a notification that it was found and corrected or there will be an option on the alert to correct the drift  |
@@ -40,5 +40,5 @@ Alerts can be viewed in two locations:
 |  Endpoint Re-Enabled  |  Indicates that a Senteon Agent has been re-enabled as well as providing which Endpoint the Agent is on, who it was re-enabled by, and when it was re-enabled.  |
 |  Endpoint Reset  |  Indicates that a Senteon Agent has been reset  as well as providing which Endpoint the Agent is on, who it was reset by, and when it was reset.  |
 
-## Example Alert:
+### Example Alert:
 <img src="../images/exampleAlert.PNG" width="750">
