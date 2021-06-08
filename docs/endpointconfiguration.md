@@ -1,19 +1,30 @@
-# Configuration Sets
-Configuration sets are groups of settings defined by Senteon as required or important for endpoints to have enabled or managed to ensure a strong security posture. Without Senteon, these settings would typically be managed and controlled through the local Group Policy console on the endpoint. Senteon utilitizes these defined configuration sets by associating them with groups to ensure that all endpoints within a group all remain consistent with each other. 
+# Endpoint Configuration
 
-## Setting Information
-Every setting within a configuration set can be viewed to see the setting's GPO path as well as its underlying value (registry, auditpol, secpol, etc). Information panels also include descriptions that have an explanation of the setting, rationale for why it should be configured, the impact of configuring the control, and its default and preferred configuration values. Finally, any compliance or severity value will also be listed here. 
+This section describes the concepts and systems that Senteon uses to manage security-related settings on your endpoints. We highly recommend that you familiarize yourself with this material before trying to administer Senteon.
+
+Below you can find details regarding the sets of settings/configurations Senteon manages, how a Senteon user should expect to organize and observe their fleet of endpoints, what healthy activity looks like, and finally how to complete the setup of your fleet of endpoints from start to finish.
+
+
+## Configuration Sets
+Configuration Sets are groups of settings and their recommended values defined by Senteon as required or important to ensure a strong security posture. Without Senteon, these settings would typically be managed and controlled using local/Domain Group Policy or the Windows registry.
+
+Configuration Sets are derived from various industry-recognized benchmarks such as the Center for Internet Security (CIS), the Defense Information Systems Agency's  Security Technical Implementation Guides (STIGs) and Microsoft's Security Configuration Framework (SCF).
+
+Senteon utilitizes these defined configuration sets by associating them with groups to ensure that all endpoints within a group all remain consistent with each other. 
+
+### Setting Information
+Every setting within a Configuration Set can be viewed to see the setting's GPO path as well as its underlying value (registry, auditpol, secpol, etc). Information panels also include descriptions that have an explanation of the setting, rationale for why it should be configured, the impact of configuring the control, and its default and preferred configuration values. Finally, any compliance or severity value will also be listed here. 
 
   
 <img src="../images/configurationInfoPanel.png" width="750">
   
 
-## Changing Configurations
+### Changing Configurations
 Changing setting configurations with a configuration set can be done through multiple methods detailed under the endpoints and groups sections below. It is, however, worth noting that regardless of how configurations are changed and adjusted. they are always associated with groups and not with endpoints directly. As a result, when settings are changed on an endpoint, users will be prompted to move the endpoint into another group with a matching configuration set or create a new exception group with the intended condfiguration set. 
 
 Configuration settings are always changed using a modify window that will display the setting as well as its preferred value and any alternate acceptable values it has. Any place where configurations can be edited will have access to the modify window.
 
-# Endpoints
+## Endpoints
 Once a Senteon Agent is installed, it will fingerprint the system it is installed on and register itself with the Senteon Servers and display an entry on the endpoint listing for the managed account. This information can be refreshed at any time using the refresh button located next to the endpoints and groups tabs.
 
   
