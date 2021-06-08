@@ -1,5 +1,5 @@
 # Senteon Overview
-Welcome to the documentation for Senteon's Security Configuration Management solution. basic terminology and operating system support details are listed below.
+Welcome to the documentation for Senteon's Security Configuration Management solution. Basic terminology and operating system support details are listed below.
 
 Senteon recommends following the list of readings below for key concepts and install instructions if it is your first time using the solution. 
 
@@ -28,28 +28,17 @@ Senteon recommends following the list of readings below for key concepts and ins
 | Managed Account | A "sub-account" within the Master Account that you set up for each organization you wish to manage. Agents/endpoints are registered to Managed Accounts for administration |
 | Command Center User | A local user within a Master Account with permissions to login and perform actions in Command Center based off of the user's role |
 
-
-`Senteon Command Center` - The central administrator console
-
-`Senteon Agent` - A small program installed on each endpoint that performs actions and communicates back to Command Center
-
-`Master Account` - The primary account that you signed up for Senteon with. This account acts as a container for all of your users, data, and resources
-
-`Managed Account` - A "sub-account" within the Master Account that you set up for each organization you wish to manage. Agents/endpoints are registered to Managed Accounts for administration
-
-`Master Account User` - This is the primary/root user which is given the "Owner" role. If you lose access to this account, you will not be able to perform critical tasks
-
-`Command Center User` - A local user within a Master Account with permissions to login and perform actions in Command Center based off of the user's role
-
 ### Supported Operating Systems
 
 **Senteon Command Center**
+
 - Windows 10 Version 2004+
   - Pro and Enterprise (Not Home)
 - Windows Server 2016 Version 2004+
 - Windows Server 2019 Version 1809+
 
 **Senteon Agent**
+
 - Windows 10 Version 2004+
   - Pro and Enterprise (Not Home)
 
@@ -60,6 +49,7 @@ Senteon recommends following the list of readings below for key concepts and ins
 ### Prerequisites
 
 Senteon has provided you with:
+
 - Installer for Senteon Command Center
 - Master Account Credentials for Senteon Command Center
 
@@ -85,7 +75,9 @@ After installing Command Center on the computer you intend to use for Senteon ad
 
 **Post-Install**
 
-After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`.
+After Command Center has finished installing, it can be accessed by searching "Senteon Command Center" in Windows Search or directly at:
+
+ `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`
 
 ## Step 2: Create a Managed Account for the Organization
 
@@ -96,7 +88,7 @@ After Command Center has finished installing, it can be accessed by searching "S
 3) Enter a name for the Managed Account in the `Account Identifier` box
 
 4) Copy the Registration Code and save it in a password vault or secure location.
-  > Note: This will be used for installing Senteon Agents
+  > *Note: This will be used for installing Senteon Agents*
  
 5) Click `Create Managed Account`
 
@@ -176,4 +168,4 @@ After the installation is complete, the "Senteon Agent" service will be running 
 
 # Next Steps
 
-In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [Evaluating/Setting Up Endpoints](endpointconfiguration.md).
+In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [Endpoint Configuration](endpointconfiguration.md).
