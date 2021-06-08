@@ -16,7 +16,7 @@ Senteon recommends following the list of readings below for key concepts and ins
 - [Next Steps](index.md#next-steps)
 
 
-# Before You Begin
+## Before You Begin
 
 ### Terminology
 
@@ -44,7 +44,7 @@ Senteon recommends following the list of readings below for key concepts and ins
 
 ---
 
-# Installation
+## Installation
 
 ### Prerequisites
 
@@ -57,7 +57,7 @@ Senteon installation is divided into two separate stages that use different inst
 
 After installing Command Center on the computer you intend to use for Senteon administration, the Senteon Agent installer will be created for you to deploy on your endpoints. Documentation for both can be found below.
 
-## Step 1: Install Command Center
+### Step 1: Install Command Center
 
 *Note: Senteon recommends that you use an account with Administrator privileges to install Senteon Command Center*
 
@@ -79,7 +79,7 @@ After Command Center has finished installing, it can be accessed by searching "S
 
  `C:\Program Files\Senteon\CommandCenter\SenteonCommandCenter.exe`
 
-## Step 2: Create a Managed Account for the Organization
+### Step 2: Create a Managed Account for the Organization
 
 1) Login to Command Center using your Master Account User
 
@@ -92,7 +92,7 @@ After Command Center has finished installing, it can be accessed by searching "S
  
 5) Click `Create Managed Account`
 
-## Step 3: Install Senteon Agent(s)
+### Step 3: Install Senteon Agent(s)
 
 
 Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCenter\` by default), there will be an additional .msi installer for the Senteon Agent called `SenteonAgent.msi`. This installer should be distributed and installed onto all systems that you intend to manage. 
@@ -109,7 +109,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 *Note: You **MUST** use an account with Administrator privileges on the endpoint to install Senteon Agent*
 
-### Senteon Agent GUI/Desktop Install
+#### Senteon Agent GUI/Desktop Install
 
 1) Transfer `SenteonAgentInstaller.msi` onto the endpoint you want to manage and execute (double-click). 
 
@@ -133,7 +133,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 
 After the installation is complete, the "Senteon Agent" service will be running on the endpoint. This service is configured to automatically restart if the computer is rebooted.
 
-### Senteon Agent Command-line Install
+#### Senteon Agent Command-line Install
 Senteon Agent can be installed using Msiexec. All available flags can be found in the MsiExec documentation. The Senteon recommended install command flags can be found below.
 
 **Install Flags**
@@ -166,6 +166,6 @@ msiexec /i "<path>\SenteonAgent.msi" /quiet ACCOUNTID="<Managed Account>" INSTAL
 
 After the installation is complete, the "Senteon Agent" service will be running on the endpoint. This service is configured to automatically restart if the computer is rebooted.
 
-# Next Steps
+## Next Steps
 
 In order to configure Senteon Agents to implement and manage your hardened settings, follow the instructions in [Endpoint Configuration](endpointconfiguration.md).
