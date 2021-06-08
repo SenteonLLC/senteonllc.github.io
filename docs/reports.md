@@ -1,9 +1,9 @@
 # Reports Overview
 This section describes the reporting functionality of Senteon.
 
-- [Generating Reports](Reports.md#generating-reports)
-  - [Managed Account Reports](Reports.md#managed-account-reports)
-  - [Group Reports](Reports.md#group-reports)
+- [Generating Reports](reports.md#generating-reports)
+  - [Managed Account Reports](reports.md#managed-account-reports)
+  - [Group Reports](reports.md#group-reports)
 
 # Generating Reports
 Senteon Command Center allows you to generate PDF-based reports. These reports can be generated for an entire fleet of endpoints in a Managed Account or for a specific Group. 
