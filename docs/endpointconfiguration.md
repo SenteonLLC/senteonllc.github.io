@@ -6,7 +6,13 @@ Below you can find details regarding the sets of settings/configurations Senteon
 
 
 ## Configuration Sets
-Configuration Sets are groups of settings and their recommended values defined by Senteon as required or important to ensure a strong security posture. Without Senteon, these settings would typically be managed and controlled using local/Domain Group Policy or the Windows registry.
+
+Configuration Sets are groups of settings and their recommended values defined by Senteon as required or important to ensure a strong security posture. Without Senteon, these settings would typically be managed and controlled using local/Domain Group Policy or the Windows Registry.
+
+Senteon provides a recommended Configuration Set for each type of supported "Endpoint Profile":
+
+- Windows 10 Standalone
+- Windows 10 Domain Member
 
 Configuration Sets are derived from various industry-recognized benchmarks such as:
 
@@ -15,9 +21,19 @@ Configuration Sets are derived from various industry-recognized benchmarks such 
 - Microsoft's Security Configuration Framework (SCF).
 
 ### Setting Information
-Every setting within a Configuration Set can be viewed to see the setting's GPO path as well as its underlying value (registry, auditpol, secpol, etc). Information panels also include descriptions that have an explanation of the setting, rationale for why it should be configured, the impact of configuring the control, and its default and preferred configuration values. Finally, any compliance or severity value will also be listed here. 
 
-  
+Senteon provides a variety of information about the Senteon-supported settings to help educate and inform Senteon Users. Each setting can be viewed to see the following:
+
+
+| Data | Description |
+|:------------------:|:-----------:|
+| GPO Path | The path of the setting in Windows local Group Policy |
+| Details | Description of the setting and any additional information |
+| Registry Data | The Windows Registry Path and Value associated with the setting |
+| GPO Recommendations | The default and recommended Group Policy values for the setting |
+ 
+ *Note: Settings derived from CIS and STIGs benchmarks have aditional information provided in "Details" such as Rationale, Impact, and Default Behavior*
+ 
 <img src="../images/configurationInfoPanel.png" width="750">
   
 
