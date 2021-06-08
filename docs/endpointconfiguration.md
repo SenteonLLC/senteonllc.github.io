@@ -14,8 +14,6 @@ Configuration Sets are derived from various industry-recognized benchmarks such 
 - Defense Information Systems Agency's Security Technical Implementation Guides (DISA STIGs)
 - Microsoft's Security Configuration Framework (SCF).
 
-Senteon utilitizes these defined configuration sets by associating them with groups to ensure that all endpoints within a group all remain consistent with each other. 
-
 ### Setting Information
 Every setting within a Configuration Set can be viewed to see the setting's GPO path as well as its underlying value (registry, auditpol, secpol, etc). Information panels also include descriptions that have an explanation of the setting, rationale for why it should be configured, the impact of configuring the control, and its default and preferred configuration values. Finally, any compliance or severity value will also be listed here. 
 
