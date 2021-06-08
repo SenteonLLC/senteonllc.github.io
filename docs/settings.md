@@ -3,9 +3,9 @@
 This section describes the settings available to Senteon Users.
 
 - [Command Center - Master Account Settings](settings.md#command-center---master-account-settings)
-  - [General Settings](settings.md#general-settings)
+    - [General Settings](settings.md#general-settings)
 - [Command Center - Managed Account Settings](settings.md#command-center---managed-account-settings)
-  - [General Settings](settings.md#general-settings-1)
+    - [General Settings](settings.md#general-settings-1)
 
 # Command Center - Master Account Settings
 
@@ -17,7 +17,9 @@ Location: `Master Account Console > Settings`
 
 ### Change Password
 
-Currently the only available setting in the Master Account Console is the ability for a logged in user to change their password. This functionality is available to all users except for the Master Account/Owner user.
+This provides a logged-in user with the ability to change their own password. This functionality is available to all users except for the Master Account/Owner User.
+
+*Note: To change the Mater Account/Owner User's password, contact Senteon Support*
 
 # Command Center - Managed Account Settings
 
@@ -36,14 +38,6 @@ This setting defines Senteon's reponse to configuration drift on all Endpoints r
 | Automatically Enforce (Default) | Senteon will generate an alert and automatically return the setting back to its target baseline value. |
 | Alert and Require Approval | Senteon will generate an alert. In the "Alerts" tab, Senteon users with `Manager` role or higher will have the option to choose whether or not they want to return the setting back to its target baseline value. |
 | Alert Only | Senteon will generate an alert and no further action will be taken by Senteon. |
-
-  
-* Automatically Enforce (Default)
-  * Senteon will generate an alert and automatically return the setting back to its target baseline value.
-* Alert and Require Approval
-  * Senteon will generate an alert. In the "Alerts" tab, Senteon users with `Manager` role or higher will have the option to choose whether or not they want to return the setting back to its target baseline value.
-* Alert Only
-  * Senteon will generate an alert and no further action will be taken by Senteon.
 
 
 ### Account-wide Guided Setup Decisions
