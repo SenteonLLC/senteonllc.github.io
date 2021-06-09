@@ -53,13 +53,6 @@ Changing setting configurations with a configuration set can be done through mul
 Configuration settings are always changed using a modify window that will display the setting as well as its preferred value and any alternate acceptable values it has. Any place where configurations can be edited will have access to the modify window.
 
 */
-
-## Endpoints
-
-Endpoints are the computers that you install Senteon Agent on. When Senteon Agent is installed on an Endpoint, it will register itself with Senteon Master. Once registered, it will appear in Command Center in the `Endpoints` tab of the Managed Account Console.
-
-  
-
   
 
 ## Endpoint/Fleet Management
