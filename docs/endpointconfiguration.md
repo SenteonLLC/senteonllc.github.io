@@ -138,6 +138,33 @@ All of the possible actions are are:
 | Reset | `Disabled` | Resets the Agent Status back to `Ready to Begin Evaluation`|
 | Remove | `Uninstalling` | Removes the Endpoint from the Managed Account |
 
+### Modifying an Endpoint's Applied/Target Configuration Set
+Endpoints can have their configuration sets modified in two ways. Both methods are available through the `Edit` button on active endpoints in the Endpoints page. Endpoints can modify their configuration sets by either changing the current group they are in, or through direct modification of settings, which will move them to a matching group or create a new exception group. 
+
+  
+<img src="../images/editEndpoint.png" width="750">
+  
+
+#### Changing Groups
+The endpoint change groups page shows off the endpoint's current group as well as all other available groups you can move the endpoint into. 
+
+
+  
+<img src="../images/groupDiff.PNG" width="750">
+  
+
+
+When a group is selected, all of the settings that are different between the two groups will be displayed. The value displayed for those settings will be the current value of the new group that the endpoint's current group is being compared to. 
+
+If the Senteon User wishes to move the endpoint to the new group, keep the new group selected and then select the `Change Group` button.
+
+#### Modifying Individual Settings
+The endpoint change controls page shows the endpoint's current configuration set that is taken from its current group. individual settings can be adjusted on this page. 
+
+After the settings have been changed, the configuration set can be updated by selecting `Save Controls`. Senteon will determine if there is any groups with a configuration set matching the newly created set. If so, the Senteon User will have the option to move the endpoint into the existing group. If they choose not to, a new exception group will be created. 
+
+  
+<img src="../images/endpointIndivSetting.PNG" width="750">
 
 ## Groups
 Groups are utilized to keep endpoints consistent with the same baseline. Each group has a configuration set associated with it that is used by all endpoints within the group. Groups must have endpoints of the same types within them. Endpoint types are defined by Senteon when they have different full configuration sets. Examples include `Windows 10 Standalone`, `Windows 10 Domain Joined`, and `Server 2016 Non-DC`. This endpoint type is determined when the Agent is installed and will be listed as the endpoint's group until it is placed in a created group during evaluation. There are two different types of groups available for creation:
@@ -218,31 +245,3 @@ Example Wizard Page:
 
 
 ???????
-
-## Modifying Endpoint Configurations
-Endpoints can have their configuration sets modified in two ways. Both methods are available through the `Edit` button on active endpoints in the Endpoints page. Endpoints can modify their configuration sets by either changing the current group they are in, or through direct modification of settings, which will move them to a matching group or create a new exception group. 
-
-  
-<img src="../images/editEndpoint.png" width="750">
-  
-
-### Changing Groups
-The endpoint change groups page shows off the endpoint's current group as well as all other available groups you can move the endpoint into. 
-
-
-  
-<img src="../images/groupDiff.PNG" width="750">
-  
-
-
-When a group is selected, all of the settings that are different between the two groups will be displayed. The value displayed for those settings will be the current value of the new group that the endpoint's current group is being compared to. 
-
-If the Senteon User wishes to move the endpoint to the new group, keep the new group selected and then select the `Change Group` button.
-
-### Changing Settings
-The endpoint change controls page shows the endpoint's current configuration set that is taken from its current group. individual settings can be adjusted on this page. 
-
-After the settings have been changed, the configuration set can be updated by selecting `Save Controls`. Senteon will determine if there is any groups with a configuration set matching the newly created set. If so, the Senteon User will have the option to move the endpoint into the existing group. If they choose not to, a new exception group will be created. 
-
-  
-<img src="../images/endpointIndivSetting.PNG" width="750">
