@@ -323,7 +323,12 @@ In some situations, Senteon Users may decide they want to convert an Exception G
 
 
 #### Modifying Individual Settings
-To modify specific settings for a group, access the individual setting tab in the `Edit Groups` window. For Management Groups, settings can be directly modified and saved here. For Exception Groups, Settings associated with the exception group can be directly modified here. Other settings can be added to the exception group and modified here as well using the `Add Settings` button. Settings can also be removed from the Exception set using the `Remove Selected Setting from Exception` button. 
+
+Specific settings/target values can be modified for a whole Group. 
+
+For Management Groups, the Applied/Target Configuration Set can be directly modified and saved. 
+
+For Exception Groups, Settings associated with the Exception Group (exceptions) can be directly modified and saved. Other settings can be added to the exception group and modified using the `Add Settings` button. Exception Settings can also be removed from the Exception Group using the `Remove Selected Setting from Exception` button. 
   
 Management Group:  
 <img src="../images/groupModifyIndividual.PNG" width="750">
