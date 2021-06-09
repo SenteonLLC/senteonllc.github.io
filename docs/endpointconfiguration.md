@@ -102,7 +102,8 @@ A window will load the following set of information specific to the Endpoint:
   
 
 ## Modifying Endpoints
-Endpoints can be modified through the listings page via the command buttons. These buttons are only available when the endpoint agent status is appropriately configured. 
+Endpoints can be modified through the listings page via the command buttons. These buttons are only available when the endpoint agent status is appropriately configured.
+
 All of the possible commands are:
 
 | Command | Availability | Usage |
@@ -143,7 +144,7 @@ After the settings have been changed, the configuration set can be updated by se
 <img src="../images/endpointIndivSetting.PNG" width="750">
   
 ## Agent Statuses
-The Senteon Agent reports its current status to Command Center whenever it is updated. This status indicates the current state that the agent is in. All of the possible states that the agent can be in are detailed here:
+The Senteon Agent reports its current status to Senteon Master/Command Center whenever it is updated. This status indicates the current state that the agent is in. All of the possible states that the agent can be in are detailed here:
   
 | State | Description |
 |:-----------:|:-----------:|
