@@ -248,34 +248,78 @@ Group info for Management Groups will display the following:
 Group info for Exception Groups will display the following:
 
 - Member Endpoints
-- Exceptions (Diff of Parent Management Group's Applied/Target Configuration Set)
+- Exceptions (Diff of parent Management Group's Applied/Target Configuration Set)
 - Total Applied/Target Configuration Set
 
 The Group info page also includes a `Generate Report for Group` button which generates a group-specific report. More information on Reports can be found [here](reports.md).
 
 ### Creating and Modifying Groups
-There is a multitude of ways to affect a group and its configuration sets that are dependent on the type of group. The different types of methods to change group configurations are detailed below. 
+
+Senteon Users can create new groups or modify existing ones in a number of ways depending on the Group Type.
 
 #### Creating Management Groups
-Management Groups can be created from the Groups page. When doing so, the group's name and configuration set can be defined and endpoints can be moved into the group as it is created through the Group Creation Form.
+
+1) Navigate to `Managed Account Console > Endpoints (tab) > Groups` and click the `Create New Group` button
+
+2) Enter a name/identifier for the Group
+
+3) (Optional) Customize the Applied/Target Configuration Set by using the `Set` buttons next to each setting
+
+4) (Optional) Add Endpoints to the Group if you wish to move them
+  > *NOT RECOMMENDED UNLESS YOU WISH BYPASS INTELLIGENT SETUP*
+
+5) Click the `Create Group` button
   
 <img src="../images/newGroup.PNG" width="750">  
 
 #### Creating Exception Groups
 Exception Groups can be made using the `Create Exception` button available to Management Groups. Creation of an Exception Group allows the Senteon User to select endpoints within the Management Group to move to the Exception Group and change settings are necessary.
 
+1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+
+2) Click the `Create Exception` button next to the Management Group you wish to make an Exception Group under
+
+3) Enter a name/identifier for the Exception Group
+
+4) (Optional) Select Endpoints from the Management Group that you want to add to the Exception Group
+
+5) (Optional) Make exceptions to the parent Management Group's Applied/Target Configuration Set by using the `Modify` buttons next to each setting
+
+6) Click the `Confirm` button
   
 <img src="../images/createException.PNG" width="750">
 
 #### Merging Exception Groups
-When an Exception Group is no longer necessary, Senteon Users can merge the Exception Group back into its Parent Management Group and return the endpoints back to the Management Group. This is done through the `Edit Groups` Window when accessed for a Management Group. 
 
-  
+When an Exception Group is no longer necessary, Senteon Users can merge it back into its parent Management Group and return the Endpoints back to the Management Group. 
+
+**Steps**
+
+1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+
+2) Click the `Modify Group` button next to the parent Management Group
+
+3) Select the `Merge Child Groups` page
+
+4) Select one or more Exception Groups and click the `Merge Group(s)` button
+
 <img src="../images/groupMergeChildren.PNG" width="750">
-  
+
 
 #### Converting Exception Groups
-In some situations, Senteon Users may decide they want to convert an Exception Group into a standalone Management Group. This is done using the `Convert to Mgmt Grp` button available to Exception Groups. Doing so will turn the Exception Group into a Management Group with the same name, effective configuration set (its former parent Management Group's configuration set + the groups own differences), and all endpoints previously part of the Exception Group. 
+In some situations, Senteon Users may decide they want to convert an Exception Group into a standalone Management Group. This is done using the `Convert to Mgmt Grp` button available to Exception Groups. This will turn the Exception Group into a Management Group and maintain the Applied/Target Configuration Set, and member Endpoints.
+
+<img src="../images/groupMergeChildren.PNG" width="750">
+
+**Steps**
+
+1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+
+2) Click the `Convert to Mgmt Grp` button next to the Exception Group
+
+3) Enter a name/identifier for the Group
+
+4) Click the `Confirm` button
 
 
 #### Modifying Individual Settings
