@@ -324,16 +324,45 @@ In some situations, Senteon Users may decide they want to convert an Exception G
 
 #### Modifying Individual Settings
 
-Specific settings/target values can be modified for a whole Group. 
+Specific settings/target values can be modified for a whole Group.
 
-For Management Groups, the Applied/Target Configuration Set can be directly modified and saved. 
+For Management Groups, the Applied/Target Configuration Set can be directly modified and saved.
 
-For Exception Groups, Settings associated with the Exception Group (exceptions) can be directly modified and saved. Other settings can be added to the exception group and modified using the `Add Settings` button. Exception Settings can also be removed from the Exception Group using the `Remove Selected Setting from Exception` button. 
-  
-Management Group:  
+**Management Group**
+
+1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+
+2) Click the `Modify Group` button next to the Management Group
+
+3) Select the `Edit Individual Settings` page
+
+4) Edit the Applied/Target Configuration Set by using the `Modify` buttons next to each setting
+
+5) Click the `Apply Changes` button
+
 <img src="../images/groupModifyIndividual.PNG" width="750">
+
+
+For Exception Groups, Settings associated with the Exception Group (exceptions) can be directly modified and saved. Other settings can be added to the Exception Group and modified using the `Add Settings` button. Exception Settings can also be removed from the Exception Group using the `Remove Selected Setting from Exception` button. 
   
-Exception Group:  
+**Exception Group**
+
+1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+
+2) Click the `Modify Group` button next to the Exception Group
+
+3) Select the `Edit Individual Settings` page
+
+4) Edit the Applied/Target Configuration Set by using the `Modify` buttons next to each setting
+
+5) (Optional) Remove exceptions from the Applied/Target Configuration Set by selecting one or more settings and clicking  the `Remove Selected Setting from Exception` button
+
+6) (Optional) Add exceptions to the Applied/Target Configuration Set by clicking the `Add Settings` button
+  6a) Select one or more settings, and then click the `Save` Button
+  6b) (Optional) Edit the new settings/exceptions by using the `Modify` buttons next to each setting
+
+7) Click the `Apply Changes` button
+
 <img src="../images/groupModifyIndividualException.PNG" width="750">
 
 #### Moving Endpoints
