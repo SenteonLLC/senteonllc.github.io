@@ -129,44 +129,14 @@ Depending on the current status of a Senteon Agent/Endpoint, different actions c
 
 All of the possible actions are are:
 
-| Action | Availability | Usage |
+| Action | Availability (Agent Status) | Usage |
 |:-----------:|:-----------:|:-----------:|
-| Info | Always Available | Displays info specific to the endpoint including its current configuration status, Operating system, and a list of applied configurations |
-| Edit | Agent Status = `Active` | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [Modifying Endpoint Configurations](#modifying-endpoint-configurations) |
-| Disable | When the endpoint is active, ready for setup, ready for evaluation, evaluating, or creating temporary endpoint profile | disables the agent on the endpoint and reverts the endpoint settings to their original settings before the Senteon Agent had any impact on them. This is automatically done when an endpoint is uninstalled |
-| Enable | Agent Status = `Disabled` | Enabling a disabled endpoint will revert an agent back to its status before it was disabled |
-| Reset | Agent Status = `Disabled` | Reset an agent to allow for a reevaluation of an endpoint |
-| Remove | Agent Status = `Uninstalling` | Removes the endpoint from the database after uninstall |
-
-## Modifying Endpoint Configurations
-Endpoints can have their configuration sets modified in two ways. Both methods are available through the `Edit` button on active endpoints in the Endpoints page. Endpoints can modify their configuration sets by either changing the current group they are in, or through direct modification of settings, which will move them to a matching group or create a new exception group. 
-
-  
-<img src="../images/editEndpoint.png" width="750">
-  
-
-### Changing Groups
-The endpoint change groups page shows off the endpoint's current group as well as all other available groups you can move the endpoint into. 
-
-
-  
-<img src="../images/groupDiff.PNG" width="750">
-  
-
-
-When a group is selected, all of the settings that are different between the two groups will be displayed. The value displayed for those settings will be the current value of the new group that the endpoint's current group is being compared to. 
-
-If the Senteon User wishes to move the endpoint to the new group, keep the new group selected and then select the `Change Group` button.
-
-### Changing Settings
-The endpoint change controls page shows the endpoint's current configuration set that is taken from its current group. individual settings can be adjusted on this page. 
-
-After the settings have been changed, the configuration set can be updated by selecting `Save Controls`. Senteon will determine if there is any groups with a configuration set matching the newly created set. If so, the Senteon User will have the option to move the endpoint into the existing group. If they choose not to, a new exception group will be created. 
-
-  
-<img src="../images/endpointIndivSetting.PNG" width="750">
-  
-
+| Info | Always Available | Displays info specific to the Endpoint including its current configuration status, operating system, and a list of applied configurations |
+| Disable | `Active`, `Creating Temporary Endpoint Profile`, `Evaluating`, `Ready to Begin Evaluation`, or `Ready for Setup`| Disables the Agent on the Endpoint and reverts the Senteon-managed settings back to the state they were in prior to Senteon </br> *Note: This happens automatically when an Agent is uninstalled* |
+| Enable | `Disabled` | Enabling a disabled endpoint will revert an agent back to its status before it was disabled |
+| Edit | `Active` | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [Modifying Endpoint Configurations](#modifying-endpoint-configurations) |
+| Reset | `Disabled` | Resets the Agent Status back to `Ready to Begin Evaluation`|
+| Remove | `Uninstalling` | Removes the Endpoint from the Managed Account |
 
 
 # Groups
@@ -248,3 +218,32 @@ Setup must be done for endpoints one at a time. When the setup wizard begins, th
 
 Example Wizard Page:  
 <img src="../images/wizardpage.PNG" width="750">
+
+
+## Modifying Endpoint Configurations
+Endpoints can have their configuration sets modified in two ways. Both methods are available through the `Edit` button on active endpoints in the Endpoints page. Endpoints can modify their configuration sets by either changing the current group they are in, or through direct modification of settings, which will move them to a matching group or create a new exception group. 
+
+  
+<img src="../images/editEndpoint.png" width="750">
+  
+
+### Changing Groups
+The endpoint change groups page shows off the endpoint's current group as well as all other available groups you can move the endpoint into. 
+
+
+  
+<img src="../images/groupDiff.PNG" width="750">
+  
+
+
+When a group is selected, all of the settings that are different between the two groups will be displayed. The value displayed for those settings will be the current value of the new group that the endpoint's current group is being compared to. 
+
+If the Senteon User wishes to move the endpoint to the new group, keep the new group selected and then select the `Change Group` button.
+
+### Changing Settings
+The endpoint change controls page shows the endpoint's current configuration set that is taken from its current group. individual settings can be adjusted on this page. 
+
+After the settings have been changed, the configuration set can be updated by selecting `Save Controls`. Senteon will determine if there is any groups with a configuration set matching the newly created set. If so, the Senteon User will have the option to move the endpoint into the existing group. If they choose not to, a new exception group will be created. 
+
+  
+<img src="../images/endpointIndivSetting.PNG" width="750">
