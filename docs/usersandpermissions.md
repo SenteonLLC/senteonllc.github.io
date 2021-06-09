@@ -1,14 +1,6 @@
 # Users and Permissions
 This section describes Senteon's User and Role-Based Permission Systems. Command Center gives you the ability to create and manage users in addition to your Master Account user.
 
-  - [Roles and Permissions](usersandpermissions.md#roles-and-permissions)
-  - [Creating Users](usersandpermissions.md#creating-users)
-  - [Modifying Users](usersandpermissions.md#modifying-users)
-      - [Changing Password for Current User](usersandpermissions.md#changing-password-for-current-user)
-      - [Changing Password for Another User](usersandpermissions.md#changing-password-for-another-user)
-      - [Modifying a User's Role](usersandpermissions.md#modifying-a-user-role)
-  - [Deleting Users](usersandpermissions.md#deleting-users)
-
 ## Roles and Permissions
 
 The Master Account user is automatically assigned the "Owner" role. This is the highest privileged role, and no other users can be assigned this role.
