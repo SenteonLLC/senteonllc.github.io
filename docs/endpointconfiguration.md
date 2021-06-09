@@ -37,10 +37,14 @@ Senteon provides a variety of information about the Senteon-supported settings t
 <img src="../images/configurationInfoPanel.png" width="750">
   
 
+/* DELETE THIS
+
 ### Changing Configurations
 Changing setting configurations with a configuration set can be done through multiple methods detailed under the endpoints and groups sections below. It is, however, worth noting that regardless of how configurations are changed and adjusted. they are always associated with groups and not with endpoints directly. As a result, when settings are changed on an endpoint, users will be prompted to move the endpoint into another group with a matching configuration set or create a new exception group with the intended condfiguration set. 
 
 Configuration settings are always changed using a modify window that will display the setting as well as its preferred value and any alternate acceptable values it has. Any place where configurations can be edited will have access to the modify window.
+
+*/
 
 ## Endpoints
 Once a Senteon Agent is installed, it will fingerprint the system it is installed on and register itself with the Senteon Servers and display an entry on the endpoint listing for the managed account. This information can be refreshed at any time using the refresh button located next to the endpoints and groups tabs.
