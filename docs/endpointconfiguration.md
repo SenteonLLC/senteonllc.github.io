@@ -139,7 +139,7 @@ All of the possible actions are are:
 | Remove | `Uninstalling` | Removes the Endpoint from the Managed Account |
 
 
-# Groups
+## Groups
 Groups are utilized to keep endpoints consistent with the same baseline. Each group has a configuration set associated with it that is used by all endpoints within the group. Groups must have endpoints of the same types within them. Endpoint types are defined by Senteon when they have different full configuration sets. Examples include `Windows 10 Standalone`, `Windows 10 Domain Joined`, and `Server 2016 Non-DC`. This endpoint type is determined when the Agent is installed and will be listed as the endpoint's group until it is placed in a created group during evaluation. There are two different types of groups available for creation:
   
 | Group Type | Description |
@@ -147,42 +147,39 @@ Groups are utilized to keep endpoints consistent with the same baseline. Each gr
 | Management Group | Management Groups have all settings available for the endpoint type and should be used for general baselines that include the majority of endpoints |
 | Exception Group | Exception Groups are created underneath a management group and only have the settings that are configured to be different from its parent management group. These groups should be used when Endpoints have configuration sets that are slightly different from the management group. |
   
-## Group Info
+### Group Info
 Info for a specific group can be accessed by selecting the `view` button next to the relevant group.
 Group info for Management Groups will display the current endpoints that belong to the role, the current configuration set for the role, and the exception groups underneath that management group. 
 Group info for an Exception Group will display the current endpoints that belong to the role, the current configurations set that are different from the management group, and its entire effective configuration set with the management group's controls included. 
 
 The Group info page also includes a button used to generate a report specific to the group. To learn more about reports, please reference the [reports page](reports.md)
 
-## Group Modification
+### Group Modification
 There is a multitude of ways to affect a group and its configuration sets that are dependent on the type of group. The different types of methods to change group configurations are detailed below. 
 
-### Moving Endpoints
-Endpoints can be directly moved between groups through the `Edit Groups` window. Groups will list all endpoints within the group and all endpoints outside the group. An endpoint can be moved into a group and out of a group from any group window. 
-
+### Creating Management Groups
+Management Groups can be created from the Groups page. When doing so, the group's name and configuration set can be defined and endpoints can be moved into the group as it is created through the Group Creation Form.
   
-<img src="../images/modifyGroupEndpoint.PNG" width="750">
-  
+<img src="../images/newGroup.PNG" width="750">  
 
-### Making Exception Groups
+#### Creating Exception Groups
 Exception Groups can be made using the `Create Exception` button available to Management Groups. Creation of an Exception Group allows the Senteon User to select endpoints within the Management Group to move to the Exception Group and change settings are necessary.
 
   
 <img src="../images/createException.PNG" width="750">
-  
 
-### Merging Exception Groups
+#### Merging Exception Groups
 When an Exception Group is no longer necessary, Senteon Users can merge the Exception Group back into its Parent Management Group and return the endpoints back to the Management Group. This is done through the `Edit Groups` Window when accessed for a Management Group. 
 
   
 <img src="../images/groupMergeChildren.PNG" width="750">
   
 
-### Converting Exception Groups
+#### Converting Exception Groups
 In some situations, Senteon Users may decide they want to convert an Exception Group into a standalone Management Group. This is done using the `Convert to Mgmt Grp` button available to Exception Groups. Doing so will turn the Exception Group into a Management Group with the same name, effective configuration set (its former parent Management Group's configuration set + the groups own differences), and all endpoints previously part of the Exception Group. 
 
 
-### Individual Setting Modification
+#### Modifying Individual Settings
 To modify specific settings for a group, access the individual setting tab in the `Edit Groups` window. For Management Groups, settings can be directly modified and saved here. For Exception Groups, Settings associated with the exception group can be directly modified here. Other settings can be added to the exception group and modified here as well using the `Add Settings` button. Settings can also be removed from the Exception set using the `Remove Selected Setting from Exception` button. 
   
 Management Group:  
@@ -190,16 +187,16 @@ Management Group:
   
 Exception Group:  
 <img src="../images/groupModifyIndividualException.PNG" width="750">
+
+#### Moving Endpoints
+Endpoints can be directly moved between groups through the `Edit Groups` window. Groups will list all endpoints within the group and all endpoints outside the group. An endpoint can be moved into a group and out of a group from any group window. 
   
-### New Management Group Creation
-Management Groups can be created from the Groups page. When doing so, the group's name and configuration set can be defined and endpoints can be moved into the group as it is created through the Group Creation Form.
-  
-<img src="../images/newGroup.PNG" width="750">
-  
-# Setup
+<img src="../images/modifyGroupEndpoint.PNG" width="750">
+
+## Intelligent Setup
 When endpoints have a Senteon Agent installed, the Senteon Agent will register itself with Command Center so that it can be evaluated and finalized. Starting Evaluation will allow the Senteon Agent to audit all of the settings related to that endpoint type and determine the ideal baseline for the endpoint. After evaluation is complete, the endpoint can be setup with the wizard. The Setup wizard contains questions relating to settings that the Agent could not make determinations for due to organizational/cultural restrictions. Specific choices that can be made during evaluation and setup are detailed below. 
 
-## Evaluation
+### Evaluation
 Evaluation can be started on one or more endpoints simultaneously through the Endpoint Setup page. 
   
 <img src="../images/SelectEvaluation.PNG" width="750">
@@ -210,7 +207,7 @@ When endpoints are selected for evaluation, one of three options can be chosen. 
   
 Adding the Endpoint to an existing group will utilize the group's pre-existing configuration set as a baseline and ignore settings that are already not configured for the group. 
 
-## Setup Wizard
+### Guided Setup
 Setup must be done for endpoints one at a time. When the setup wizard begins, the Senteon User can choose to skip the wizard and immediately setup the wizard with the configuration set of its current group regardless of the conflicts found in the wizard. Otherwise, the wizard will run through a set of questions that detail specific issues related to settings and provide endpoint specific data for settings that have findings. Senteon also provides an explanation as to the importance and potential impact caused by these settings to help Senteon Users make clear informed decisions. Some settings decisions are considered to be organization wide, and will only be queried once. Once a decision as been made, these settings will be accessible for the Managed Account settings for modification. 
   
 <img src="../images/readyforsetup.PNG" width="750">
@@ -219,6 +216,8 @@ Setup must be done for endpoints one at a time. When the setup wizard begins, th
 Example Wizard Page:  
 <img src="../images/wizardpage.PNG" width="750">
 
+
+???????
 
 ## Modifying Endpoint Configurations
 Endpoints can have their configuration sets modified in two ways. Both methods are available through the `Edit` button on active endpoints in the Endpoints page. Endpoints can modify their configuration sets by either changing the current group they are in, or through direct modification of settings, which will move them to a matching group or create a new exception group. 
