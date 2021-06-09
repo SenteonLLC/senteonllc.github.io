@@ -5,20 +5,33 @@ This section describes the concepts and systems that Senteon uses to manage secu
 Below you can find details regarding how to complete the setup of your fleet of endpoints from start to finish, the settings/configurations Senteon manages, how a Senteon user should expect to organize and manage their fleet of endpoints, and what healthy activity looks like.
 
 ## Intelligent Setup
-When endpoints have a Senteon Agent installed, the Senteon Agent will register itself with Command Center so that it can be evaluated and finalized. Starting Evaluation will allow the Senteon Agent to audit all of the settings related to that endpoint type and determine the ideal baseline for the endpoint. After evaluation is complete, the endpoint can be setup with the wizard. The Setup wizard contains questions relating to settings that the Agent could not make determinations for due to organizational/cultural restrictions. Specific choices that can be made during evaluation and setup are detailed below. 
 
-### Evaluation
-Evaluation can be started on one or more endpoints simultaneously through the Endpoint Setup page. 
+Senteon assists users in performing baseline security configuration (also known as system hardening) by guiding them through Senteon's "Intelligent Setup" process. Intelligent Setup has two phases: Evaluation and Guided Setup. Senteon Agents will evaluate your Endpoints to determine what potential blocking/disruption factors there may be to enabling recommended security settings. After Evaluation, Senteon will use the results to provide a unique Guided Setup Wizard which will help you get as close to the recommendations as possible while providing actionable data on how to overcome blocking factors.
+
+Once Command Center and the Senteon Agents are installed on their corresponding systems, Endpoints will populate in the Managed Account Console with an "Agent Status" of `Ready to Begin Evaluation`. From here you will be able to begin the Evaluation Phase of Intelligent Setup.
+
+### Phase 1: Evaluation
+
+During Evaluation, one or more Endpoints will be analyzed to determine which security-related settings can be safely implemented without disrupting user experience and/or network operations.
+
+Endpoints that are ready to begin Evaluation will appear in the `Endpoint Setup` page under "Ready For Evaluation"
+
+**Location**
+
+`Managed Account Console > Endpoints > Endpoint Setup
   
 <img src="../images/SelectEvaluation.PNG" width="750">
   
-When endpoints are selected for evaluation, one of three options can be chosen. Endpoints can either be placed into a new group and evaluated, placed into a pre-existing group and evaluated, or evaluation and set up can be skipped entirely and an existing configuration set will be immediately applied. 
-  
-<img src="../images/EvaluationPrompt.PNG" width="750">
-  
-Adding the Endpoint to an existing group will utilize the group's pre-existing configuration set as a baseline and ignore settings that are already not configured for the group. 
+When Endpoints are selected for Evaluation, one of three options can be chosen:
 
-### Guided Setup
+- Create a new Group to add the Endpoint(s) and Evaluate based off of the Group's Configuration Set
+- Add the Endpoint(s) to a pre-existing Group and Evaluate based off of the Group's Configuration Set
+- Add the Endpoint(s) to a pre-existing Group and skip Intelligent Setup. 
+  - The Group's Configuration Set will be immediately applied with no regard to potential blocking/disruption factors
+
+<img src="../images/EvaluationPrompt.PNG" width="750">
+
+### Phase 2: Guided Setup
 Setup must be done for endpoints one at a time. When the setup wizard begins, the Senteon User can choose to skip the wizard and immediately setup the wizard with the configuration set of its current group regardless of the conflicts found in the wizard. Otherwise, the wizard will run through a set of questions that detail specific issues related to settings and provide endpoint specific data for settings that have findings. Senteon also provides an explanation as to the importance and potential impact caused by these settings to help Senteon Users make clear informed decisions. Some settings decisions are considered to be organization wide, and will only be queried once. Once a decision as been made, these settings will be accessible for the Managed Account settings for modification. 
   
 <img src="../images/readyforsetup.PNG" width="750">
