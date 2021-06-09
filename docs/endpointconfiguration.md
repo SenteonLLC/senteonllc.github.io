@@ -2,7 +2,7 @@
 
 This section describes the concepts and systems that Senteon uses to manage security-related settings on your endpoints. We highly recommend that you familiarize yourself with this material before trying to administer Senteon.
 
-Below you can find details regarding the sets of settings/configurations Senteon manages, how a Senteon user should expect to organize and observe their fleet of endpoints, what healthy activity looks like, and finally how to complete the setup of your fleet of endpoints from start to finish.
+Below you can find details regarding the settings/configurations Senteon manages, how a Senteon user should expect to organize and manage their fleet of endpoints, what healthy activity looks like, and finally how to complete the setup of your fleet of endpoints from start to finish.
 
 
 ## Configuration Sets
