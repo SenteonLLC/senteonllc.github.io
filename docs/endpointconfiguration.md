@@ -43,28 +43,29 @@ When Endpoints are selected for Evaluation, one of the following options can be 
 
 After a Senteon Agent/Endpoint finishes Evaluation, the Agent Status will change to `Ready for Setup` and it will appear in the `Endpoint Setup` page under "Ready For Setup"
 
+<img src="../images/readyforsetup.PNG" width="750">
+
 Clicking the `Finish Setup` button next to an Endpoint will launch the Guided Setup Wizard which walks you through any decisions that need to be made due to blocking/disruption factors. This can range from technical factors such as ussing out-of-date authentication protocols to organizational/cultural factors that Senteon cannot be aware of in a vacuum.
 
+Example Wizard Page:  
+<img src="../images/wizardpage.PNG" width="750">
 
-**Note**: Some Wizard Questions will have a warning such as "Warning: Once this decision has been made, it will be set for all systems configured through Senteon after this" which indicates that Senteon will only ask you to make the decision once for all Endpoints in the Managed Account. The decision can be adjusted for the setup of subsequent Endpoints in the following location:
+#### Account-wide Guided Setup Decisions
+
+Some Wizard Questions will have a warning such as "Warning: Once this decision has been made, it will be set for all systems configured through Senteon after this" which indicates that Senteon will only ask you to make the decision once for all Endpoints in the Managed Account. The decision can be adjusted for the setup of subsequent Endpoints in the following location:
 
 `Manage Account Console > Settings > Account-wide Guided Setup Decisions`
 
 More information can be found [here](settings.md#general-settings_1)
 
-**Note**: Guided Setup can only be completed for one (1) endpoint at a time in this version. If you would like to setup more than one at a time, Senteon recommends the following: 
+#### Guided Setup for Multiple Endpoints
 
-1) Complete the process for the first Endpoint in the Group in order to finalize the Group's Applied/target Configuration Set
+Guided Setup can only be completed for one (1) endpoint at a time in this version. If you would like to setup more than one at a time, Senteon recommends the following: 
+
+1) Complete the process for the first Endpoint in the Group in order to finalize the Group's Applied/Target Configuration Set
 
 2) Either note down your decisions and complete the Guided Setup Wizard again for subsequent Endpoints or finish Setup for the subsequent Endpoints by choosing the option at the start of the Guided Setup Wizard to skip the questions/decisions
 
-Setup must be done for endpoints one at a time. When the setup wizard begins, the Senteon User can choose to skip the wizard and immediately setup the wizard with the configuration set of its current group regardless of the conflicts found in the wizard. Otherwise, the wizard will run through a set of questions that detail specific issues related to settings and provide endpoint specific data for settings that have findings. Senteon also provides an explanation as to the importance and potential impact caused by these settings to help Senteon Users make clear informed decisions. Some settings decisions are considered to be organization wide, and will only be queried once. Once a decision as been made, these settings will be accessible for the Managed Account settings for modification. 
-  
-<img src="../images/readyforsetup.PNG" width="750">
-  
-
-Example Wizard Page:  
-<img src="../images/wizardpage.PNG" width="750">
 
 ## Configuration Sets
 
