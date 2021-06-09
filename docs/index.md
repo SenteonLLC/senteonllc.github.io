@@ -21,9 +21,10 @@ Senteon recommends following the list of readings below for key concepts and ins
 ### Terminology
 
 | Term | Description |
-|:--------------:|:-----------:|
-| Senteon Command Center | The central administrator console |
+|:--------------:|:-----------|
+| Senteon Command Center | Senteon's central, self-hosted administrative console |
 | Senteon Agent | A small program installed on each endpoint that performs actions and communicates back to Command Center |
+| Senteon Master | Senteon's back-end private cloud services which do the following: </br></br> - Communications facilitation between Command Center and Agent(s) </br> - Authentication services </br> - ML assistance for endpoint evaluation |
 | Master Account | The primary account that you signed up for Senteon with. This account acts as a container for all of your users, data, and resources |
 | Managed Account | A "sub-account" within the Master Account that you set up for each organization you wish to manage. Agents/endpoints are registered to Managed Accounts for administration |
 | Command Center User | A local user within a Master Account with permissions to login and perform actions in Command Center based off of the user's role |
