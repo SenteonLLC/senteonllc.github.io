@@ -22,37 +22,38 @@ Once Command Center and the Senteon Agents are installed on their corresponding 
 
 During Evaluation, one or more Endpoints will be analyzed to determine which security-related settings can be safely implemented without disrupting user experience and/or network operations.
 
-Endpoints that are ready to begin Evaluation will appear in the `Endpoint Setup` page under "Ready For Evaluation"
+Endpoints that are ready to begin Evaluation will appear in the `Endpoint Setup` page under "Ready for Evaluation"
 
 **Location**
 
 `Managed Account Console > Endpoints > Endpoint Setup`
   
 <img src="../images/SelectEvaluation.PNG" width="750">
-  
+
+---
 When Endpoints are selected for Evaluation, one of the following options can be chosen:
 
 - Create a new Group to add the Endpoint(s) and Evaluate based off of the Group's Configuration Set
 - Add the Endpoint(s) to a pre-existing Group and Evaluate based off of the Group's Configuration Set
 - Add the Endpoint(s) to a pre-existing Group and skip Intelligent Setup
-  - The Group's Configuration Set will be immediately applied with no regard to potential blocking/disruption factors
+    - *Note: The Group's Configuration Set will be immediately applied with no regard to potential blocking/disruption factors*
 
 <img src="../images/EvaluationPrompt.PNG" width="750">
 
 ### Phase 2: Guided Setup
 
-After a Senteon Agent/Endpoint finishes Evaluation, the Agent Status will change to `Ready for Setup` and it will appear in the `Endpoint Setup` page under "Ready For Setup"
+After a Senteon Agent/Endpoint finishes Evaluation, the Agent Status will change to `Ready for Setup` and it will appear in the `Endpoint Setup` page under "Ready for Setup"
 
 <img src="../images/readyforsetup.PNG" width="750">
 
-Clicking the `Finish Setup` button next to an Endpoint will launch the Guided Setup Wizard which walks you through any decisions that need to be made due to blocking/disruption factors. This can range from technical factors such as ussing out-of-date authentication protocols to organizational/cultural factors that Senteon cannot be aware of in a vacuum.
+Clicking the `Finish Setup` button next to an Endpoint will launch the Guided Setup Wizard which walks you through any decisions that need to be made due to blocking/disruption factors. This can range from technical factors such as out-of-date authentication protocols to organizational/cultural factors that Senteon cannot be aware of in a vacuum.
 
 Example Wizard Page:  
 <img src="../images/wizardpage.PNG" width="750">
 
 #### Account-wide Guided Setup Decisions
 
-Some Wizard Questions will have a warning such as "Warning: Once this decision has been made, it will be set for all systems configured through Senteon after this" which indicates that Senteon will only ask you to make the decision once for all Endpoints in the Managed Account. The decision can be adjusted for the setup of subsequent Endpoints in the following location:
+Some Wizard questions will have a warning such as **"Warning: Once this decision has been made, it will be set for all systems configured through Senteon after this"** which indicates that Senteon will only ask you to make the decision once for all Endpoints in the Managed Account. The decision can be adjusted for the setup of subsequent Endpoints in the following location:
 
 `Manage Account Console > Settings > Account-wide Guided Setup Decisions`
 
@@ -60,11 +61,14 @@ More information can be found [here](settings.md#general-settings_1)
 
 #### Guided Setup for Multiple Endpoints
 
-Guided Setup can only be completed for one (1) endpoint at a time in this version. If you would like to setup more than one at a time, Senteon recommends the following: 
+Guided Setup can only be completed for one (1) endpoint at a time in this version since each Senteon Aget performs a unique evaluation of its Endpoint. If you would like to setup more than one at a time, Senteon recommends the following work-arounds: 
 
 1) Complete the process for the first Endpoint in the Group in order to finalize the Group's Applied/Target Configuration Set
 
-2) Either note down your decisions and complete the Guided Setup Wizard again for subsequent Endpoints or finish Setup for the subsequent Endpoints by choosing the option at the start of the Guided Setup Wizard to skip the questions/decisions
+2a) (Option 1) Note down your decisions and complete the Guided Setup Wizard again for subsequent Endpoints
+
+2b) (Option 2) Override the Setup Wizard for the subsequent Endpoints by choosing the option at the start of the Wizard to skip the questions/decisions and apply the Group's Applied/Target Configuration Set
+  > *Note: Senteon cannot gurantee that this will not cause usability or networking issues for these Endpoints as warnings that would be provided in the Wizard will be bypassed*
 
 
 ## Configuration Sets
@@ -155,9 +159,9 @@ A window will open and display the following set of information specific to the 
  
 ### Agent Statuses
 
-All of the possible states that Senteon Agent can be in are detailed here:
+All of the possible statuses that Senteon Agent can report are detailed here:
   
-| State | Description |
+| Status | Description |
 |:-----------:|:-----------|
 | Active | The Endpoint has finished Intelligent Setup and Senteon Agent is actively monitoring for drift from the associated Applied/Target Configuration Set |
 | Creating Temporary Endpoint Profile | The Agent is currently in the process of installing, but has not finished yet |
@@ -222,7 +226,7 @@ When a Group is selected, all of the target setting values that are different be
 #### Modifying Individual Settings
 After clicking the `Edit` button, the `Edit Individual Settings` page will display the Endpoint's Applied/Target Configuration Set which is inherited from its Group.
 
-In this page you can view Setting information by clicking `View`. You can also modify the target values of individual settings by clicking `Modify`, making a selection, and then clicking the `Apply Changes` button.
+In this page you can view security setting information by clicking `View`. You can also modify the target values of individual settings by clicking `Modify`, making a selection, and then clicking the `Apply Changes` button.
 
 After clicking `Apply Changes`, Senteon will determine if there are any exising Groups that match the modified Applied/Target Configuration Set. If any matching Groups exist, an option will be provided to move the Endpoint into the existing Group. If there are no matching Groups, or you choose not to add the Endpoint to a matching one, a new Exception Group will be made for the Endpoint. 
 
@@ -242,7 +246,7 @@ After clicking `Apply Changes`, Senteon will determine if there are any exising 
 
 ## Groups
 
-Senteon uses Groups to organize sets of Endpoints and provide the Applied/Target Configuration Set that members of the Group inherit. Each Group can be associated with exactly one (1) Applied/Target Configuration Set, and only Endpoints with the same Endpoint Type/Profile as a Group can become a member (e.g. Windows 10 Standalone.
+Senteon uses Groups to organize sets of Endpoints and provide the Applied/Target Configuration Set that members of the Group inherit. Each Group can be associated with exactly one (1) Applied/Target Configuration Set, and only Endpoints with the same Endpoint Type/Profile as a Group can become a member (e.g. Windows 10 Standalone).
 
 **Location**
 
@@ -288,23 +292,24 @@ Senteon Users can create new groups or modify existing ones in a number of ways 
 
 #### Creating Management Groups
 
-1) Navigate to `Managed Account Console > Endpoints (tab) > Groups` and click the `Create New Group` button
+1) Navigate to `Managed Account Console > Endpoints > Groups` and click the `Create New Group` button
 
 2) Enter a name/identifier for the Group
 
 3) (Optional) Customize the Applied/Target Configuration Set by using the `Set` buttons next to each setting
 
 4) (Optional) Add Endpoints to the Group if you wish to move them
-  > *NOT RECOMMENDED UNLESS YOU WISH BYPASS INTELLIGENT SETUP*
+  > *NOTE: NOT RECOMMENDED UNLESS YOU WISH BYPASS INTELLIGENT SETUP*
 
 5) Click the `Create Group` button
   
 <img src="../images/newGroup.PNG" width="750">  
 
 #### Creating Exception Groups
-Exception Groups can be made using the `Create Exception` button available to Management Groups. Creation of an Exception Group allows the Senteon User to select endpoints within the Management Group to move to the Exception Group and change settings are necessary.
 
-1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+Exception Groups can be made using the `Create Exception` button available for Management Groups. Creation of an Exception Group allows the Senteon User to select Endpoints within the Management Group to move to the Exception Group and change settings as necessary.
+
+1) Navigate to `Managed Account Console > Endpoints > Groups`
 
 2) Click the `Create Exception` button next to the Management Group you wish to make an Exception Group under
 
@@ -324,7 +329,7 @@ When an Exception Group is no longer necessary, Senteon Users can merge it back 
 
 **Steps**
 
-1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+1) Navigate to `Managed Account Console > Endpoints > Groups`
 
 2) Click the `Modify Group` button next to the parent Management Group
 
@@ -336,13 +341,13 @@ When an Exception Group is no longer necessary, Senteon Users can merge it back 
 
 
 #### Converting Exception Groups
-In some situations, Senteon Users may decide they want to convert an Exception Group into a standalone Management Group. This is done using the `Convert to Mgmt Grp` button available to Exception Groups. This will turn the Exception Group into a Management Group and maintain the Applied/Target Configuration Set, and member Endpoints.
+In some situations, Senteon Users may decide they want to convert an Exception Group into a standalone Management Group. This is done using the `Convert to Mgmt Grp` button available for Exception Groups. This will turn the Exception Group into a Management Group and maintain its member Endpoints and the Applied/Target Configuration Set.
 
 <img src="../images/groupMergeChildren.PNG" width="750">
 
 **Steps**
 
-1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+1) Navigate to `Managed Account Console > Endpoints > Groups`
 
 2) Click the `Convert to Mgmt Grp` button next to the Exception Group
 
@@ -355,11 +360,11 @@ In some situations, Senteon Users may decide they want to convert an Exception G
 
 Specific settings/target values can be modified for a whole Group.
 
-For Management Groups, the Applied/Target Configuration Set can be directly modified and saved.
-
 **Management Group**
 
-1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+For Management Groups, the Applied/Target Configuration Set can be directly modified and saved.
+
+1) Navigate to `Managed Account Console > Endpoints > Groups`
 
 2) Click the `Modify Group` button next to the Management Group
 
@@ -371,12 +376,12 @@ For Management Groups, the Applied/Target Configuration Set can be directly modi
 
 <img src="../images/groupModifyIndividual.PNG" width="750">
 
-
-For Exception Groups, Settings associated with the Exception Group (exceptions) can be directly modified and saved. Other settings can be added to the Exception Group and modified using the `Add Settings` button. Exception Settings can also be removed from the Exception Group using the `Remove Selected Setting from Exception` button. 
   
 **Exception Group**
 
-1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+For Exception Groups, settings associated with the Exception Group (exceptions) can be directly modified and saved. Other settings can be added to the Exception Group and modified using the `Add Settings` button. Exception settings can also be removed from the Exception Group using the `Remove Selected Setting from Exception` button. 
+
+1) Navigate to `Managed Account Console > Endpoints > Groups`
 
 2) Click the `Modify Group` button next to the Exception Group
 
@@ -398,9 +403,9 @@ For Exception Groups, Settings associated with the Exception Group (exceptions) 
 
 #### Moving Endpoints
 
-*Move Endpoints From a Group to Another Group*
+**Move Endpoints From a Group to Another Group**
 
-1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+1) Navigate to `Managed Account Console > Endpoints > Groups`
 
 2) Click the `Modify Group` button next to the Group
 
@@ -410,9 +415,9 @@ For Exception Groups, Settings associated with the Exception Group (exceptions) 
 
 5) Select a Group from the list of Available Groups and click the `Move to selected Group` button
   
-*Move Endpoints To a Group From Another Group*
+**Move Endpoints To a Group From Another Group**
 
-1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+1) Navigate to `Managed Account Console > Endpoints > Groups`
 
 2) Click the `Modify Group` button next to the Group
 
