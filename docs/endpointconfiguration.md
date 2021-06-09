@@ -133,7 +133,7 @@ All of the possible actions are are:
 |:-----------:|:-----------:|:-----------:|
 | Info | Always Available | Displays info specific to the Endpoint including its current configuration status, operating system, and a list of applied configurations |
 | Disable | `Active`, `Creating Temporary Endpoint Profile`, `Evaluating`, `Ready to Begin Evaluation`, or `Ready for Setup`| Disables the Agent on the Endpoint and reverts the Senteon-managed settings back to the state they were in prior to Senteon </br> *Note: This happens automatically when an Agent is uninstalled* |
-| Enable | `Disabled` | Enabling a disabled endpoint will revert an agent back to its status before it was disabled |
+| Enable | `Disabled` | Reverts the Agent/Endpoint back to its status before it was disabled |
 | Edit | `Active` | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [Modifying Endpoint Configurations](#modifying-endpoint-configurations) |
 | Reset | `Disabled` | Resets the Agent Status back to `Ready to Begin Evaluation`|
 | Remove | `Uninstalling` | Removes the Endpoint from the Managed Account |
