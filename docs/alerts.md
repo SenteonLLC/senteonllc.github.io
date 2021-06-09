@@ -2,10 +2,6 @@
 
 This section decribes Senteon's event-logging and alerting system.
 
-- [Viewing Alerts](alerts.md#viweing-alerts)
-- [Alert Priority Levels](alerts.md#alert-priority-levels)
-- [Alert Types](alerts.md#alert-types)
-
 ## Viewing Alerts
 
 Alerts can be viewed in two locations:
