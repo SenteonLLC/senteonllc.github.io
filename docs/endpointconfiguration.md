@@ -57,7 +57,7 @@ Configuration settings are always changed using a modify window that will displa
 
 ## Endpoint/Fleet Management
 
-Senteon Users can observe and manage their fleet of Endpoints in Command Center. When Senteon Agent is installed on an Endpoint, it will register itself with Senteon Master. Once registered, it will appear in Command Center under the relevant Managed Account.
+Senteon Users can observe and manage their fleet of Endpoints in Command Center. When Senteon Agent is installed on an Endpoint, it will register itself with Senteon Master and Command Center. Once registered, it will appear in Command Center under the relevant Managed Account.
 
 **Location**
 
