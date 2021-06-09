@@ -6,7 +6,15 @@ Below you can find details regarding how to complete the setup of your fleet of 
 
 ## Intelligent Setup
 
-Senteon assists users in performing baseline security configuration (also known as system hardening) by guiding them through Senteon's "Intelligent Setup" process. Intelligent Setup has two phases: Evaluation and Guided Setup. Senteon Agents will evaluate your Endpoints to determine what potential blocking/disruption factors there may be to enabling recommended security settings. After Evaluation, Senteon will use the results to provide a unique Guided Setup Wizard which will help you get as close to the recommendations as possible while providing actionable data on how to overcome blocking factors.
+Senteon assists users in performing baseline security configuration (also known as system hardening) by guiding them through Senteon's "Intelligent Setup" process. 
+
+Intelligent Setup has two phases:
+
+1) Evaluation
+
+2) Guided Setup
+ 
+Senteon Agents will evaluate your Endpoints to determine what potential blocking/disruption factors there may be to enabling recommended security settings. After Evaluation, Senteon will use the results to provide a unique Guided Setup Wizard which will help you get as close to the recommendations as possible while providing actionable data on how to overcome blocking/disruption factors.
 
 Once Command Center and the Senteon Agents are installed on their corresponding systems, Endpoints will populate in the Managed Account Console with an "Agent Status" of `Ready to Begin Evaluation`. From here you will be able to begin the Evaluation Phase of Intelligent Setup.
 
@@ -18,20 +26,34 @@ Endpoints that are ready to begin Evaluation will appear in the `Endpoint Setup`
 
 **Location**
 
-`Managed Account Console > Endpoints > Endpoint Setup
+`Managed Account Console > Endpoints > Endpoint Setup`
   
 <img src="../images/SelectEvaluation.PNG" width="750">
   
-When Endpoints are selected for Evaluation, one of three options can be chosen:
+When Endpoints are selected for Evaluation, one of the following options can be chosen:
 
 - Create a new Group to add the Endpoint(s) and Evaluate based off of the Group's Configuration Set
 - Add the Endpoint(s) to a pre-existing Group and Evaluate based off of the Group's Configuration Set
-- Add the Endpoint(s) to a pre-existing Group and skip Intelligent Setup. 
+- Add the Endpoint(s) to a pre-existing Group and skip Intelligent Setup
   - The Group's Configuration Set will be immediately applied with no regard to potential blocking/disruption factors
 
 <img src="../images/EvaluationPrompt.PNG" width="750">
 
 ### Phase 2: Guided Setup
+
+After a Senteon Agent/Endpoint finishes Evaluation, the Agent Status will change to `Ready for Setup` and it will appear in the `Endpoint Setup` page under "Ready For Setup"
+
+Clicking the `Finish Setup` button next to an Endpoint will launch the Guided Setup Wizard which walks you through any decisions that need to be made due to blocking/disruption factors. This can range from technical factors such as ussing out-of-date authentication protocols to organizational/cultural factors that Senteon cannot be aware of in a vacuum.
+
+
+**Note**: Some Wizard Questions will have a warning such as "Warning: Once this decision has been made, it will be set for all systems configured through Senteon after this" which indicates that Senteon will only ask you to make the decision once for all Endpoints in the Managed Account. The decision can be adjusted for subsequent Endpoint Setup
+
+**Note**: Guided Setup can only be completed for one (1) endpoint at a time in this version. If you would like to setup more than one at a time, Senteon recommends the following: 
+
+1) Complete the process for the first Endpoint in the Group in order to finalize the Group's Applied/target Configuration Set
+
+2) Either note down your decisions and complete the Guided Setup Wizard again for subsequent Endpoints or finish Setup for the subsequent Endpoints by choosing the option at the start of the Guided Setup Wizard to skip the questions/decisions
+
 Setup must be done for endpoints one at a time. When the setup wizard begins, the Senteon User can choose to skip the wizard and immediately setup the wizard with the configuration set of its current group regardless of the conflicts found in the wizard. Otherwise, the wizard will run through a set of questions that detail specific issues related to settings and provide endpoint specific data for settings that have findings. Senteon also provides an explanation as to the importance and potential impact caused by these settings to help Senteon Users make clear informed decisions. Some settings decisions are considered to be organization wide, and will only be queried once. Once a decision as been made, these settings will be accessible for the Managed Account settings for modification. 
   
 <img src="../images/readyforsetup.PNG" width="750">
@@ -78,17 +100,6 @@ Senteon provides a variety of information about the Senteon-supported settings t
  *Note: Settings derived from CIS and STIGs benchmarks have aditional information provided in "Details" such as Rationale, Impact, and Default Behavior*
  
 <img src="../images/configurationInfoPanel.png" width="750">
-  
-
-/* DELETE THIS
-
-### Changing Configurations
-Changing setting configurations with a configuration set can be done through multiple methods detailed under the endpoints and groups sections below. It is, however, worth noting that regardless of how configurations are changed and adjusted. they are always associated with groups and not with endpoints directly. As a result, when settings are changed on an endpoint, users will be prompted to move the endpoint into another group with a matching configuration set or create a new exception group with the intended condfiguration set. 
-
-Configuration settings are always changed using a modify window that will display the setting as well as its preferred value and any alternate acceptable values it has. Any place where configurations can be edited will have access to the modify window.
-
-*/
-  
 
 ## Endpoint/Fleet Management
 
