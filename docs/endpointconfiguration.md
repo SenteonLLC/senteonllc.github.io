@@ -34,7 +34,7 @@ Senteon provides a variety of information about the Senteon-supported settings t
 
 
 | Data | Description |
-|:------------------:|:-----------:|
+|:----:|:-----------:|
 | GPO Path | The path of the setting in Windows local Group Policy |
 | Details | Description of the setting and any additional information |
 | Registry Data | The Windows Registry Path and Value associated with the setting |
@@ -61,7 +61,7 @@ Senteon Users can observe and manage their fleet of Endpoints in Command Center.
 
 **Location**
 
-`Managed Account Console > Endpoints`
+`Managed Account Console > Endpoints (tab) > Endpoints (page)`
 
 <img src="../images/endpoints.PNG" width="750">
 
@@ -81,8 +81,10 @@ The main `Endpoints` page displays the following information:
 
 On the main `Endpoints` page, the `Info` button next to each Endpoint can be clicked to display in-depth information.
 
-A window will load the following set of information specific to the Endpoint:  
 <img src="../images/endpointinfo.png" width="750">  
+
+
+A window will open and display the following set of information specific to the Endpoint:  
   
 | Field | Description |
 |:-----------:|:-----------|
@@ -99,21 +101,42 @@ A window will load the following set of information specific to the Endpoint:
 
   
 <img src="../images/endpointinfopage.png" width="750">
+ 
+### Agent Statuses
+
+All of the possible states that Senteon Agent can be in are detailed here:
   
+| State | Description |
+|:-----------:|:-----------|
+| Active | The Endpoint has finished Intelligent Setup and Senteon Agent is actively monitoring for drift from the associated Applied/Target Configuration Set |
+| Creating Temporary Endpoint Profile | The Agent is currently in the process of installing, but has not finished yet |
+| Disabling Endpoint | The Agent is in the process of reverting the Senteon-managed settings back to the state they were in prior to Senteon and disabling itself |
+| Disabled | The Agent is fully disabled and is not managing/monitoring the Endpoint. Senteon-managed settings are reverted back to the state they were in prior to Senteon |
+| Evaluating | The Agent is currently in the process of evaluating the Endpoint |
+| Ready for Setup | The Endpoint has finished Evaluation and is ready to begin Guided Setup |
+| Ready to Begin Evaluation | The Senteon Agent has been successfully installed and is ready to begin evaluating the Endpoint |
+| Uninstalling | The Agent has been uninstalled from the endpoint. It is safe to remove the Endpoint from the Managed Account |
 
-## Modifying Endpoints
-Endpoints can be modified through the listings page via the command buttons. These buttons are only available when the endpoint agent status is appropriately configured.
 
-All of the possible commands are:
 
-| Command | Availability | Usage |
+### Endpoint Actions
+
+Depending on the current status of a Senteon Agent/Endpoint, different actions can be performed.
+
+**Location**
+
+`Managed Account Console > Endpoints (tab) > Endpoints (page)`
+
+All of the possible actions are are:
+
+| Action | Availability | Usage |
 |:-----------:|:-----------:|:-----------:|
 | Info | Always Available | Displays info specific to the endpoint including its current configuration status, Operating system, and a list of applied configurations |
-| Edit | When agent is Active | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [Modifying Endpoint Configurations](#modifying-endpoint-configurations) |
+| Edit | Agent Status = `Active` | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [Modifying Endpoint Configurations](#modifying-endpoint-configurations) |
 | Disable | When the endpoint is active, ready for setup, ready for evaluation, evaluating, or creating temporary endpoint profile | disables the agent on the endpoint and reverts the endpoint settings to their original settings before the Senteon Agent had any impact on them. This is automatically done when an endpoint is uninstalled |
-| Enable | When an endpoint is Disabled | Enabling a disabled endpoint will revert an agent back to its status before it was disabled |
-| Reset | When an endpoint is Disabled | Reset an agent to allow for a reevaluation of an endpoint |
-| Remove | When an endpoint has been uninstalled | Removes the endpoint from the database after uninstall |
+| Enable | Agent Status = `Disabled` | Enabling a disabled endpoint will revert an agent back to its status before it was disabled |
+| Reset | Agent Status = `Disabled` | Reset an agent to allow for a reevaluation of an endpoint |
+| Remove | Agent Status = `Uninstalling` | Removes the endpoint from the database after uninstall |
 
 ## Modifying Endpoint Configurations
 Endpoints can have their configuration sets modified in two ways. Both methods are available through the `Edit` button on active endpoints in the Endpoints page. Endpoints can modify their configuration sets by either changing the current group they are in, or through direct modification of settings, which will move them to a matching group or create a new exception group. 
@@ -143,19 +166,7 @@ After the settings have been changed, the configuration set can be updated by se
   
 <img src="../images/endpointIndivSetting.PNG" width="750">
   
-## Agent Statuses
-The Senteon Agent reports its current status to Senteon Master/Command Center whenever it is updated. This status indicates the current state that the agent is in. All of the possible states that the agent can be in are detailed here:
-  
-| State | Description |
-|:-----------:|:-----------:|
-| Uninstalling | The agent is uninstalling from the endpoint. Once an endpoint is listed to be uninstalling, it is safe to remove from the database |
-| Disabled | The agent is fully disabled and is not impacting the endpoint. Endpoint configuration is set to the state it was in before Senteon was installed |
-| Disabling Endpoint | The agent is in the process of disabling itself and resetting endpoint settings back to the state they were in prior to the Senteon Agent |
-| Active | The Senteon Agent is currently online with an applied configuration set and actively monitoring for drifts from the baseline |
-| Ready for Setup | The Senteon Agent has finished evaluating the endpoint and is ready to be setup with the guided wizard |
-| Evaluating | The agent is currently in the process of evaluating the endpoint and determining the suggested baseline configuration set |
-| Ready to Begin Evaluation | The Senteon Agent has been successfully installed and is ready to begin evaluation of the endpoint |
-| Creating Temporary Endpoint Profile | The Agent is currently in the process of installing and first time setup |
+
 
 
 # Groups
