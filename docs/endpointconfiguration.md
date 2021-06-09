@@ -77,22 +77,25 @@ The main `Endpoints` page displays the following information:
 | Actions | Depending on the current status of the Senteon Agent/Endpoint, different actions can be performed. Further detail can be found [here](#modifying-endpoints) |
   
 
-## Endpoint Information
-When in-depth information on an endpoint is needed, the info button can be selected from the relevant endpoint. This page will load the following set of information specific to the endpoint:  
+### Endpoint Information
+
+On the main `Endpoints` page, the `Info` button next to each Endpoint can be clicked to display in-depth information.
+
+A window will load the following set of information specific to the Endpoint:  
 <img src="../images/endpointinfo.png" width="750">  
   
-| Setting | Description |
-|:-----------:|:-----------:|
-| Hostname | The hostname of the endpoint that this agent is installed on |
-| Operating System | The current operating system of the endpoint the agent is installed on |
-| OS Version | The current OS Version that the endpoint is on |
-| Connection Status | The current connection status of the endpoint. This will display whether the endpoint is online or offline based on when the last time the endpoint checked in with the master server is. |
-| Last Check in Time | The last time the endpoint checked in with master server. This should occur on standard intervals and a long period without check in may be an indicator that the endpoint is currently experiencing issues |
-| Install Date | This value indicated when the agent was installed on the endpoint.  |
-| Agent Version | The current version of the agent that is installed on the endpoint. Agents should automatically update themselves, and outdated agents are an indicator of an issue with the endpoint |
+| Field | Description |
+|:-----------:|:-----------|
+| Hostname | The hostname of the Endpoint |
+| Operating System | The operating system of the Endpoint|
+| OS Version | The OS Version of the Endpoint |
+| Connection Status | Displays whether the Endpoint is online or offline based on the last time it checked in |
+| Last Check in Time | The last time the endpoint checked in with Senteon Master/Command Center. A long period without a check-in may be an indicator that the Endpoint is currently experiencing issues |
+| Install Date | The date/time when the Senteon Agent was installed |
+| Agent Version | The current version of the installed Senteon Agent. Agents should automatically update themselves, so an outdated Agent may be an indicator of an issue with the endpoint |
 | Group | The current group that the endpoint is in |
-| Endpoint Config Status | The current status of the endpoints configurations. If any settings have been found to be drifted this value will indicate that the endpoint has drifted. If there are no current issues the status will indicate that the endpoint is compliant |
-| Endpoint Configuration Listing | These listing will show the current configuration settings on the endpoint along with their current value and current target values. Using the radio buttons, this list can be adjusted to display only the settings that have drifted from their current target settings. Specific information about each control can be viewed by selecting the view button for the relevant setting |
+| Endpoint Config Status | The current status of the Endpoint's managed security settings </br> - `Healthy` - All settings match the Applied/Target Configuration Set value </br> - `Drifted` - One or more settings have drifted from the Applied/Target Configuration Set value |
+| Configuration Set Listing | This window displays the settings/values of the Endpoint's Active/Target Configuration Set along with the current values on the endpoint. Using the radio buttons, the list can be adjusted to display only the settings that have drifted from their target values. Specific information about each control can be viewed by selecting the `View` button for the relevant setting |
 
   
 <img src="../images/endpointinfopage.png" width="750">
@@ -105,7 +108,7 @@ All of the possible commands are:
 | Command | Availability | Usage |
 |:-----------:|:-----------:|:-----------:|
 | Info | Always Available | Displays info specific to the endpoint including its current configuration status, Operating system, and a list of applied configurations |
-| Edit | When agent is Active | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [modifying Endpoint Configurations](#modifying-endpoint-configurations) |
+| Edit | When agent is Active | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [Modifying Endpoint Configurations](#modifying-endpoint-configurations) |
 | Disable | When the endpoint is active, ready for setup, ready for evaluation, evaluating, or creating temporary endpoint profile | disables the agent on the endpoint and reverts the endpoint settings to their original settings before the Senteon Agent had any impact on them. This is automatically done when an endpoint is uninstalled |
 | Enable | When an endpoint is Disabled | Enabling a disabled endpoint will revert an agent back to its status before it was disabled |
 | Reset | When an endpoint is Disabled | Reset an agent to allow for a reevaluation of an endpoint |
