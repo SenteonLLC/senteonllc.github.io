@@ -13,7 +13,7 @@ There are two (2) types of Configuration Sets:
 
 | Type | Description |
 |:------------------:|:-----------:|
-| Recommended Configuration Set | A set of recommended security-related settings/values based on industry best-practice guidelines |
+| Recommended Configuration Set | A set of recommended security-related settings/values based on industry best-practice guidelines for a type of endpoint |
 | Applied/Target Configuration Set | A baseline of settings/values that Senteon actually uses for implementation and monitoring/alerting purposes. It is derived from a Recommended Configuration Set and is the result of any modifications/exceptions. Groups/Endpoints are associated with exactly one (1) |
 
 Recommended Configuration Sets are derived from various industry-recognized benchmarks such as:
