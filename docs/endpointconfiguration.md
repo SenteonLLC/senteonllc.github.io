@@ -242,6 +242,3 @@ Setup must be done for endpoints one at a time. When the setup wizard begins, th
 
 Example Wizard Page:  
 <img src="../images/wizardpage.PNG" width="750">
-
-
-???????
