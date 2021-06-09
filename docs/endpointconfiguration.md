@@ -161,29 +161,41 @@ All of the possible actions are are:
 | Remove | `Uninstalling` | Removes the Endpoint from the Managed Account |
 
 ### Modifying an Endpoint's Applied/Target Configuration Set
-Endpoints can have their configuration sets modified in two ways. Both methods are available through the `Edit` button on active endpoints in the Endpoints page. Endpoints can modify their configuration sets by either changing the current group they are in, or through direct modification of settings, which will move them to a matching group or create a new exception group. 
 
-  
+An individual Endpoint's Applied/Target Configuration Set can be modified either by changing the Group the Endpoint belongs to or by directly editing the Endpoint's target setting values. Both methods can be accessed by clicking the `Edit` button next to an Endpoint.
+
+**Location**
+
+`Managed Account Console > Endpoints (tab) > Endpoints (page)`
+
 <img src="../images/editEndpoint.png" width="750">
-  
-
-#### Changing Groups
-The endpoint change groups page shows off the endpoint's current group as well as all other available groups you can move the endpoint into. 
 
 
+#### Changing an Endpoint's Group
+
+After clicking the `Edit` button, the `Edit Groups` page will display the Endpoint's current Group as well as all other compatible Groups you can move the Endpoint to.
+
+*Note: You can only move an Endpoint into a Group of the same Endpoint Type/Profile (e.g. Windows 10 Standalone)*
+
+When a Group is selected, all of the target setting values that are different between it and the current Group are displayed.
   
 <img src="../images/groupDiff.PNG" width="750">
-  
 
+**Steps**
 
-When a group is selected, all of the settings that are different between the two groups will be displayed. The value displayed for those settings will be the current value of the new group that the endpoint's current group is being compared to. 
+1) Navigate to `Managed Account Console > Endpoints (tab) > Endpoints (page)` and click the `Edit` button on the Endpoint you wish to modify
 
-If the Senteon User wishes to move the endpoint to the new group, keep the new group selected and then select the `Change Group` button.
+2) In the new window, select `Edit Groups`
+
+3) Select the Group you wish to move the Endpoint into and click the `Change Group` button
+
 
 #### Modifying Individual Settings
-The endpoint change controls page shows the endpoint's current configuration set that is taken from its current group. individual settings can be adjusted on this page. 
+After clicking the `Edit` button, the `Edit Individual Settings` page will display the Endpoint's Applied/Target Configuration Set which is inherited from its Group.
 
-After the settings have been changed, the configuration set can be updated by selecting `Save Controls`. Senteon will determine if there is any groups with a configuration set matching the newly created set. If so, the Senteon User will have the option to move the endpoint into the existing group. If they choose not to, a new exception group will be created. 
+In this page you can view Setting information by clicking `View`. You can also modify individual target settings/values by clicking `Modify`, making a selection, and then clicking the`Save Settings` button.
+
+After clicking `Save Settings`, Senteon will determine if there are any Groups with an Applied/Target Configuration Set that matches the modifications. If any matching Groups exist, an option will be provided to move the Endpoint into the existing Group. If there are no matching Groups, or you choose not to add the Endpoint to a matching one, a new Exception Group will be made for the Endpoint. 
 
   
 <img src="../images/endpointIndivSetting.PNG" width="750">
