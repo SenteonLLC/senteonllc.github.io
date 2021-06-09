@@ -7,15 +7,14 @@ This section describes technical details about Senteon.
 **Senteon Command Center**
 
 - Windows 10 Version 2004+
-  - Pro and Enterprise (Not Home)
+    - Pro and Enterprise Editions (Not Home)
 - Windows Server 2016 Version 2004+
 - Windows Server 2019 Version 1809+
 
 **Senteon Agent**
 
 - Windows 10 Version 2004+
-  - Pro and Enterprise (Not Home)
-
+    - Pro and Enterprise Editions (Not Home)
 
 ## Resource Usage
 
