@@ -358,7 +358,9 @@ For Exception Groups, Settings associated with the Exception Group (exceptions) 
 5) (Optional) Remove exceptions from the Applied/Target Configuration Set by selecting one or more settings and clicking  the `Remove Selected Setting from Exception` button
 
 6) (Optional) Add exceptions to the Applied/Target Configuration Set by clicking the `Add Settings` button
+
   6a) Select one or more settings, and then click the `Save` Button
+  
   6b) (Optional) Edit the new settings/exceptions by using the `Modify` buttons next to each setting
 
 7) Click the `Apply Changes` button
@@ -366,6 +368,27 @@ For Exception Groups, Settings associated with the Exception Group (exceptions) 
 <img src="../images/groupModifyIndividualException.PNG" width="750">
 
 #### Moving Endpoints
-Endpoints can be directly moved between groups through the `Edit Groups` window. Groups will list all endpoints within the group and all endpoints outside the group. An endpoint can be moved into a group and out of a group from any group window. 
+
+**Move Endpoints From a Group to Another Group**
+
+1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+
+2) Click the `Modify Group` button next to the Group
+
+3) Select the `Edit Endpoints` page
+
+4) Select one or more Endpoints from the `Endpoints within Group` column and click the `Move selected Endpoints to different Group` button
+
+5) Select a Group from the list of Available Groups and click the `Move to selected Group` button
   
+**Move Endpoints To a Group From Another Group*
+
+1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
+
+2) Click the `Modify Group` button next to the Group
+
+3) Select the `Edit Endpoints` page
+
+4) Select one or more Endpoints from the `Endpoints outside Group` column and click the `Add Endpoints to Group` button
+
 <img src="../images/modifyGroupEndpoint.PNG" width="750">
