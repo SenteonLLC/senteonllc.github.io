@@ -1,9 +1,31 @@
 # Endpoint Configuration
 
-This section describes the concepts and systems that Senteon uses to manage security-related settings on your endpoints. We highly recommend that you familiarize yourself with this material before trying to administer Senteon.
+This section describes the concepts and systems that Senteon uses to manage security-related settings on your endpoints. We highly recommend that you familiarize yourself with this section before completing Intelligent Setup and administering Senteon.
 
-Below you can find details regarding the settings/configurations Senteon manages, how a Senteon user should expect to organize and manage their fleet of endpoints, what healthy activity looks like, and finally how to complete the setup of your fleet of endpoints from start to finish.
+Below you can find details regarding how to complete the setup of your fleet of endpoints from start to finish, the settings/configurations Senteon manages, how a Senteon user should expect to organize and manage their fleet of endpoints, and what healthy activity looks like.
 
+## Intelligent Setup
+When endpoints have a Senteon Agent installed, the Senteon Agent will register itself with Command Center so that it can be evaluated and finalized. Starting Evaluation will allow the Senteon Agent to audit all of the settings related to that endpoint type and determine the ideal baseline for the endpoint. After evaluation is complete, the endpoint can be setup with the wizard. The Setup wizard contains questions relating to settings that the Agent could not make determinations for due to organizational/cultural restrictions. Specific choices that can be made during evaluation and setup are detailed below. 
+
+### Evaluation
+Evaluation can be started on one or more endpoints simultaneously through the Endpoint Setup page. 
+  
+<img src="../images/SelectEvaluation.PNG" width="750">
+  
+When endpoints are selected for evaluation, one of three options can be chosen. Endpoints can either be placed into a new group and evaluated, placed into a pre-existing group and evaluated, or evaluation and set up can be skipped entirely and an existing configuration set will be immediately applied. 
+  
+<img src="../images/EvaluationPrompt.PNG" width="750">
+  
+Adding the Endpoint to an existing group will utilize the group's pre-existing configuration set as a baseline and ignore settings that are already not configured for the group. 
+
+### Guided Setup
+Setup must be done for endpoints one at a time. When the setup wizard begins, the Senteon User can choose to skip the wizard and immediately setup the wizard with the configuration set of its current group regardless of the conflicts found in the wizard. Otherwise, the wizard will run through a set of questions that detail specific issues related to settings and provide endpoint specific data for settings that have findings. Senteon also provides an explanation as to the importance and potential impact caused by these settings to help Senteon Users make clear informed decisions. Some settings decisions are considered to be organization wide, and will only be queried once. Once a decision as been made, these settings will be accessible for the Managed Account settings for modification. 
+  
+<img src="../images/readyforsetup.PNG" width="750">
+  
+
+Example Wizard Page:  
+<img src="../images/wizardpage.PNG" width="750">
 
 ## Configuration Sets
 
@@ -219,26 +241,3 @@ Exception Group:
 Endpoints can be directly moved between groups through the `Edit Groups` window. Groups will list all endpoints within the group and all endpoints outside the group. An endpoint can be moved into a group and out of a group from any group window. 
   
 <img src="../images/modifyGroupEndpoint.PNG" width="750">
-
-## Intelligent Setup
-When endpoints have a Senteon Agent installed, the Senteon Agent will register itself with Command Center so that it can be evaluated and finalized. Starting Evaluation will allow the Senteon Agent to audit all of the settings related to that endpoint type and determine the ideal baseline for the endpoint. After evaluation is complete, the endpoint can be setup with the wizard. The Setup wizard contains questions relating to settings that the Agent could not make determinations for due to organizational/cultural restrictions. Specific choices that can be made during evaluation and setup are detailed below. 
-
-### Evaluation
-Evaluation can be started on one or more endpoints simultaneously through the Endpoint Setup page. 
-  
-<img src="../images/SelectEvaluation.PNG" width="750">
-  
-When endpoints are selected for evaluation, one of three options can be chosen. Endpoints can either be placed into a new group and evaluated, placed into a pre-existing group and evaluated, or evaluation and set up can be skipped entirely and an existing configuration set will be immediately applied. 
-  
-<img src="../images/EvaluationPrompt.PNG" width="750">
-  
-Adding the Endpoint to an existing group will utilize the group's pre-existing configuration set as a baseline and ignore settings that are already not configured for the group. 
-
-### Guided Setup
-Setup must be done for endpoints one at a time. When the setup wizard begins, the Senteon User can choose to skip the wizard and immediately setup the wizard with the configuration set of its current group regardless of the conflicts found in the wizard. Otherwise, the wizard will run through a set of questions that detail specific issues related to settings and provide endpoint specific data for settings that have findings. Senteon also provides an explanation as to the importance and potential impact caused by these settings to help Senteon Users make clear informed decisions. Some settings decisions are considered to be organization wide, and will only be queried once. Once a decision as been made, these settings will be accessible for the Managed Account settings for modification. 
-  
-<img src="../images/readyforsetup.PNG" width="750">
-  
-
-Example Wizard Page:  
-<img src="../images/wizardpage.PNG" width="750">
