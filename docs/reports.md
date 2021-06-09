@@ -11,7 +11,9 @@ By default, reports are saved to the Windows "Documents" folder. When a report i
 
 ## Managed Account Reports
 
-Managed Account Reports can be generated in the following location: `Managed Account Console > Dashboard`
+Managed Account Reports can be generated in the following location: 
+
+`Managed Account Console > Dashboard`
 
 
 ### Report Options
@@ -19,7 +21,7 @@ Managed Account Reports can be generated in the following location: `Managed Acc
 You can choose from the following options depending on the data you wish to include in a report:
 
 | Option | Description |
-|:--------------:|:-----------:|
+|:--------------:|:-----------|
 | Endpoints | Dislays a listing of all Endpoints within the Managed Account organized by Group with their current compliance percentages |
 | Security Configurations | Displays a listing of all Senteon-supported Security Configurations in the form of "Configuration Sets" with descriptions and Senteon preferred values |
 | Alerts | Displays a listing of all Alerts generated for the Managed Account in the last month |
@@ -27,9 +29,11 @@ You can choose from the following options depending on the data you wish to incl
 
 ## Group Reports
 
-Group Reports can be generated in the following location: `Managed Account Console > Endpoints > Groups`
+Group Reports can be generated in the following location: 
 
-1) Click the `View` button on the group you wish to generate a report for
+`Managed Account Console > Endpoints > Groups`
+
+1) Click the `View` button on the Group you wish to generate a report for
 
 2) Click the `Generate Report` button
 
