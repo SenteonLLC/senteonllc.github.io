@@ -193,12 +193,23 @@ When a Group is selected, all of the target setting values that are different be
 #### Modifying Individual Settings
 After clicking the `Edit` button, the `Edit Individual Settings` page will display the Endpoint's Applied/Target Configuration Set which is inherited from its Group.
 
-In this page you can view Setting information by clicking `View`. You can also modify individual target settings/values by clicking `Modify`, making a selection, and then clicking the`Save Settings` button.
+In this page you can view Setting information by clicking `View`. You can also modify individual target settings/values by clicking `Modify`, making a selection, and then clicking the `Apply Changes` button.
 
-After clicking `Save Settings`, Senteon will determine if there are any Groups with an Applied/Target Configuration Set that matches the modifications. If any matching Groups exist, an option will be provided to move the Endpoint into the existing Group. If there are no matching Groups, or you choose not to add the Endpoint to a matching one, a new Exception Group will be made for the Endpoint. 
+After clicking `Apply Changes`, Senteon will determine if there are any exising Groups that match the modified Applied/Target Configuration Set. If any matching Groups exist, an option will be provided to move the Endpoint into the existing Group. If there are no matching Groups, or you choose not to add the Endpoint to a matching one, a new Exception Group will be made for the Endpoint. 
 
-  
 <img src="../images/endpointIndivSetting.PNG" width="750">
+
+**Steps**
+
+1) Navigate to `Managed Account Console > Endpoints (tab) > Endpoints (page)` and click the `Edit` button on the Endpoint you wish to modify
+
+2) In the new window, select `Edit Individual Settings`
+
+3) Click the `Modify` button next to each setting you wish to modify and choose new target values
+
+4) Click the `Apply Changes` button
+
+5) If any existing Groups match the modified Applied/Target Configuration Set, select whether you would like to move the Endpoint to one of them. Otherwise finish creating a new Exception Group
 
 ## Groups
 Groups are utilized to keep endpoints consistent with the same baseline. Each group has a configuration set associated with it that is used by all endpoints within the group. Groups must have endpoints of the same types within them. Endpoint types are defined by Senteon when they have different full configuration sets. Examples include `Windows 10 Standalone`, `Windows 10 Domain Joined`, and `Server 2016 Non-DC`. This endpoint type is determined when the Agent is installed and will be listed as the endpoint's group until it is placed in a created group during evaluation. There are two different types of groups available for creation:
