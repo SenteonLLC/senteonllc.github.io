@@ -1,19 +1,7 @@
 # Senteon Overview
 Welcome to the documentation for Senteon's Security Configuration Management solution. Basic terminology and operating system support details are listed below.
 
-Senteon recommends following the list of readings below for key concepts and install instructions if it is your first time using the solution. 
-
-- [Before You Begin](index.md#before-you-begin)
-  - [Terminology](index.md#terminology)
-  - [Supported Operating Systems](index.md#supported-operating-systems)
-- [Installation](index.md#installation)
-  - [Prerequisites](index.md#prerequisites)
-  - [Step 1: Install Command Center](index.md#step-1-install-command-center)
-  - [Step 2: Create a Managed Account for the Organization](index.md#step-2-create-a-managed-account-for-the-organization)
-  - [Step 3: Install Senteon Agent(s)](index.md#step-3-install-senteon-agents)
-    - [GUI/Desktop Install](index.md#senteon-agent-guidesktop-install)
-    - [Command-line Install](index.md#senteon-agent-command-line-install) 
-- [Next Steps](index.md#next-steps)
+Senteon recommends reading the sections below for key concepts and install instructions if it is your first time using the solution. 
 
 
 ## Before You Begin
