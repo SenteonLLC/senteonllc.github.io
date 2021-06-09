@@ -1,8 +1,6 @@
 # Senteon Technical Details
 
-- [Supported Operating Systems](technicaldetails.md#supported-operating-systems)
-- [Resource Usage](technicaldetails.md#resource-usage)
-- [Networking and Security](technicaldetails.md#networking-and-security)
+This section describes technical details about Senteon.
 
 ## Supported Operating Systems
 
