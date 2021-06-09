@@ -369,7 +369,7 @@ For Exception Groups, Settings associated with the Exception Group (exceptions) 
 
 #### Moving Endpoints
 
-**Move Endpoints From a Group to Another Group**
+*Move Endpoints From a Group to Another Group*
 
 1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
 
@@ -381,7 +381,7 @@ For Exception Groups, Settings associated with the Exception Group (exceptions) 
 
 5) Select a Group from the list of Available Groups and click the `Move to selected Group` button
   
-**Move Endpoints To a Group From Another Group*
+*Move Endpoints To a Group From Another Group*
 
 1) Navigate to `Managed Account Console > Endpoints (tab) > Groups`
 
