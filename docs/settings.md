@@ -22,7 +22,7 @@ This provides a logged-in user with the ability to change their own password. Th
 
 ## Command Center - Managed Account Settings
 
-Managed Account Settings affect Senteon functionality, but only affect resources within that specific Managed Account.
+Managed Account Settings affect Senteon functionality, but are only scoped to resources within that specific Managed Account.
 
 Location: `Managed Account Console > Settings`
 
@@ -34,7 +34,7 @@ Location: `Managed Account Console > Settings`
 This setting defines Senteon's reponse to configuration drift on all Endpoints registered to the Managed Account.
   
 |   Option    | Description |
-|:-----------:|:-----------:|
+|:-----------:|:-----------|
 | Automatically Enforce (Default) | Senteon will generate an alert and automatically return the setting back to its target baseline value. |
 | Alert and Require Approval | Senteon will generate an alert. In the "Alerts" tab, Senteon users with `Manager` role or higher will have the option to choose whether or not they want to return the setting back to its target baseline value. |
 | Alert Only | Senteon will generate an alert and no further action will be taken by Senteon. |
