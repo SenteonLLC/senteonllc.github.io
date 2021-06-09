@@ -156,11 +156,11 @@ All of the possible actions are are:
 | Info | Always Available | Displays info specific to the Endpoint including its current configuration status, operating system, and a list of applied configurations |
 | Disable | `Active`, `Creating Temporary Endpoint Profile`, `Evaluating`, `Ready to Begin Evaluation`, or `Ready for Setup`| Disables the Agent on the Endpoint and reverts the Senteon-managed settings back to the state they were in prior to Senteon </br> *Note: This happens automatically when an Agent is uninstalled* |
 | Enable | `Disabled` | Reverts the Agent/Endpoint back to its status before it was disabled |
-| Edit | `Active` | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [Modifying Endpoint Configurations](#modifying-endpoint-configurations) |
+| Edit | `Active` | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [Modifying Endpoints](#modifying-endpoints) |
 | Reset | `Disabled` | Resets the Agent Status back to `Ready to Begin Evaluation`|
 | Remove | `Uninstalling` | Removes the Endpoint from the Managed Account |
 
-### Modifying an Endpoint's Applied/Target Configuration Set
+### Modifying Endpoints
 
 An individual Endpoint's Applied/Target Configuration Set can be modified either by changing the Group the Endpoint belongs to or by directly editing the Endpoint's target setting values. Both methods can be accessed by clicking the `Edit` button next to an Endpoint.
 
@@ -193,7 +193,7 @@ When a Group is selected, all of the target setting values that are different be
 #### Modifying Individual Settings
 After clicking the `Edit` button, the `Edit Individual Settings` page will display the Endpoint's Applied/Target Configuration Set which is inherited from its Group.
 
-In this page you can view Setting information by clicking `View`. You can also modify individual target settings/values by clicking `Modify`, making a selection, and then clicking the `Apply Changes` button.
+In this page you can view Setting information by clicking `View`. You can also modify the target values of individual settings by clicking `Modify`, making a selection, and then clicking the `Apply Changes` button.
 
 After clicking `Apply Changes`, Senteon will determine if there are any exising Groups that match the modified Applied/Target Configuration Set. If any matching Groups exist, an option will be provided to move the Endpoint into the existing Group. If there are no matching Groups, or you choose not to add the Endpoint to a matching one, a new Exception Group will be made for the Endpoint. 
 
@@ -212,24 +212,51 @@ After clicking `Apply Changes`, Senteon will determine if there are any exising 
 5) If any existing Groups match the modified Applied/Target Configuration Set, select whether you would like to move the Endpoint to one of them. Otherwise finish creating a new Exception Group
 
 ## Groups
-Groups are utilized to keep endpoints consistent with the same baseline. Each group has a configuration set associated with it that is used by all endpoints within the group. Groups must have endpoints of the same types within them. Endpoint types are defined by Senteon when they have different full configuration sets. Examples include `Windows 10 Standalone`, `Windows 10 Domain Joined`, and `Server 2016 Non-DC`. This endpoint type is determined when the Agent is installed and will be listed as the endpoint's group until it is placed in a created group during evaluation. There are two different types of groups available for creation:
+
+Senteon uses Groups to organize sets of Endpoints and provide the Applied/Target Configuration Set that members of the Group inherit. Each Group can be associated with exactly one (1) Applied/Target Configuration Set, and only Endpoints with the same Endpoint Type/Profile as a Group can become a member (e.g. Windows 10 Standalone.
+
+**Location**
+
+`Managed Account Console > Endpoints (tab) > Groups`
+
+There are two (2) different types of Groups:
   
-| Group Type | Description |
-|:-----------:|:-----------:|
-| Management Group | Management Groups have all settings available for the endpoint type and should be used for general baselines that include the majority of endpoints |
-| Exception Group | Exception Groups are created underneath a management group and only have the settings that are configured to be different from its parent management group. These groups should be used when Endpoints have configuration sets that are slightly different from the management group. |
+| Group Type/Tier | Description |
+|:-----------:|:-----------|
+| Management Group | Main type of Group that should be used for organizing different types of Endpoints |
+| Exception Group | Group that should be used when one or more Endpoints in a Management Group need slight modifications/exceptions but are still logically related to the Management Group |
+
+The `Groups` page displays the following information:
+
+| Column | Description |
+|:-----------:|:-----------|
+| Group Name | The name of the Group |
+| Group Parent | The name of the Group's parent Group </br> *Note: Management Groups will display their Endpoint Type/Profile here* |
+| Group Tier | The tier/type of the Group (Management Group or Exception Group) |
+| Actions | Different actions that can be performed. Further detail can be found below |
   
 ### Group Info
-Info for a specific group can be accessed by selecting the `view` button next to the relevant group.
-Group info for Management Groups will display the current endpoints that belong to the role, the current configuration set for the role, and the exception groups underneath that management group. 
-Group info for an Exception Group will display the current endpoints that belong to the role, the current configurations set that are different from the management group, and its entire effective configuration set with the management group's controls included. 
 
-The Group info page also includes a button used to generate a report specific to the group. To learn more about reports, please reference the [reports page](reports.md)
+Information about a specific Group can be accessed by selecting the `View` button next to the relevant Group.
 
-### Group Modification
+Group info for Management Groups will display the following:
+
+- Member Endpoints
+- Applied/Target Configuration Set
+- Child Exception Groups
+
+Group info for Exception Groups will display the following:
+
+- Member Endpoints
+- Exceptions (Diff of Parent Management Group's Applied/Target Configuration Set)
+- Total Applied/Target Configuration Set
+
+The Group info page also includes a `Generate Report for Group` button which generates a group-specific report. More information on Reports can be found [here](reports.md).
+
+### Creating and Modifying Groups
 There is a multitude of ways to affect a group and its configuration sets that are dependent on the type of group. The different types of methods to change group configurations are detailed below. 
 
-### Creating Management Groups
+#### Creating Management Groups
 Management Groups can be created from the Groups page. When doing so, the group's name and configuration set can be defined and endpoints can be moved into the group as it is created through the Group Creation Form.
   
 <img src="../images/newGroup.PNG" width="750">  
