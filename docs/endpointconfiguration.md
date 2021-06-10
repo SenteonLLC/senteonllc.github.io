@@ -61,14 +61,14 @@ More information can be found [here](settings.md#general-settings_1)
 
 #### Guided Setup for Multiple Endpoints
 
-Guided Setup can only be completed for one (1) endpoint at a time in this version since each Senteon Aget performs a unique evaluation of its Endpoint. If you would like to setup more than one at a time, Senteon recommends the following work-arounds: 
+Guided Setup can only be completed for one (1) endpoint at a time in this version since each Senteon Agent performs a unique evaluation of its Endpoint. If you would like to setup more than one at a time, Senteon recommends the following work-arounds: 
 
 1) Complete the process for the first Endpoint in the Group in order to finalize the Group's Applied/Target Configuration Set
 
 2a) (Option 1) Note down your decisions and complete the Guided Setup Wizard again for subsequent Endpoints
 
 2b) (Option 2) Override the Setup Wizard for the subsequent Endpoints by choosing the option at the start of the Wizard to skip the questions/decisions and apply the Group's Applied/Target Configuration Set
-  > *Note: Senteon cannot gurantee that this will not cause usability or networking issues for these Endpoints as warnings that would be provided in the Wizard will be bypassed*
+  > *Note: Senteon cannot gurantee that this will not cause usability or networking issues for these Endpoints since warnings that would be provided in the Wizard will be bypassed.*
 
 
 ## Configuration Sets
@@ -114,9 +114,7 @@ Senteon provides a variety of information about the Senteon-supported settings t
 
 Senteon Users can observe and manage their fleet of Endpoints in Command Center. When Senteon Agent is installed on an Endpoint, it will register itself with Senteon Master and Command Center. Once registered, it will appear in Command Center under the relevant Managed Account.
 
-**Location**
-
-`Managed Account Console > Endpoints (tab) > Endpoints (page)`
+**Location:** `Managed Account Console > Endpoints (tab) > Endpoints (page)`
 
 <img src="../images/endpoints.PNG" width="750">
 
@@ -151,7 +149,7 @@ A window will open and display the following set of information specific to the 
 | Install Date | The date/time when the Senteon Agent was installed |
 | Agent Version | The current version of the installed Senteon Agent. Agents should automatically update themselves, so an outdated Agent may be an indicator of an issue with the endpoint |
 | Group | The current group that the endpoint is in |
-| Endpoint Config Status | The current status of the Endpoint's managed security settings </br> - `Healthy` - All settings match the Applied/Target Configuration Set value </br> - `Drifted` - One or more settings have drifted from the Applied/Target Configuration Set value |
+| Endpoint Config Status | The current status of the Endpoint's managed security settings </br></br> - `Healthy`: All settings match the Applied/Target Configuration Set value </br> - `Drifted`: One or more settings have drifted from the Applied/Target Configuration Set value |
 | Configuration Set Listing | This window displays the settings/values of the Endpoint's Active/Target Configuration Set along with the current values on the endpoint. Using the radio buttons, the list can be adjusted to display only the settings that have drifted from their target values. Specific information about each control can be viewed by selecting the `View` button for the relevant setting |
 
   
@@ -178,14 +176,12 @@ All of the possible statuses that Senteon Agent can report are detailed here:
 
 Depending on the current status of a Senteon Agent/Endpoint, different actions can be performed.
 
-**Location**
-
-`Managed Account Console > Endpoints (tab) > Endpoints (page)`
+**Location:** `Managed Account Console > Endpoints (tab) > Endpoints (page)`
 
 All of the possible actions are are:
 
 | Action | Availability (Agent Status) | Usage |
-|:-----------:|:-----------:|:-----------:|
+|:-----------:|:-----------:|:-----------|
 | Info | Always Available | Displays info specific to the Endpoint including its current configuration status, operating system, and a list of applied configurations |
 | Disable | `Active`, `Creating Temporary Endpoint Profile`, `Evaluating`, `Ready to Begin Evaluation`, or `Ready for Setup`| Disables the Agent on the Endpoint and reverts the Senteon-managed settings back to the state they were in prior to Senteon </br> *Note: This happens automatically when an Agent is uninstalled* |
 | Enable | `Disabled` | Reverts the Agent/Endpoint back to its status before it was disabled |
@@ -248,9 +244,7 @@ After clicking `Apply Changes`, Senteon will determine if there are any exising 
 
 Senteon uses Groups to organize sets of Endpoints and provide the Applied/Target Configuration Set that members of the Group inherit. Each Group can be associated with exactly one (1) Applied/Target Configuration Set, and only Endpoints with the same Endpoint Type/Profile as a Group can become a member (e.g. Windows 10 Standalone).
 
-**Location**
-
-`Managed Account Console > Endpoints (tab) > Groups`
+**Location:** `Managed Account Console > Endpoints (tab) > Groups`
 
 There are two (2) different types of Groups:
   
@@ -264,7 +258,7 @@ The `Groups` page displays the following information:
 | Column | Description |
 |:-----------:|:-----------|
 | Group Name | The name of the Group |
-| Group Parent | The name of the Group's parent Group </br> *Note: Management Groups will display their Endpoint Type/Profile here* |
+| Group Parent | The name of the Group's parent Group </br> </br> *Note: Management Groups will display their Endpoint Type/Profile here* |
 | Group Tier | The tier/type of the Group (Management Group or Exception Group) |
 | Actions | Different actions that can be performed. Further detail can be found below |
   
@@ -308,6 +302,8 @@ Senteon Users can create new groups or modify existing ones in a number of ways 
 #### Creating Exception Groups
 
 Exception Groups can be made using the `Create Exception` button available for Management Groups. Creation of an Exception Group allows the Senteon User to select Endpoints within the Management Group to move to the Exception Group and change settings as necessary.
+
+**Steps**
 
 1) Navigate to `Managed Account Console > Endpoints > Groups`
 
