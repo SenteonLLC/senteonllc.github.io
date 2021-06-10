@@ -24,9 +24,7 @@ During Evaluation, one or more Endpoints will be analyzed to determine which sec
 
 Endpoints that are ready to begin Evaluation will appear in the `Endpoint Setup` page under "Ready for Evaluation"
 
-**Location**
-
-`Managed Account Console > Endpoints > Endpoint Setup`
+**Location:** `Managed Account Console > Endpoints > Endpoint Setup`
   
 <img src="../images/SelectEvaluation.PNG" width="750">
 
