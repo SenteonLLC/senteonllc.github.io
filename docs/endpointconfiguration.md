@@ -68,6 +68,7 @@ Guided Setup can only be completed for one (1) endpoint at a time in this versio
 2b) (Option 2) Override the Setup Wizard for the subsequent Endpoints by choosing the option at the start of the Wizard to skip the questions/decisions and apply the Group's Applied/Target Configuration Set
   > *Note: Senteon cannot gurantee that this will not cause usability or networking issues for these Endpoints since warnings that would be provided in the Wizard will be bypassed.*
 
+<img src="../images/Skip Guided Setup Wizard.PNG" width="750">
 
 ## Configuration Sets
 
