@@ -40,7 +40,7 @@ Senteon recommends reading the sections below for key concepts and install instr
 Senteon has provided you with:
 
 - Installer for Senteon Command Center
-- Master Account Credentials for Senteon Command Center
+- Master Account credentials for Senteon Command Center
 
 Senteon installation is divided into two separate stages that use different installers. The provided installer is for Command Center, the administrator console. 
 
