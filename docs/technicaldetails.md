@@ -57,7 +57,7 @@ Senteon Command Center and Senteon Agent encrypt authentication data in transit 
 
 #### Data-at-Rest
 
-Senteon hashes and encrypts all credentials and sensitive data at rest.
+Senteon salts, hashes, and encrypts all credentials and sensitive data at rest.
 
 #### System Security
 
