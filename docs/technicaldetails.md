@@ -58,3 +58,7 @@ Senteon Command Center and Senteon Agent encrypt authentication data in transit 
 #### Data-at-Rest
 
 Senteon hashes and encrypts all credentials and sensitive data at rest.
+
+#### System Security
+
+Senteon Agent runs as a service with NT AUTHORITY\SYSTEM privileges. This is necesary for the system-level monitors that facilitate evaluation of endpoint behavior and impact analysis.
