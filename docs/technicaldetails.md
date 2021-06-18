@@ -18,7 +18,7 @@ This section describes technical details about Senteon.
 
 ## Resource Usage
 
-**Senteon Command Center Size**
+**Senteon Command Center**
 
 - Required Disk Space: 29.2 MB
 - Avg. Memory Usage: 50-70 MB
