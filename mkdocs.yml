@@ -6,12 +6,14 @@ docs_dir: 'docs'
 site_dir: 'site'
 use_directory_urls: true
 nav:
-    - Home: 'index.md'
+    - 'Home': 'index.md'
     - 'Endpoint Configuration': 'endpointconfiguration.md'
-    - Alerts: 'alerts.md'
-    - Reports: 'reports.md'
-    - Settings: 'settings.md'
+    - 'Alerts': 'alerts.md'
+    - 'Reports': 'reports.md'
+    - 'Settings': 'settings.md'
     - 'Users and Permissions': 'usersandpermissions.md'
+    - 'Updates' : 'updates.md'
     - 'Technical Details': 'technicaldetails.md'
+    - 'Troubleshooting': 'troubleshooting.md'
 markdown_extensions:
   - attr_list

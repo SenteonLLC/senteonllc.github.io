@@ -111,9 +111,11 @@ Senteon provides a variety of information about the Senteon-supported settings t
 
 ## Endpoint/Fleet Management
 
-Senteon Users can observe and manage their fleet of Endpoints in Command Center. When Senteon Agent is installed on an Endpoint, it will register itself with Senteon Master and Command Center. Once registered, it will appear in Command Center under the relevant Managed Account.
+Senteon Users can observe and manage their fleet of Endpoints in Command Center. When Senteon Agent is installed on an Endpoint, it will register itself with Senteon Master and Command Center. Once registered, it will appear in Command Center under the relevant Managed Account and Endpoint Type (Windows 10 Standalone, Domain Member, Unknown).
 
-**Location:** `Managed Account Console > Endpoints (tab) > Endpoints (page)`
+The main `Endpoints` tab will display a listing of all Endpoints no matter what type they are. The sub-tabs will display a listing of all Endpoints of the specified type, and allow you to setup and modify those Endpoints.
+
+**Location:** `Managed Account Console > Endpoints (Endpoint Type) > Endpoints (page)`
 
 <img src="../images/endpoints.PNG" width="750">
 
@@ -175,7 +177,7 @@ All of the possible statuses that Senteon Agent can report are detailed here:
 
 Depending on the current status of a Senteon Agent/Endpoint, different actions can be performed.
 
-**Location:** `Managed Account Console > Endpoints (tab) > Endpoints (page)`
+**Location:** `Managed Account Console > Endpoints (Endpoint Type) > Endpoints (page)`
 
 All of the possible actions are are:
 
@@ -194,7 +196,7 @@ An individual Endpoint's Applied/Target Configuration Set can be modified either
 
 **Location**
 
-`Managed Account Console > Endpoints (tab) > Endpoints (page)`
+`Managed Account Console > Endpoints (Endpoint Type) > Endpoints (page)`
 
 <img src="../images/editEndpoint.png" width="750">
 
@@ -211,7 +213,7 @@ When a Group is selected, all of the target setting values that are different be
 
 **Steps**
 
-1) Navigate to `Managed Account Console > Endpoints (tab) > Endpoints (page)` and click the `Edit` button on the Endpoint you wish to modify
+1) Navigate to `Managed Account Console > Endpoints (Endpoint Type) > Endpoints (page)` and click the `Edit` button on the Endpoint you wish to modify
 
 2) In the new window, select `Edit Groups`
 
@@ -229,7 +231,7 @@ After clicking `Apply Changes`, Senteon will determine if there are any exising 
 
 **Steps**
 
-1) Navigate to `Managed Account Console > Endpoints (tab) > Endpoints (page)` and click the `Edit` button on the Endpoint you wish to modify
+1) Navigate to `Managed Account Console > Endpoints (Endpoint Type) > Endpoints (page)` and click the `Edit` button on the Endpoint you wish to modify
 
 2) In the new window, select `Edit Individual Settings`
 
@@ -243,7 +245,7 @@ After clicking `Apply Changes`, Senteon will determine if there are any exising 
 
 Senteon uses Groups to organize sets of Endpoints and provide the Applied/Target Configuration Set that members of the Group inherit. Each Group can be associated with exactly one (1) Applied/Target Configuration Set, and only Endpoints with the same Endpoint Type/Profile as a Group can become a member (e.g. Windows 10 Standalone).
 
-**Location:** `Managed Account Console > Endpoints (tab) > Groups`
+**Location:** `Managed Account Console > Endpoints (Endpoint Type) > Groups`
 
 There are two (2) different types of Groups:
   
