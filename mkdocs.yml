@@ -12,7 +12,7 @@ nav:
     - 'Reports': 'reports.md'
     - 'Settings': 'settings.md'
     - 'Users and Permissions': 'usersandpermissions.md'
-    - 'Updates' : 'updates.md'
+    - 'Updates': 'updates.md'
     - 'Technical Details': 'technicaldetails.md'
     - 'Troubleshooting': 'troubleshooting.md'
 markdown_extensions:
