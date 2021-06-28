@@ -22,7 +22,7 @@ In order to create, modify, or delete users you must be logged in with a user th
 
 **Steps**
 
-1) Log into Command Center and navigate to the Users tab
+1) Log into Command Center and navigate to the "Users" tab
 
 2) Click the `Add User` button
 
@@ -58,7 +58,7 @@ When logging in as user for the first time, you will be prompted to create a new
 
 ### Changing Password for Another User
 
-1) Log into Command Center and navigate to the Users tab
+1) Log into Command Center and navigate to the "Users" tab
 
 2) Select the user you wish to modify the role of and click `Change Password`
 
@@ -66,7 +66,7 @@ When logging in as user for the first time, you will be prompted to create a new
 
 ### Modifying a User's Role
 
-1) Log into Command Center and navigate to the Users tab
+1) Log into Command Center and navigate to the "Users"tab
 
 2) Select the user you wish to modify the role of and click `Edit User`
 
@@ -78,7 +78,7 @@ When logging in as user for the first time, you will be prompted to create a new
 
 ### Enabling MFA for Current User
 
-1) Log into Command Center as the user and navigate to the Settings tab
+1) Log into Command Center as the user and navigate to the "Settings" tab
 
 2) Navigate to General Settings and click `Enable MFA`
 
@@ -92,7 +92,7 @@ When logging in as user for the first time, you will be prompted to create a new
 
 ### Disabling MFA for Current User
 
-1) Log into Command Center as the user and navigate to the Settings tab
+1) Log into Command Center as the user and navigate to the "Settings" tab
 
 2) Navigate to General Settings and click `Disable MFA`
 
@@ -102,7 +102,7 @@ When logging in as user for the first time, you will be prompted to create a new
 
 ## Deleting Users
 
-1) Log into Command Center and navigate to the Users tab
+1) Log into Command Center and navigate to the "Users" tab
 
 2) Select the user you wish to delete and click the `Delete User` button.
 
