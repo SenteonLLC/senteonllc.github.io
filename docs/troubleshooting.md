@@ -1,6 +1,6 @@
 # Troubleshooting
 
-In the event that you run into an issue during the operation of Senteon. There are basic troubleshooting steps that you can follow that may help solve your problem.
+In the event that you run into an issue during the operation of Senteon, there are basic troubleshooting steps that you can follow that may help solve your problem.
 
 ## Senteon Agent
 
