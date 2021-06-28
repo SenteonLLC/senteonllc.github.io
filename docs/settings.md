@@ -12,11 +12,27 @@ Location: `Master Account Console > Settings`
 ### General Settings
 
 ---
-#### Change Password
+#### (Button) Change Password
 
-This provides a logged-in user with the ability to change their own password. This functionality is available to all users except for the Master Account/Owner User.
+This provides a logged-in user with the ability to change their own password.
 
-*Note: To change the Master Account/Owner User's password, contact Senteon Support*
+
+---
+#### (Button) Enable / Disable MFA
+
+This provides a logged-in user with the ability to enable or disable Multi-factor Authentication for themselves.  
+
+Senteon currently supports MFA using an Authenticator Application such as Google Authenticator or Authy.
+
+
+---
+
+### Account Settings
+
+---
+#### (Button) Select Local Account Database to Reset
+
+This provides a logged-in user with the ability to manually re-syncronize the local databases for Managed Accounts.
 
 ---
 
