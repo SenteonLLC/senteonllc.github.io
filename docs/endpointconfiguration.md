@@ -53,7 +53,7 @@ Example Wizard Page:
 
 Some Wizard questions will have a warning such as **"Warning: Once this decision has been made, it will be set for all systems configured through Senteon after this"** which indicates that Senteon will only ask you to make the decision once for all Endpoints in the Managed Account. The decision can be adjusted for the setup of subsequent Endpoints in the following location:
 
-`Manage Account Console > Settings > Account-wide Guided Setup Decisions`
+`Managed Account Console > Settings > Account-wide Guided Setup Decisions`
 
 More information can be found [here](settings.md#general-settings_1)
 
