@@ -188,7 +188,7 @@ All of the possible actions are are:
 | Enable | `Disabled` | Reverts the Agent/Endpoint back to its status before it was disabled |
 | Edit | `Active` | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [Modifying Endpoints](#modifying-endpoints) |
 | Reset | `Disabled` | Resets the Agent Status back to `Ready to Begin Evaluation`|
-| Remove | `Uninstalling` | Removes the Endpoint from the Managed Account |
+| Remove | `Uninstalled` | Removes the Endpoint from the Managed Account |
 
 ### Modifying Endpoints
 
