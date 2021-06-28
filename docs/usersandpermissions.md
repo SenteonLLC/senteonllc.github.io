@@ -64,7 +64,7 @@ When logging in as user for the first time, you will be prompted to create a new
 
 <img src="../images/Modify User.png" width="750">
 
-## Modifying a User Role
+### Modifying a User's Role
 
 1) Log into Command Center and navigate to the Users tab
 
@@ -76,6 +76,30 @@ When logging in as user for the first time, you will be prompted to create a new
 
 <img src="../images/Modify User Permissions.png" width="750">
 
+### Enabling MFA for Current User
+
+1) Log into Command Center as the user and navigate to the Settings tab
+
+2) Navigate to General Settings and click `Enable MFA`
+
+3) Open your Authenticator App and scan the QR code, then close the window
+
+> *Alternatively you can enter the secret key manually.*
+
+4) Enter the 6 digit TOTP from the Authenticator App and click the `Submit` button to verify and complete MFA setup
+
+<img src="../images/EnableMFA.png" width="750">
+
+### Disabling MFA for Current User
+
+1) Log into Command Center as the user and navigate to the Settings tab
+
+2) Navigate to General Settings and click `Disable MFA`
+
+3) Enter the 6 digit TOTP from the Authenticator App and click the `Submit` button to verify and disable MFA
+
+<img src="../images/DisableMFA.png" width="750">
+
 ## Deleting Users
 
 1) Log into Command Center and navigate to the Users tab
@@ -85,3 +109,4 @@ When logging in as user for the first time, you will be prompted to create a new
 3) Confirm that you wish to delete the user
 
 <img src="../images/Delete User.png" width="750">
+

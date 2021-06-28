@@ -40,7 +40,7 @@ Senteon recommends reading the sections below for key concepts and install instr
 Senteon has provided you with:
 
 - Installer for Senteon Command Center
-- Master Account Credentials for Senteon Command Center
+- Master Account credentials for Senteon Command Center
 
 Senteon installation is divided into two separate stages that use different installers. The provided installer is for Command Center, the administrator console. 
 
@@ -123,7 +123,7 @@ Inside the Command Center install directory (`C:\Program Files\Senteon\CommandCe
 After the installation is complete, the "Senteon Agent" service will be running on the endpoint. This service is configured to automatically restart if the computer is rebooted.
 
 #### Senteon Agent Command-line Install
-Senteon Agent can be installed using Msiexec. All available flags can be found in the MsiExec documentation. The Senteon recommended install command flags can be found below.
+Senteon Agent can be installed using Msiexec. All additional non-Senteon specific flags can be found in MsiExec's documentation. The Senteon recommended install command flags can be found below.
 
 **Install Flags**
 
