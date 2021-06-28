@@ -151,7 +151,7 @@ A window will open and display the following set of information specific to the 
 | Agent Version | The current version of the installed Senteon Agent. Agents should automatically update themselves, so an outdated Agent may be an indicator of an issue with the endpoint |
 | Group | The current group that the endpoint is in |
 | Endpoint Config Status | The current status of the Endpoint's managed security settings </br></br> - `Healthy`: All settings match the Applied/Target Configuration Set value </br> - `Drifted`: One or more settings have drifted from the Applied/Target Configuration Set value |
-| Configuration Set Listing | This window displays the settings/values of the Endpoint's Active/Target Configuration Set along with the current values on the endpoint. Using the radio buttons, the list can be adjusted to display only the settings that have drifted from their target values. Specific information about each control can be viewed by selecting the `View` button for the relevant setting |
+| Configuration Set Listing | This window displays the settings/values of the Endpoint's Active/Target Configuration Set along with the current values on the Endpoint. Using the radio buttons, the list can be adjusted to display only the settings that have drifted from their target values. Specific information about each control can be viewed by selecting the `View` button for the relevant setting |
 
   
 <img src="../images/endpointinfopage.png" width="750">
