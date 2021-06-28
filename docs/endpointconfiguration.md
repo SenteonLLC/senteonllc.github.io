@@ -169,7 +169,7 @@ All of the possible statuses that Senteon Agent can report are detailed here:
 | Evaluating | The Agent is currently in the process of evaluating the Endpoint |
 | Ready for Setup | The Endpoint has finished Evaluation and is ready to begin Guided Setup |
 | Ready to Begin Evaluation | The Senteon Agent has been successfully installed and is ready to begin evaluating the Endpoint |
-| Uninstalling | The Agent has been uninstalled from the endpoint. It is safe to remove the Endpoint from the Managed Account |
+| Uninstalled | The Agent has been uninstalled from the endpoint. It is safe to remove the Endpoint from the Managed Account |
 
 
 
