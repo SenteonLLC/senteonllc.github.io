@@ -85,7 +85,7 @@ Recommended Configuration Sets are derived from various industry-recognized benc
 
 - Center for Internet Security (CIS) Benchmarks
 - Defense Information Systems Agency's Security Technical Implementation Guides (DISA STIGs)
-- Microsoft's Security Configuration Framework (SCF).
+- Microsoft's Security Configuration Framework (SCF)
 
 Senteon provides a Recommended Configuration Set for each type of supported "Endpoint Profile":
 
