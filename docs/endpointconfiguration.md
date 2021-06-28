@@ -144,7 +144,7 @@ A window will open and display the following set of information specific to the 
 |:-----------:|:-----------|
 | Hostname | The hostname of the Endpoint |
 | Operating System | The operating system of the Endpoint|
-| OS Version | The OS Version of the Endpoint |
+| OS Version | The operating system version of the Endpoint |
 | Connection Status | Displays whether the Endpoint is online or offline based on the last time it checked in |
 | Last Check in Time | The last time the endpoint checked in with Senteon Master/Command Center. A long period without a check-in may be an indicator that the Endpoint is currently experiencing issues |
 | Install Date | The date/time when the Senteon Agent was installed |
