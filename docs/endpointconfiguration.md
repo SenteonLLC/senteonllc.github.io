@@ -24,7 +24,7 @@ During Evaluation, one or more Endpoints will be analyzed to determine which sec
 
 Endpoints that are ready to begin Evaluation will appear in the `Endpoint Setup` page under "Ready for Evaluation"
 
-**Location:** `Managed Account Console > Endpoints > Endpoint Setup`
+**Location:** `Managed Account Console > Endpoints (Endpoint Type) > Endpoint Setup (page)`
   
 <img src="../images/SelectEvaluation.PNG" width="750">
 
@@ -53,7 +53,7 @@ Example Wizard Page:
 
 Some Wizard questions will have a warning such as **"Warning: Once this decision has been made, it will be set for all systems configured through Senteon after this"** which indicates that Senteon will only ask you to make the decision once for all Endpoints in the Managed Account. The decision can be adjusted for the setup of subsequent Endpoints in the following location:
 
-`Manage Account Console > Settings > Account-wide Guided Setup Decisions`
+`Managed Account Console > Settings > Account-wide Guided Setup Decisions`
 
 More information can be found [here](settings.md#general-settings_1)
 
@@ -85,7 +85,7 @@ Recommended Configuration Sets are derived from various industry-recognized benc
 
 - Center for Internet Security (CIS) Benchmarks
 - Defense Information Systems Agency's Security Technical Implementation Guides (DISA STIGs)
-- Microsoft's Security Configuration Framework (SCF).
+- Microsoft's Security Configuration Framework (SCF)
 
 Senteon provides a Recommended Configuration Set for each type of supported "Endpoint Profile":
 
@@ -144,14 +144,14 @@ A window will open and display the following set of information specific to the 
 |:-----------:|:-----------|
 | Hostname | The hostname of the Endpoint |
 | Operating System | The operating system of the Endpoint|
-| OS Version | The OS Version of the Endpoint |
-| Connection Status | Displays whether the Endpoint is online or offline based on the last time it checked in |
+| OS Version | The operating system version of the Endpoint |
+| Connection Status | Displays whether the Endpoint is online or offline based on the last time it checked in (5 minutes between check-in periods) |
 | Last Check in Time | The last time the endpoint checked in with Senteon Master/Command Center. A long period without a check-in may be an indicator that the Endpoint is currently experiencing issues |
 | Install Date | The date/time when the Senteon Agent was installed |
 | Agent Version | The current version of the installed Senteon Agent. Agents should automatically update themselves, so an outdated Agent may be an indicator of an issue with the endpoint |
-| Group | The current group that the endpoint is in |
+| Group | The Group that the endpoint is currently a part of |
 | Endpoint Config Status | The current status of the Endpoint's managed security settings </br></br> - `Healthy`: All settings match the Applied/Target Configuration Set value </br> - `Drifted`: One or more settings have drifted from the Applied/Target Configuration Set value |
-| Configuration Set Listing | This window displays the settings/values of the Endpoint's Active/Target Configuration Set along with the current values on the endpoint. Using the radio buttons, the list can be adjusted to display only the settings that have drifted from their target values. Specific information about each control can be viewed by selecting the `View` button for the relevant setting |
+| Configuration Set Listing | This window displays the settings/values of the Endpoint's Active/Target Configuration Set along with the current values on the Endpoint. Using the radio buttons, the list can be adjusted to display only the settings that have drifted from their target values. Specific information about each control can be viewed by selecting the `View` button for the relevant setting |
 
   
 <img src="../images/endpointinfopage.png" width="750">
@@ -169,7 +169,7 @@ All of the possible statuses that Senteon Agent can report are detailed here:
 | Evaluating | The Agent is currently in the process of evaluating the Endpoint |
 | Ready for Setup | The Endpoint has finished Evaluation and is ready to begin Guided Setup |
 | Ready to Begin Evaluation | The Senteon Agent has been successfully installed and is ready to begin evaluating the Endpoint |
-| Uninstalling | The Agent has been uninstalled from the endpoint. It is safe to remove the Endpoint from the Managed Account |
+| Uninstalled | The Agent has been uninstalled from the endpoint. It is safe to remove the Endpoint from the Managed Account |
 
 
 
@@ -188,7 +188,7 @@ All of the possible actions are are:
 | Enable | `Disabled` | Reverts the Agent/Endpoint back to its status before it was disabled |
 | Edit | `Active` | Provides the ability to work with the group and configuration sets associated with the endpoint. More information can be found under [Modifying Endpoints](#modifying-endpoints) |
 | Reset | `Disabled` | Resets the Agent Status back to `Ready to Begin Evaluation`|
-| Remove | `Uninstalling` | Removes the Endpoint from the Managed Account |
+| Remove | `Uninstalled` | Removes the Endpoint from the Managed Account |
 
 ### Modifying Endpoints
 
