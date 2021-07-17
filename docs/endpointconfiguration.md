@@ -38,37 +38,27 @@ When Endpoints are selected for Evaluation, one of the following options can be 
 
 <img src="../images/EvaluationPrompt.PNG" width="750">
 
+If `Create new Group and Evaluate` is selected, the "Group Creation Form" will open and guide users through the process which includes answering a few Organizational/Cultural questions that Senteon cannot evaluate independently due to the nature of the questions.
+
+  > *NOTE: More information about this form and related settings can be found [here](settings.md#general-settings_1)*
+
 ### Phase 2: Guided Setup
 
 After a Senteon Agent/Endpoint finishes Evaluation, the Agent Status will change to `Ready for Setup` and it will appear in the `Endpoint Setup` page under "Ready for Setup"
 
-<img src="../images/readyforsetup.PNG" width="750">
+<img src="../images/readyforsetup.png" width="550">
 
-Clicking the `Finish Setup` button next to an Endpoint will launch the Guided Setup Wizard which walks you through any decisions that need to be made due to blocking/disruption factors. This can range from technical factors such as out-of-date authentication protocols to organizational/cultural factors that Senteon cannot be aware of in a vacuum.
+Clicking the `Finalize` button next to an individual Endpoint (or `Finalize Group` if you wish to finish setup for multiple at once) will launch the Guided Setup Wizard which walks you through any decisions that need to be made due to blocking/disruption factors. This can range from technical factors such as out-of-date authentication protocols to organizational/cultural factors that Senteon cannot be aware of in a vacuum.
 
 Example Wizard Page:  
-<img src="../images/wizardpage.PNG" width="750">
+<img src="../images/wizardpage.PNG" width="550">
 
-#### Account-wide Guided Setup Decisions
+#### (Not Recommended) Skipping Guided Setup Wizard
 
-Some Wizard questions will have a warning such as **"Warning: Once this decision has been made, it will be set for all systems configured through Senteon after this"** which indicates that Senteon will only ask you to make the decision once for all Endpoints in the Managed Account. The decision can be adjusted for the setup of subsequent Endpoints in the following location:
-
-`Managed Account Console > Settings > Account-wide Guided Setup Decisions`
-
-More information can be found [here](settings.md#general-settings_1)
-
-#### Guided Setup for Multiple Endpoints
-
-Guided Setup can only be completed for one (1) endpoint at a time in this version since each Senteon Agent performs a unique evaluation of its Endpoint. If you would like to setup more than one at a time, Senteon recommends the following work-arounds: 
-
-1) Complete the process for the first Endpoint in the Group in order to finalize the Group's Applied/Target Configuration Set
-
-2a) (Option 1) Note down your decisions and complete the Guided Setup Wizard again for subsequent Endpoints
-
-2b) (Option 2) Override the Setup Wizard for the subsequent Endpoints by choosing the option at the start of the Wizard to skip the questions/decisions and apply the Group's Applied/Target Configuration Set
+If for some reason you wish to skip the Guided Setup Wizard after the Evaluation Phase you can choose the option at the start of the Wizard to skip the questions/decisions and apply the Group's Applied/Target Configuration Set.
   > *Note: Senteon cannot gurantee that this will not cause usability or networking issues for these Endpoints since warnings that would be provided in the Wizard will be bypassed.*
 
-<img src="../images/Skip Guided Setup Wizard.png" width="750">
+<img src="../images/SkipGuidedSetupWizard.png" width="750">
 
 ## Configuration Sets
 
@@ -289,16 +279,25 @@ Senteon Users can create new groups or modify existing ones in a number of ways 
 
 1) Navigate to `Managed Account Console > Endpoints > Groups` and click the `Create New Group` button
 
-2) Enter a name/identifier for the Group
+2) Provide answers on the Group Creation Form and whether or not to save the choices for future groups
 
-3) (Optional) Customize the Applied/Target Configuration Set by using the `Set` buttons next to each setting
+<img src="../images/NewGroupDecisionForm.png" width="750">
 
-4) (Optional) Add Endpoints to the Group if you wish to move them
+  > *NOTE: More information about this form and related settings can be found [here](settings.md#general-settings_1)*
+
+  > *NOTE: If `Save settings for future groups` is selected, the saved choices can be viewed and modified here: `Managed Account Console > Settings > Account-wide Guided Setup Decisions`*
+
+3) Enter a name/identifier for the Group
+
+4) (Optional) Customize the Applied/Target Configuration Set by using the `Set` buttons next to each setting
+
+5) (Optional) Add Endpoints to the Group if you wish to move them
   > *NOTE: NOT RECOMMENDED UNLESS YOU WISH BYPASS INTELLIGENT SETUP*
 
-5) Click the `Create Group` button
+6) Click the `Create Group` button
   
 <img src="../images/newGroup.PNG" width="750">  
+
 
 #### Creating Exception Groups
 

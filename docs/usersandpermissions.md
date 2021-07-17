@@ -82,7 +82,7 @@ When logging in as user for the first time, you will be prompted to create a new
 
 2) Navigate to General Settings and click `Enable MFA`
 
-3) Open your Authenticator App and scan the QR code, then close the window
+3) Open your Authenticator App and scan the QR code, then click the `Ok` button
 
 > *Alternatively you can enter the secret key manually.*
 
