@@ -22,7 +22,7 @@ Event Logs for Senteon Agent can be found in Windows Event Viewer under:
 
 If Command Center is not working as expected, often times resetting a Managed Account's database will force a resyncronization and solve the problem.
 
-1. In the Master Account Console, navigate to `Settings > Account Settings`
+1. In the Master Account Console, navigate to `Settings > Troubleshooting`
 
 2. Select the Managed Account that is having issues and click the `Reset Database` button
 
